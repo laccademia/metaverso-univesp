@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crie Ambientes Interativos em Metaverso | Univesp</title>
+    <meta name="description" content="Aprenda a criar exposições imersivas em metaverso com Prof. Romero Tori e Leonardo Iglesias">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Barra de Progresso Minimalista -->
+    <div class="progress-bar">
+        <div class="progress-content">
+            <div class="user-info">
+                <span class="user-name">Bem-vindo ao curso</span>
+            </div>
+            <div class="user-stats">
+                <div class="stat">
+                    <span class="stat-icon">📚</span>
+                    <span class="stat-value">0/5</span>
+                    <span>módulos</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="container">
+        <div class="hero">
+            <!-- Conteúdo à esquerda -->
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Crie Ambientes Interativos em Metaverso
+                </h1>
+                <p class="hero-subtitle">
+                    Aprenda a capturar objetos 3D do mundo real, buscar modelos prontos e publicá-los em ambientes imersivos de metaverso
+                </p>
+                
+                <div class="instructors">
+                    <div class="instructor-badge">
+                        <span>👨‍🏫</span>
+                        <span><strong>Prof. Romero Tori</strong> - Instrutor Principal</span>
+                    </div>
+                    <div class="instructor-badge">
+                        <span>🎬</span>
+                        <span><strong>Leonardo Iglesias</strong> - Produtor</span>
+                    </div>
+                </div>
+
+                <div class="intro-text">
+                    <p>
+                        Eu sou o <strong>Professor Romero Tori</strong> e vou conduzi-lo, juntamente com o produtor <strong>Leonardo Iglesias</strong>, ao longo deste processo de aprendizagem interativa, por meio do qual você aprenderá a capturar objetos 3D a partir do mundo real, buscar objetos prontos em um armazém de modelos 3D e publicá-los em um ambiente de metaverso, também criado e configurado por você.
+                    </p>
+                </div>
+
+                <button class="btn-read-more" onclick="toggleIntro()">
+                    <span id="read-more-text">Ler mais</span>
+                    <span class="arrow">↓</span>
+                </button>
+
+                <div id="full-intro" class="hidden">
+                    <p>
+                        Este curso está dividido em <strong>5 módulos</strong> que o levarão desde a exploração de um ambiente pronto até a criação colaborativa de exposições imersivas completas.
+                    </p>
+                    <p>
+                        Você aprenderá a usar ferramentas profissionais como <strong>Luma AI</strong> para captura 3D, <strong>Sketchfab</strong> para curadoria de modelos e <strong>FrameVR</strong> para criar e publicar seus próprios ambientes de metaverso.
+                    </p>
+                    <p>
+                        Ao final, você será capaz de criar exposições imersivas completas, colaborar com outros criadores e compartilhar suas criações com o mundo.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Vídeo à direita (sticky) -->
+            <div class="hero-video">
+                <div class="video-wrapper">
+                    <iframe src="https://www.youtube.com/embed/SmK3MlXg8Fg" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Módulos -->
+    <section class="modules-section">
+        <div class="container">
+            <h2 class="section-title">Módulos do Curso</h2>
+            <p class="section-subtitle">
+                5 módulos práticos que vão do básico ao avançado na criação de ambientes imersivos
+            </p>
+
+            <div class="modules-grid">
+                <!-- Módulo 1 -->
+                <div class="module-card" onclick="toggleModule(1)">
+                    <div class="module-image">
+                        <img src="images/modulo1_explorar.jpeg" alt="Módulo 1: Explorar">
+                        <div class="module-number">01</div>
+                    </div>
+                    <div class="module-content">
+                        <div class="module-icon">🔍</div>
+                        <h3 class="module-title">Explorar</h3>
+                        <p class="module-description">
+                            Visite uma exposição imersiva e experimente navegar em um ambiente de metaverso
+                        </p>
+                        <div class="module-meta">
+                            <span class="badge badge-time">
+                                <span>⏱️</span>
+                                <span>30 min</span>
+                            </span>
+                            <span class="badge badge-bloom">
+                                <span>🎯</span>
+                                <span>Compreender</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Módulo 2 -->
+                <div class="module-card" onclick="toggleModule(2)">
+                    <div class="module-image">
+                        <img src="images/modulo2_capturar.jpg" alt="Módulo 2: Capturar">
+                        <div class="module-number">02</div>
+                    </div>
+                    <div class="module-content">
+                        <div class="module-icon">📸</div>
+                        <h3 class="module-title">Capturar</h3>
+                        <p class="module-description">
+                            Aprenda a capturar objetos do mundo físico e transformá-los em modelos 3D
+                        </p>
+                        <div class="module-meta">
+                            <span class="badge badge-time">
+                                <span>⏱️</span>
+                                <span>60 min</span>
+                            </span>
+                            <span class="badge badge-bloom">
+                                <span>🎯</span>
+                                <span>Aplicar</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Módulo 3 -->
+                <div class="module-card" onclick="toggleModule(3)">
+                    <div class="module-image">
+                        <img src="images/modulo3_curar.jpg" alt="Módulo 3: Curar e Recriar">
+                        <div class="module-number">03</div>
+                    </div>
+                    <div class="module-content">
+                        <div class="module-icon">🎨</div>
+                        <h3 class="module-title">Curar e Recriar</h3>
+                        <p class="module-description">
+                            Busque modelos 3D prontos e aprenda a modificá-los para seus projetos
+                        </p>
+                        <div class="module-meta">
+                            <span class="badge badge-time">
+                                <span>⏱️</span>
+                                <span>45 min</span>
+                            </span>
+                            <span class="badge badge-bloom">
+                                <span>🎯</span>
+                                <span>Analisar</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Módulo 4 -->
+                <div class="module-card" onclick="toggleModule(4)">
+                    <div class="module-image">
+                        <img src="images/modulo4_expor.jpeg" alt="Módulo 4: Expor">
+                        <div class="module-number">04</div>
+                    </div>
+                    <div class="module-content">
+                        <div class="module-icon">🏛️</div>
+                        <h3 class="module-title">Expor</h3>
+                        <p class="module-description">
+                            Crie e publique sua própria exposição imersiva no FrameVR
+                        </p>
+                        <div class="module-meta">
+                            <span class="badge badge-time">
+                                <span>⏱️</span>
+                                <span>90 min</span>
+                            </span>
+                            <span class="badge badge-bloom">
+                                <span>🎯</span>
+                                <span>Criar</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Módulo 5 -->
+                <div class="module-card" onclick="toggleModule(5)">
+                    <div class="module-image">
+                        <img src="images/modulo5_colaborar.png" alt="Módulo 5: Colaborar">
+                        <div class="module-number">05</div>
+                    </div>
+                    <div class="module-content">
+                        <div class="module-icon">🤝</div>
+                        <h3 class="module-title">Colaborar</h3>
+                        <p class="module-description">
+                            Conecte exposições e crie projetos colaborativos com outros criadores
+                        </p>
+                        <div class="module-meta">
+                            <span class="badge badge-time">
+                                <span>⏱️</span>
+                                <span>60 min</span>
+                            </span>
+                            <span class="badge badge-bloom">
+                                <span>🎯</span>
+                                <span>Avaliar</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal de Detalhes do Módulo -->
+    <div id="module-modal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title" id="modal-title">Detalhes do Módulo</h2>
+                <button class="close-button" onclick="closeModuleDetails()">×</button>
+            </div>
+            <div class="modal-body" id="modal-body">
+                <!-- Conteúdo será inserido via JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
