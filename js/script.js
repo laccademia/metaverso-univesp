@@ -2321,10 +2321,8 @@ function updateCarouselIndicators(moduleId) {
     // Mostrar apenas o slide atual
     slides.forEach((slide, index) => {
         if (index === currentIndex) {
-            slide.style.display = 'block';
             slide.classList.add('active');
         } else {
-            slide.style.display = 'none';
             slide.classList.remove('active');
         }
     });
