@@ -1305,7 +1305,18 @@ function currentSlide(index, moduleId) {
 
 // Initialize carousels when modal opens
 function initializeCarousels() {
-    ['module1', 'module2-tutorial1', 'module2-tutorial2'].forEach(moduleId => {
+    [
+        'module1', 
+        'module2-tutorial1', 
+        'module2-tutorial2',
+        'module4-tutorial1',
+        'module4-tutorial2',
+        'module4-tutorial3',
+        'module4-tutorial4',
+        'module4-tutorial5',
+        'module4-tutorial6',
+        'module4-tutorial7'
+    ].forEach(moduleId => {
         updateCarouselIndicators(moduleId);
     });
 }
