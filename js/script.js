@@ -373,49 +373,74 @@ const modulesContent = {
         content: `
             <h2>🎨 Módulo 3 – Curar e Recriar</h2>
             
-            <p><strong>Aprenda a buscar modelos 3D prontos e gratuitos, baixá-los e modificá-los, para uso em seus ambientes imersivos.</strong></p>
+            <p><strong>Aprenda a buscar modelos 3D prontos e gratuitos, baixá-los e modificá-los, para uso em seus ambientes imersivos. Veja como publicar objetos 3D capturados por você.</strong></p>
 
             <h3>O que irá aprender neste módulo</h3>
             
             <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/VIDEO_ID" 
+                <iframe src="https://www.youtube.com/embed/wlFGoC7_UYM" 
+                        title="Curar e Recriar - Introdução"
                         frameborder="0" 
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                         allowfullscreen>
                 </iframe>
             </div>
 
-            <p>Além de criar modelos 3D a partir de objetos físicos, é possível baixar modelos já prontos. Um grande armazém de modelos 3D é o <strong>SketchFab</strong>, o qual você poderá usar para buscar novos modelos e baixá-los para inclusão em seus ambientes.</p>
+            <p>No módulo 2, você aprendeu como criar modelos digitais 3D a partir de objetos físicos e também como compartilhar suas capturas por meio do próprio aplicativo Luma. Além da possibilidade de compartilhar com o link do aplicativo, você também pode enviar o arquivo que baixou. Porém, caso a pessoa não tenha um visualizador de modelos 3D, ela não poderá fazer muita coisa com esse arquivo.</p>
             
-            <p>Ensinaremos também como modificar texturas de modelos prontos, a fim de personalizá-los de acordo com o uso que deles fará.</p>
-
-            <h3>Trabalhando com Sketchfab</h3>
+            <p>Por isso, existem plataformas de repositório de modelos 3D, por meio das quais você pode fazer o upload do arquivo de seu modelo e enviar em forma de link para quem você deseja que o visualize. Além disso, nesses repositórios (ou armazéns) você pode encontrar milhares de outros modelos 3D, criados por outras pessoas, e baixá-los. Caso encontre modelos prontos dos objetos desejados, pode facilitar bastante, pois dispensará a necessidade de capturá-los (nem sempre há disponibilidade de objetos físicos para tal e a qualidade dos objetos modelados por profissionais e disponibilizados nesses armazéns possuem mais qualidade que aqueles capturados).</p>
             
-            <p>O Sketchfab é uma das maiores plataformas de modelos 3D do mundo, com milhões de objetos gratuitos e pagos disponíveis.</p>
+            <p>Por fim, ensinaremos uma técnica simples e bastante útil, para editar texturas de modelos 3D. A textura é uma imagem que envolve a geometria do modelo 3D, conferindo-lhe realismo. Por exemplo, o modelo geométrico de uma lata de refrigerante é basicamente um cilindro. O que faz com que fique parecendo uma lata de refrigerante é a imagem que o envolve e que contém o rótulo e outros detalhes do material. No tutorial exemplificaremos com um livro baixado do Sketchfab, mostrando como alteramos sua textura para que receba uma nova capa, lombada e contracapa.</p>
 
-            <h3>Criando sua conta</h3>
+            <h3>Sketchfab: Buscando e Publicando Modelos 3D</h3>
+            
+            <p>Agora você irá aprender a se cadastrar no armazém de objetos 3D Sketchfab, a buscar e baixar modelos em seu enorme acervo e a publicar os modelos que você capturou, caso assim desejar.</p>
+            
+            <p>Acompanhe o vídeo abaixo e veja como fazer.</p>
+            
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/N3omaA8G5fo" 
+                        title="Sketchfab: Buscando e Publicando Modelos 3D"
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                </iframe>
+            </div>
+
+            <h3>Baixando um Modelo 3D de um Livro</h3>
+            
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/HZKqGdNr658" 
+                        title="Baixando um Modelo 3D de um Livro"
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                </iframe>
+            </div>
+
+            <h3>Editando Objetos 3D e alterando suas texturas</h3>
+            
+            <p>O editor <strong>glfEditor</strong> permite que você carregue um modelo 3D, o visualize e altere algumas de suas configurações, que não sejam as geométricas.</p>
+            
+            <p>Mostraremos agora, por meio de um exemplo, como alterar a textura do modelo de um livro, trocando sua capa, contracapa e lombada.</p>
+            
+            <p>Para fazer você mesmo a mudança de textura, recomendamos que baixe os arquivos que disponibilizamos:</p>
             <ul>
-                <li>Acesse <a href="https://sketchfab.com" target="_blank" style="color: #3b82f6;">sketchfab.com</a></li>
-                <li>Clique em "Sign Up" (Cadastrar)</li>
-                <li>Preencha seus dados ou use login social</li>
-                <li>Confirme seu email</li>
+                <li>livro basico.glb</li>
+                <li>Livro Bascio - CRÉDITOS.docx</li>
+                <li>Cópia de Livro Basico-textura base-Com Marcas.png</li>
             </ul>
-
-            <h3>Buscando e baixando modelos</h3>
-            <ul>
-                <li>Use a barra de busca no topo</li>
-                <li>Filtre por "Downloadable" (Baixável)</li>
-                <li>Filtre por licença "CC BY" ou "CC0" (uso livre)</li>
-                <li>Visualize o modelo em 3D antes de baixar</li>
-                <li>Clique em "Download 3D Model"</li>
-                <li>Escolha o formato GLB ou GLTF</li>
-            </ul>
-
-            <h3>Editando Texturas</h3>
             
-            <p>Texturas são as "pinturas" que cobrem os modelos 3D, dando-lhes cor e detalhes. Você pode modificá-las usando ferramentas online como o glfEditor.</p>
-
-            <p><strong>Nota:</strong> O tutorial completo com capturas de tela e instruções passo a passo está disponível no PDF original do curso.</p>
+            <p>Acompanhe pelo vídeo e veja como fazer.</p>
+            
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/Nc-exLa4ZWs" 
+                        title="Editando Objetos 3D e alterando suas texturas"
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                </iframe>
+            </div>
         `
     },
     4: {
