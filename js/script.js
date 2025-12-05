@@ -1170,37 +1170,17 @@ let currentSlideIndex = {
 };
 
 function moveCarousel(direction, moduleId) {
-    // Encontrar o carrossel no modal aberto
-    const modal = document.getElementById('module-modal');
-    if (!modal) return;
-    
-    const carousels = modal.querySelectorAll('.tutorial-carousel');
-    if (!carousels.length) return;
-    
-    // Para módulos com múltiplos carrosséis, identificar qual usar
-    let carousel = null;
-    if (moduleId.includes('tutorial1')) {
-        carousel = carousels[0];
-    } else if (moduleId.includes('tutorial2')) {
-        carousel = carousels[1] || carousels[0];
-    } else {
-        carousel = carousels[0];
-    }
-    
+    // Encontrar o carrossel específico pelo ID
+    const carousel = document.getElementById('carousel-' + moduleId);
     if (!carousel) return;
     
     const slides = carousel.querySelectorAll('.carousel-slide');
-    const indicators = carousel.querySelector('.carousel-indicators');
-    
     if (!slides.length) return;
     
     // Inicializar índice se não existir
     if (currentSlideIndex[moduleId] === undefined) {
         currentSlideIndex[moduleId] = 0;
     }
-    
-    // Remove active class from current slide
-    slides[currentSlideIndex[moduleId]].classList.remove('active');
     
     // Update index
     currentSlideIndex[moduleId] += direction;
@@ -1213,31 +1193,13 @@ function moveCarousel(direction, moduleId) {
         currentSlideIndex[moduleId] = slides.length - 1;
     }
     
-    // Add active class to new slide
-    slides[currentSlideIndex[moduleId]].classList.add('active');
-    
-    // Update indicators
+    // Update indicators (which will show/hide slides)
     updateCarouselIndicators(moduleId);
 }
 
 function goToSlide(index, moduleId) {
-    // Encontrar o carrossel no modal aberto
-    const modal = document.getElementById('module-modal');
-    if (!modal) return;
-    
-    const carousels = modal.querySelectorAll('.tutorial-carousel');
-    if (!carousels.length) return;
-    
-    // Para módulos com múltiplos carrosséis, identificar qual usar
-    let carousel = null;
-    if (moduleId.includes('tutorial1')) {
-        carousel = carousels[0];
-    } else if (moduleId.includes('tutorial2')) {
-        carousel = carousels[1] || carousels[0];
-    } else {
-        carousel = carousels[0];
-    }
-    
+    // Encontrar o carrossel específico pelo ID
+    const carousel = document.getElementById('carousel-' + moduleId);
     if (!carousel) return;
     
     const slides = carousel.querySelectorAll('.carousel-slide');
@@ -1248,49 +1210,46 @@ function goToSlide(index, moduleId) {
         currentSlideIndex[moduleId] = 0;
     }
     
-    // Remove active class from current slide
-    slides[currentSlideIndex[moduleId]].classList.remove('active');
-    
     // Update index
     currentSlideIndex[moduleId] = index;
     
-    // Add active class to new slide
-    slides[currentSlideIndex[moduleId]].classList.add('active');
-    
-    // Update indicators
+    // Update indicators (which will show/hide slides)
     updateCarouselIndicators(moduleId);
 }
 
 function updateCarouselIndicators(moduleId) {
-    // Encontrar o carrossel no modal aberto
-    const modal = document.getElementById('module-modal');
-    if (!modal) return;
-    
-    const carousels = modal.querySelectorAll('.tutorial-carousel');
-    if (!carousels.length) return;
-    
-    // Para módulos com múltiplos carrosséis, identificar qual usar
-    let carousel = null;
-    if (moduleId.includes('tutorial1')) {
-        carousel = carousels[0];
-    } else if (moduleId.includes('tutorial2')) {
-        carousel = carousels[1] || carousels[0];
-    } else {
-        carousel = carousels[0];
-    }
-    
+    // Encontrar o carrossel específico pelo ID
+    const carousel = document.getElementById('carousel-' + moduleId);
     if (!carousel) return;
     
     const slides = carousel.querySelectorAll('.carousel-slide');
-    const dotsContainer = carousel.querySelector('.carousel-dots');
+    if (!slides.length) return;
     
+    // Inicializar índice se não existir
+    if (currentSlideIndex[moduleId] === undefined) {
+        currentSlideIndex[moduleId] = 0;
+    }
+    
+    const currentIndex = currentSlideIndex[moduleId];
+    
+    // Mostrar apenas o slide atual
+    slides.forEach((slide, index) => {
+        if (index === currentIndex) {
+            slide.style.display = 'block';
+            slide.classList.add('active');
+        } else {
+            slide.style.display = 'none';
+            slide.classList.remove('active');
+        }
+    });
+    
+    // Atualizar dots
+    const dotsContainer = carousel.parentElement.querySelector('.carousel-dots');
     if (!dotsContainer) return;
     
-    // Atualizar apenas as classes dos dots existentes ao invés de recriar
     const dots = dotsContainer.querySelectorAll('.dot');
-    
     dots.forEach((dot, index) => {
-        if (index === currentSlideIndex[moduleId]) {
+        if (index === currentIndex) {
             dot.classList.add('active');
         } else {
             dot.classList.remove('active');
