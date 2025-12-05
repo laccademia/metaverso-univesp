@@ -35,29 +35,29 @@ const modulesContent = {
                     <div class="carousel-slide active">
                         <img src="images/tutorial_01_connect.png" alt="Tela de conexão do FrameVR">
                         <div class="carousel-caption">
-                            <h4>1. Conectar ao Ambiente</h4>
-                            <p>Após digitar seu nome (ou apelido) aperte o botão <strong>CONNECT</strong> para ingressar na exposição.</p>
+                            <h4>1. Dê o Primeiro Passo: Conecte-se</h4>
+                            <p>Sua jornada começa aqui! Antes de entrar, personalize sua identidade no metaverso. Digite seu nome ou apelido no campo <strong>"Name"</strong> e clique em <strong>CONNECT</strong> para ingressar na exposição. Usar um nome único torna a interação com outros visitantes muito mais interessante!</p>
                         </div>
                     </div>
                     <div class="carousel-slide">
                         <img src="images/tutorial_02_wasd.png" alt="Navegação com teclado WASD">
                         <div class="carousel-caption">
-                            <h4>2. Movimentação</h4>
-                            <p>A navegação é bem intuitiva. É possível mover-se usando as setas do teclado ou as teclas <strong>WASD</strong> (ou usando dedo ou pen, se estiver usando celular ou tablet).</p>
+                            <h4>2. Explore o Ambiente: Movimentação</h4>
+                            <p>A liberdade de explorar está na ponta dos seus dedos. Use as <strong>setas do teclado</strong> ou as teclas <strong>W, A, S, D</strong> para se movimentar pelo espaço. Se estiver em um celular ou tablet, basta usar o controle virtual na tela. Sinta-se à vontade para caminhar por toda a galeria.</p>
                         </div>
                     </div>
                     <div class="carousel-slide">
                         <img src="images/tutorial_03_mouse.png" alt="Controle de câmera com mouse">
                         <div class="carousel-caption">
-                            <h4>3. Controle de Câmera</h4>
-                            <p>Clicando e segurando o mouse dá para girar a câmera. Configuramos para que a navegação seja em primeira pessoa, ou seja, a câmera será seus olhos e você não verá a si próprio.</p>
+                            <h4>3. Encontre o Melhor Ângulo: Controle da Câmera</h4>
+                            <p>A perspectiva em primeira pessoa coloca você diretamente na cena. Para olhar ao redor, simplesmente <strong>clique e segure o botão do mouse</strong> e mova-o na direção que deseja ver. Você é o câmera! Enquadre as obras, observe os detalhes e aprecie a arquitetura do local.</p>
                         </div>
                     </div>
                     <div class="carousel-slide">
                         <img src="images/tutorial_04_avatar.png" alt="Avatares e interação multiplayer">
                         <div class="carousel-caption">
-                            <h4>4. Interação Multiplayer</h4>
-                            <p>Caso outra pessoa entre no ambiente, você verá um bonequinho, que chamamos de "avatar", representando-a e também será visto por ela. Se ambos ativarem seus microfones poderão conversar. São permitidos 8 usuários simultâneos na sala.</p>
+                            <h4>4. Encontre Outras Pessoas: Avatares e Interação</h4>
+                            <p>Você não está sozinho! Outros visitantes são representados por "avatares". Se encontrar alguém, aproxime-se. Ative seu microfone para conversar em tempo real e compartilhar a experiência. A sala permite até 8 visitantes simultaneamente, tornando cada visita única.</p>
                         </div>
                     </div>
                 </div>
@@ -79,7 +79,7 @@ const modulesContent = {
 
             <div class="accordion-item">
                 <button class="accordion-header" onclick="toggleAccordion(this)">
-                    <span>🥽 Explorando a exposição com "Óculos de Realidade Virtual"</span>
+                    <span>🥽 Bônus: Imersão Total com Óculos de Realidade Virtual</span>
                     <span class="accordion-icon">+</span>
                 </button>
                 <div class="accordion-content">
@@ -87,9 +87,8 @@ const modulesContent = {
                         <img src="images/tutorial_05_vr.webp" alt="Meta Quest 3 - Óculos de Realidade Virtual" class="vr-image">
                         <p><em>Meta Quest 3 - Imagem de divulgação da empresa Meta, fabricante desse equipamento</em></p>
                     </div>
-                    <p>Caso você possua um, ou tenha acesso a algum, <strong>HMD (Head-Mounted Display)</strong>, nome técnico do popular "óculos" de realidade virtual, recomendamos que experimente navegar na exposição com o máximo de imersão propiciado por esse equipamento. Você poderá andar pelo recinto de exposição como se lá estivesse, vendo tudo em tamanho real.</p>
-                    <p>Testamos no Meta Quest 3 e funcionou muito bem. Bastou entrarmos no endereço da exposição usando o browser de Internet do próprio Meta Quest e clicarmos no símbolo do "óculos" de RV que aparece embaixo, na própria cena.</p>
-                    <p><strong>Imerja-se!</strong></p>
+                    <p>Se você possui um <strong>HMD (Head-Mounted Display)</strong>, o popular "óculos de realidade virtual", prepare-se para levar sua experiência a outro nível. A imersão é total, permitindo que você ande pela galeria como se estivesse fisicamente lá, sentindo a escala e a profundidade do ambiente.</p>
+                    <p>Nós testamos com o Meta Quest 3 e a integração é perfeita. Basta acessar o link da exposição pelo navegador do próprio óculos e clicar no ícone de VR que aparece na interface do ambiente. <strong>Aperte os cintos e mergulhe de cabeça!</strong></p>
                 </div>
             </div>
         `
