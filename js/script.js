@@ -127,17 +127,17 @@ const modulesContent = {
                 </iframe>
             </div>
 
-            <h3>Tutorial Passo a Passo</h3>
+            <h3>Tutorial Passo a Passo: Captura</h3>
             
-            <div class="carousel-container" id="carousel-modulo2">
-                <button class="carousel-btn prev" onclick="moveCarousel('modulo2', -1)">‹</button>
-                <button class="carousel-btn next" onclick="moveCarousel('modulo2', 1)">›</button>
+            <div class="carousel-container" id="carousel-modulo2-parte1">
+                <button class="carousel-btn prev" onclick="moveCarousel('modulo2-parte1', -1)">‹</button>
+                <button class="carousel-btn next" onclick="moveCarousel('modulo2-parte1', 1)">›</button>
                 
                 <div class="carousel-slide active">
                     <img src="images/modulo2/08_img.png" alt="Tela inicial do Luma AI">
                     <div class="carousel-text">
                         <h4>1. Obtenha o Luma AI</h4>
-                        <p>Baixe o aplicativo Luma AI na sua loja de apps (disponível para iOS e Android). Este aplicativo usa inteligência artificial para transformar objetos reais em modelos 3D.</p>
+                        <p>Baixe o Luma AI no seu celular.</p>
                     </div>
                 </div>
                 
@@ -145,97 +145,166 @@ const modulesContent = {
                     <img src="images/modulo2/09_img.jpg" alt="Botão Create">
                     <div class="carousel-text">
                         <h4>2. Comece uma captura</h4>
-                        <p>Após abrir o aplicativo, clique no ícone de "+" para criar uma nova captura.</p>
+                        <p>2.1 Clique em Create no ícone de "+".</p>
                     </div>
                 </div>
                 
                 <div class="carousel-slide">
                     <img src="images/modulo2/10_img.png" alt="Opção Guided">
                     <div class="carousel-text">
-                        <h4>3. Escolha Captura Guiada</h4>
-                        <p>Clique em "Guided" para fazer uma captura assistida. Esta opção é ideal para iniciantes, pois o aplicativo guia você durante todo o processo.</p>
+                        <h4>2.2 Escolha Captura Guiada</h4>
+                        <p>Clique em Guided para fazer uma captura Guiada.</p>
                     </div>
                 </div>
                 
                 <div class="carousel-slide">
                     <img src="images/modulo2/11_img.png" alt="Círculo de captura">
                     <div class="carousel-text">
-                        <h4>4. Parametrize o Domo</h4>
-                        <p>Clique no objeto que deseja capturar e centralize o círculo sobre ele. Você pode ajustar o tamanho do círculo fazendo um movimento de pinça com os dedos.</p>
+                        <h4>3. Parametrize o domo de captura</h4>
+                        <p>3.1 Clique no objeto que deseja capturar.</p>
                     </div>
                 </div>
                 
                 <div class="carousel-slide">
-                    <img src="images/modulo2/12_img.png" alt="Botão Scan">
+                    <img src="images/modulo2/12_img.png" alt="Centralizar círculo">
                     <div class="carousel-text">
-                        <h4>5. Confirme a Parametrização</h4>
-                        <p>Após ajustar o domo de captura, clique em "Scan" para confirmar. Confira se o domo envolve todo o objeto que será capturado.</p>
+                        <h4>3.2 Centralize o círculo</h4>
+                        <p>Centralize o círculo no objeto que fará a captura.</p>
                     </div>
                 </div>
                 
                 <div class="carousel-slide">
                     <img src="images/modulo2/13_img.png" alt="Captura em 360 graus">
                     <div class="carousel-text">
-                        <h4>6. Capture o Objeto</h4>
-                        <p>Circule o objeto com seu celular, cobrindo todos os ângulos do domo. O domo mudará de cor para indicar as áreas já capturadas. Cubra toda a superfície do domo.</p>
+                        <h4>4. Faça a captura do objeto</h4>
+                        <p>4.1 Circule o objeto com seu celular para fazer a captura dos diversos pontos de vista.</p>
                     </div>
                 </div>
                 
                 <div class="carousel-slide">
                     <img src="images/modulo2/14_img.png" alt="Botão Finish">
                     <div class="carousel-text">
-                        <h4>7. Finalize a Captura</h4>
-                        <p>Clique em "Finish" após cobrir todos os ângulos do objeto. O aplicativo também pode finalizar automaticamente se detectar que o domo foi coberto por inteiro.</p>
+                        <h4>4.2 Finalize a Captura</h4>
+                        <p>Clique Finish após cobrir todos os ângulos do objeto.</p>
                     </div>
                 </div>
                 
                 <div class="carousel-slide">
                     <img src="images/modulo2/15_img.png" alt="Nomear captura">
                     <div class="carousel-text">
-                        <h4>8. Nomeie a Captura</h4>
-                        <p>Dê um nome para sua captura e clique em "Create".</p>
+                        <h4>5. Nomeie a Captura</h4>
+                        <p>5.1 Nomeie a captura que realizou.</p>
                     </div>
                 </div>
                 
                 <div class="carousel-slide">
                     <img src="images/modulo2/17_img.png" alt="Upload e processamento">
                     <div class="carousel-text">
-                        <h4>9. Aguarde o Processamento</h4>
-                        <p>Espere o carregamento das imagens com o aplicativo aberto. Depois que o upload acabar, o aplicativo iniciará o processamento. Esse processo pode levar algumas horas.</p>
-                    </div>
-                </div>
-                
-                <div class="carousel-slide">
-                    <img src="images/modulo2/18_img.png" alt="Visualização 3D">
-                    <div class="carousel-text">
-                        <h4>10. Visualize seu Modelo 3D</h4>
-                        <p>Após o processamento, acesse sua biblioteca (Library) e clique no objeto. Você pode visualizar em "Magic View", girando o modelo 3D com o dedo.</p>
+                        <h4>6. Aguarde o Processamento</h4>
+                        <p>Espere o carregamento das imagens com o aplicativo aberto.</p>
                     </div>
                 </div>
                 
                 <div class="carousel-indicators"></div>
             </div>
 
-            <div class="accordion">
-                <button class="accordion-header" onclick="toggleAccordion(this)">
-                    <span>🥽 Visualizando em Realidade Aumentada</span>
-                    <span class="accordion-icon">+</span>
-                </button>
-                <div class="accordion-content">
-                    <img src="images/modulo2/35_img.png" alt="Realidade Aumentada" style="max-width: 450px; width: 100%; height: auto; margin: 1rem 0; border-radius: 0.5rem;">
-                    
-                    <p>O Luma AI também permite visualizar seu modelo 3D no mundo real usando a câmera do seu celular. Para isso, siga os passos:</p>
-                    
-                    <ol>
-                        <li>Clique em "AR View".</li>
-                        <li>Mire seu celular sobre a superfície onde quer projetar o objeto capturado.</li>
-                        <li>Clique na superfície para projetar o objeto.</li>
-                        <li>Clique com dois dedos no objeto e redimensione fazendo movimento de pinça.</li>
-                        <li>Caminhe pelo ambiente para ter uma visualização em Realidade Aumentada completa.</li>
-                    </ol>
-                    
-                    <p>Pronto! Você finalizou sua primeira captura e já sabe como visualizá-la em 3D e em Realidade Aumentada!</p>
+            <h3>Baixando e Utilizando o Modelo 3D Criado</h3>
+            
+            <p>Após o processamento, você poderá visualizar, compartilhar e baixar seu modelo 3D.</p>
+
+            <div class="carousel-container" id="carousel-modulo2-parte2">
+                <button class="carousel-btn prev" onclick="moveCarousel('modulo2-parte2', -1)">‹</button>
+                <button class="carousel-btn next" onclick="moveCarousel('modulo2-parte2', 1)">›</button>
+                
+                <div class="carousel-slide active">
+                    <img src="images/modulo2/18_img.png" alt="Visualização 3D">
+                    <div class="carousel-text">
+                        <h4>1. Acesse sua biblioteca</h4>
+                        <p>Acesse sua biblioteca de captações Library.</p>
+                    </div>
                 </div>
+                
+                <div class="carousel-slide">
+                    <img src="images/modulo2/19_img.png" alt="Selecionar objeto">
+                    <div class="carousel-text">
+                        <h4>2. Selecione o objeto</h4>
+                        <p>Clique no objeto que deseja ver.</p>
+                    </div>
+                </div>
+                
+                <div class="carousel-slide">
+                    <img src="images/modulo2/20_img.png" alt="Carregamento">
+                    <div class="carousel-text">
+                        <h4>3. Aguarde o carregamento</h4>
+                        <p>Espere o carregamento do objeto.</p>
+                    </div>
+                </div>
+                
+                <div class="carousel-slide">
+                    <img src="images/modulo2/21_img.png" alt="Visualizar ângulos">
+                    <div class="carousel-text">
+                        <h4>4. Explore o modelo 3D</h4>
+                        <p>Clique e arraste para ver os vários ângulos do objeto.</p>
+                    </div>
+                </div>
+                
+                <div class="carousel-slide">
+                    <img src="images/modulo2/22_img.png" alt="Compartilhar">
+                    <div class="carousel-text">
+                        <h4>5. Compartilhe o Magic View</h4>
+                        <p>Compartilhe o Magic View do seu objeto.</p>
+                    </div>
+                </div>
+                
+                <div class="carousel-slide">
+                    <img src="images/modulo2/23_img.png" alt="Download">
+                    <div class="carousel-text">
+                        <h4>6. Faça o download</h4>
+                        <p>Faça o download do objeto 3D.</p>
+                    </div>
+                </div>
+                
+                <div class="carousel-slide">
+                    <img src="images/modulo2/24_img.png" alt="AR View">
+                    <div class="carousel-text">
+                        <h4>7. Visualização em Realidade Aumentada</h4>
+                        <p>7.1 Clique em AR View.</p>
+                    </div>
+                </div>
+                
+                <div class="carousel-slide">
+                    <img src="images/modulo2/26_img.png" alt="Mire a superfície">
+                    <div class="carousel-text">
+                        <h4>7.2 Mire a superfície</h4>
+                        <p>Mire seu celular sobre a superfície que quer projetar o Objeto capturado.</p>
+                    </div>
+                </div>
+                
+                <div class="carousel-slide">
+                    <img src="images/modulo2/27_img.png" alt="Projetar objeto">
+                    <div class="carousel-text">
+                        <h4>7.3 Projete o objeto</h4>
+                        <p>Clique na superfície para projetar o objeto.</p>
+                    </div>
+                </div>
+                
+                <div class="carousel-slide">
+                    <img src="images/modulo2/28_img.png" alt="Redimensionar">
+                    <div class="carousel-text">
+                        <h4>7.4 Redimensione</h4>
+                        <p>Clique com dois dedos no objeto e redimensione fazendo movimento de pinça com os dedos.</p>
+                    </div>
+                </div>
+                
+                <div class="carousel-slide">
+                    <img src="images/modulo2/30_img.png" alt="Caminhar pelo ambiente">
+                    <div class="carousel-text">
+                        <h4>7.5 Explore em Realidade Aumentada</h4>
+                        <p>Caminhe pelo ambiente para ter uma visualização em Realidade aumentada completa.</p>
+                    </div>
+                </div>
+                
+                <div class="carousel-indicators"></div>
             </div>
 
             <p><strong>Nota:</strong> Consulte o PDF original do curso para instruções detalhadas e exemplos visuais completos.</p>
@@ -517,7 +586,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
 let currentSlideIndex = {
     modulo1: 0,
-    modulo2: 0
+    'modulo2-parte1': 0,
+    'modulo2-parte2': 0
 };
 
 function moveCarousel(moduleId, direction) {
@@ -595,7 +665,7 @@ function updateCarouselIndicators(moduleId) {
 
 // Initialize carousels when modal opens
 function initializeCarousels() {
-    ['modulo1', 'modulo2'].forEach(moduleId => {
+    ['modulo1', 'modulo2-parte1', 'modulo2-parte2'].forEach(moduleId => {
         updateCarouselIndicators(moduleId);
     });
 }
