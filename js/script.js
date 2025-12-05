@@ -449,62 +449,358 @@ const modulesContent = {
         content: `
             <h2>🏛️ Módulo 4 – Expor</h2>
             
-            <p><strong>Preparados seus modelos, é chegado o momento de expô-los em um ambiente imersivo. Este módulo o(a) capacitará a preparar e disponibilizar um ambiente de metaverso imersivo, usando o Frame VR, no qual inserirá seus objetos e interações.</strong></p>
+            <p><strong>Aprenda a criar sua própria exposição imersiva em metaverso.</strong></p>
 
             <h3>O que irá aprender neste módulo</h3>
             
+            <p>Agora que já sabe criar modelos virtuais 3D a partir de objetos físicos e também como buscar e baixar modelos 3D prontos, já dá para organizar sua exposição imersiva. A seguir você verá como selecionar um dos inúmeros espaços virtuais imersivos disponíveis pela plataforma Frame VR, dispor seus modelos 3D no ambiente escolhido e configurar algumas ações para que os visitantes de sua exposição interajam com os objetos lá expostos.</p>
+            
+            <p>Acompanhe e execute os tutoriais dos tópicos a seguir e divirta-se enquanto aprende. Ou vice-versa!</p>
+            
             <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/VIDEO_ID" 
+                <iframe src="https://www.youtube.com/embed/WRj9FVLb6So" 
+                        title="Módulo 4 - Expor - Introdução"
                         frameborder="0" 
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                         allowfullscreen>
                 </iframe>
             </div>
 
-            <p>Neste módulo você aprenderá a criar sua própria exposição imersiva no <strong>FrameVR</strong>, desde a criação da conta até a publicação final.</p>
+            <hr style="margin: 40px 0; border: none; border-top: 2px solid #333;">
 
-            <h3>Principais etapas:</h3>
+            <h3>Tutorial 1: Criando seu primeiro ambiente com FrameVR</h3>
+            
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/6FaCPYmQkk4" 
+                        title="Tutorial 1: Criando seu primeiro ambiente com FrameVR"
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                </iframe>
+            </div>
 
-            <p><strong>1. Criando sua conta no FrameVR</strong></p>
-            <ul>
-                <li>Acesse <a href="https://framevr.io" target="_blank" style="color: #3b82f6;">framevr.io</a></li>
-                <li>Cadastre-se e confirme seu email</li>
-            </ul>
+            <div class="carousel-container">
+                <div class="carousel" id="carousel-module4-tutorial1">
+                    <div class="carousel-slide"><img src="images/modulo4/39_img.png" alt="Passo 1"><p>Passo 1</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/40_img.png" alt="Passo 2"><p>Passo 2</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/41_img.png" alt="Passo 3"><p>Passo 3</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/42_img.png" alt="Passo 4"><p>Passo 4</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/43_img.png" alt="Passo 5"><p>Passo 5</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/44_img.png" alt="Passo 6"><p>Passo 6</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/45_img.png" alt="Passo 7"><p>Passo 7</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/46_img.png" alt="Passo 8"><p>Passo 8</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/47_img.png" alt="Passo 9"><p>Passo 9</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/48_img.png" alt="Passo 10"><p>Passo 10</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/49_img.png" alt="Passo 11"><p>Passo 11</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/50_img.png" alt="Passo 12"><p>Passo 12</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/51_img.png" alt="Passo 13"><p>Passo 13</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/52_img.png" alt="Passo 14"><p>Passo 14</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/53_img.png" alt="Passo 15"><p>Passo 15</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/54_img.png" alt="Passo 16"><p>Passo 16</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/55_img.png" alt="Passo 17"><p>Passo 17</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/56_img.png" alt="Passo 18"><p>Passo 18</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/57_img.png" alt="Passo 19"><p>Passo 19</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/58_img.png" alt="Passo 20"><p>Passo 20</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/59_img.png" alt="Passo 21"><p>Passo 21</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/60_img.png" alt="Passo 22"><p>Passo 22</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/61_img.png" alt="Passo 23"><p>Passo 23</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/62_img.png" alt="Passo 24"><p>Passo 24</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/63_img.png" alt="Passo 25"><p>Passo 25</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/64_img.png" alt="Passo 26"><p>Passo 26</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/65_img.png" alt="Passo 27"><p>Passo 27</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/66_img.png" alt="Passo 28"><p>Passo 28</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/67_img.png" alt="Passo 29"><p>Passo 29</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/68_img.png" alt="Passo 30"><p>Passo 30</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/69_img.png" alt="Passo 31"><p>Passo 31</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/70_img.png" alt="Passo 32"><p>Passo 32</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/71_img.png" alt="Passo 33"><p>Passo 33</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/72_img.png" alt="Passo 34"><p>Passo 34</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/73_img.png" alt="Passo 35"><p>Passo 35</p></div>
+                </div>
+                <button class="carousel-button prev" onclick="moveCarousel(-1, 'module4-tutorial1')">‹</button>
+                <button class="carousel-button next" onclick="moveCarousel(1, 'module4-tutorial1')">›</button>
+                <div class="carousel-dots" id="dots-module4-tutorial1"></div>
+            </div>
 
-            <p><strong>2. Configurando seu Avatar</strong></p>
-            <ul>
-                <li>Personalize aparência, roupas e cores</li>
-                <li>Defina seu perfil</li>
-            </ul>
+            <hr style="margin: 40px 0; border: none; border-top: 2px solid #333;">
 
-            <p><strong>3. Criando um Novo Ambiente</strong></p>
-            <ul>
-                <li>Clique em "Create Frame"</li>
-                <li>Escolha um template ou comece do zero</li>
-                <li>Dê um nome à sua exposição</li>
-            </ul>
+            <h3>Tutorial 2: Inserindo Imagens e Vídeos</h3>
+            
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/qmiknpS5ohE" 
+                        title="Tutorial 2: Inserindo Imagens e Vídeos"
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                </iframe>
+            </div>
 
-            <p><strong>4. Inserindo Elementos</strong></p>
-            <ul>
-                <li><strong>Imagens:</strong> Upload direto ou via URL</li>
-                <li><strong>Vídeos:</strong> Links do YouTube ou Vimeo</li>
-                <li><strong>Objetos 3D:</strong> Upload de arquivos GLB ou integração com Sketchfab</li>
-            </ul>
+            <div class="carousel-container">
+                <div class="carousel" id="carousel-module4-tutorial2">
+                    <div class="carousel-slide"><img src="images/modulo4/74_img.png" alt="Passo 1"><p>Passo 1</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/75_img.png" alt="Passo 2"><p>Passo 2</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/76_img.png" alt="Passo 3"><p>Passo 3</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/77_img.png" alt="Passo 4"><p>Passo 4</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/78_img.png" alt="Passo 5"><p>Passo 5</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/79_img.png" alt="Passo 6"><p>Passo 6</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/80_img.png" alt="Passo 7"><p>Passo 7</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/81_img.png" alt="Passo 8"><p>Passo 8</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/82_img.png" alt="Passo 9"><p>Passo 9</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/83_img.png" alt="Passo 10"><p>Passo 10</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/84_img.png" alt="Passo 11"><p>Passo 11</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/85_img.png" alt="Passo 12"><p>Passo 12</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/86_img.png" alt="Passo 13"><p>Passo 13</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/87_img.png" alt="Passo 14"><p>Passo 14</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/88_img.png" alt="Passo 15"><p>Passo 15</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/89_img.png" alt="Passo 16"><p>Passo 16</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/90_img.png" alt="Passo 17"><p>Passo 17</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/91_img.png" alt="Passo 18"><p>Passo 18</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/92_img.png" alt="Passo 19"><p>Passo 19</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/93_img.png" alt="Passo 20"><p>Passo 20</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/94_img.png" alt="Passo 21"><p>Passo 21</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/95_img.png" alt="Passo 22"><p>Passo 22</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/96_img.png" alt="Passo 23"><p>Passo 23</p></div>
+                </div>
+                <button class="carousel-button prev" onclick="moveCarousel(-1, 'module4-tutorial2')">‹</button>
+                <button class="carousel-button next" onclick="moveCarousel(1, 'module4-tutorial2')">›</button>
+                <div class="carousel-dots" id="dots-module4-tutorial2"></div>
+            </div>
 
-            <p><strong>5. Criando Interações</strong></p>
-            <ul>
-                <li>Adicione ações aos objetos (links, textos, etc.)</li>
-                <li>Configure comportamentos interativos</li>
-            </ul>
+            <hr style="margin: 40px 0; border: none; border-top: 2px solid #333;">
 
-            <p><strong>6. Publicando sua Exposição</strong></p>
-            <ul>
-                <li>Clique em "Publish"</li>
-                <li>Escolha visibilidade (pública ou privada)</li>
-                <li>Compartilhe o link</li>
-            </ul>
+            <h3>Tutorial 3: Inserindo objetos 3D</h3>
+            
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/jVap9FbcDd0" 
+                        title="Tutorial 3: Inserindo objetos 3D"
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                </iframe>
+            </div>
 
-            <p><strong>Nota:</strong> Este módulo contém tutoriais extensos com capturas de tela detalhadas. Consulte o PDF original do curso para o conteúdo completo com todas as imagens e instruções passo a passo.</p>
+            <div class="carousel-container">
+                <div class="carousel" id="carousel-module4-tutorial3">
+                    <div class="carousel-slide"><img src="images/modulo4/97_img.png" alt="Passo 1"><p>Passo 1</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/98_img.png" alt="Passo 2"><p>Passo 2</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/99_img.png" alt="Passo 3"><p>Passo 3</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/100_img.png" alt="Passo 4"><p>Passo 4</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/101_img.png" alt="Passo 5"><p>Passo 5</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/102_img.png" alt="Passo 6"><p>Passo 6</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/103_img.png" alt="Passo 7"><p>Passo 7</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/104_img.png" alt="Passo 8"><p>Passo 8</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/105_img.png" alt="Passo 9"><p>Passo 9</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/106_img.png" alt="Passo 10"><p>Passo 10</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/107_img.png" alt="Passo 11"><p>Passo 11</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/108_img.png" alt="Passo 12"><p>Passo 12</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/109_img.png" alt="Passo 13"><p>Passo 13</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/110_img.png" alt="Passo 14"><p>Passo 14</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/111_img.png" alt="Passo 15"><p>Passo 15</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/112_img.png" alt="Passo 16"><p>Passo 16</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/113_img.png" alt="Passo 17"><p>Passo 17</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/114_img.png" alt="Passo 18"><p>Passo 18</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/115_img.png" alt="Passo 19"><p>Passo 19</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/116_img.png" alt="Passo 20"><p>Passo 20</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/117_img.png" alt="Passo 21"><p>Passo 21</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/118_img.png" alt="Passo 22"><p>Passo 22</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/119_img.png" alt="Passo 23"><p>Passo 23</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/120_img.png" alt="Passo 24"><p>Passo 24</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/121_img.png" alt="Passo 25"><p>Passo 25</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/122_img.png" alt="Passo 26"><p>Passo 26</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/123_img.png" alt="Passo 27"><p>Passo 27</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/124_img.png" alt="Passo 28"><p>Passo 28</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/125_img.png" alt="Passo 29"><p>Passo 29</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/126_img.png" alt="Passo 30"><p>Passo 30</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/127_img.png" alt="Passo 31"><p>Passo 31</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/128_img.png" alt="Passo 32"><p>Passo 32</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/129_img.png" alt="Passo 33"><p>Passo 33</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/130_img.png" alt="Passo 34"><p>Passo 34</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/131_img.png" alt="Passo 35"><p>Passo 35</p></div>
+                </div>
+                <button class="carousel-button prev" onclick="moveCarousel(-1, 'module4-tutorial3')">‹</button>
+                <button class="carousel-button next" onclick="moveCarousel(1, 'module4-tutorial3')">›</button>
+                <div class="carousel-dots" id="dots-module4-tutorial3"></div>
+            </div>
+
+            <hr style="margin: 40px 0; border: none; border-top: 2px solid #333;">
+
+            <h3>Tutorial 4: Inserindo texto</h3>
+            
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/oIKrDQk1_nc" 
+                        title="Tutorial 4: Inserindo texto"
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                </iframe>
+            </div>
+
+            <div class="carousel-container">
+                <div class="carousel" id="carousel-module4-tutorial4">
+                    <div class="carousel-slide"><img src="images/modulo4/132_img.png" alt="Passo 1"><p>Passo 1</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/133_img.png" alt="Passo 2"><p>Passo 2</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/134_img.png" alt="Passo 3"><p>Passo 3</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/135_img.png" alt="Passo 4"><p>Passo 4</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/136_img.png" alt="Passo 5"><p>Passo 5</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/137_img.png" alt="Passo 6"><p>Passo 6</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/138_img.png" alt="Passo 7"><p>Passo 7</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/139_img.png" alt="Passo 8"><p>Passo 8</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/140_img.png" alt="Passo 9"><p>Passo 9</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/141_img.png" alt="Passo 10"><p>Passo 10</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/142_img.png" alt="Passo 11"><p>Passo 11</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/143_img.png" alt="Passo 12"><p>Passo 12</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/144_img.png" alt="Passo 13"><p>Passo 13</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/145_img.png" alt="Passo 14"><p>Passo 14</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/146_img.png" alt="Passo 15"><p>Passo 15</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/147_img.png" alt="Passo 16"><p>Passo 16</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/148_img.png" alt="Passo 17"><p>Passo 17</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/149_img.png" alt="Passo 18"><p>Passo 18</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/150_img.png" alt="Passo 19"><p>Passo 19</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/151_img.png" alt="Passo 20"><p>Passo 20</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/152_img.png" alt="Passo 21"><p>Passo 21</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/153_img.png" alt="Passo 22"><p>Passo 22</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/154_img.png" alt="Passo 23"><p>Passo 23</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/155_img.png" alt="Passo 24"><p>Passo 24</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/156_img.png" alt="Passo 25"><p>Passo 25</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/157_img.png" alt="Passo 26"><p>Passo 26</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/158_img.png" alt="Passo 27"><p>Passo 27</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/159_img.png" alt="Passo 28"><p>Passo 28</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/160_img.png" alt="Passo 29"><p>Passo 29</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/161_img.png" alt="Passo 30"><p>Passo 30</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/162_img.png" alt="Passo 31"><p>Passo 31</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/163_img.png" alt="Passo 32"><p>Passo 32</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/164_img.png" alt="Passo 33"><p>Passo 33</p></div>
+                </div>
+                <button class="carousel-button prev" onclick="moveCarousel(-1, 'module4-tutorial4')">‹</button>
+                <button class="carousel-button next" onclick="moveCarousel(1, 'module4-tutorial4')">›</button>
+                <div class="carousel-dots" id="dots-module4-tutorial4"></div>
+            </div>
+
+            <hr style="margin: 40px 0; border: none; border-top: 2px solid #333;">
+
+            <h3>Tutorial 5: Áudios e Enquetes</h3>
+            
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/d_2KjOEjL88" 
+                        title="Tutorial 5: Áudios e Enquetes"
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                </iframe>
+            </div>
+
+            <div class="carousel-container">
+                <div class="carousel" id="carousel-module4-tutorial5">
+                    <div class="carousel-slide"><img src="images/modulo4/165_img.png" alt="Passo 1"><p>Passo 1</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/166_img.png" alt="Passo 2"><p>Passo 2</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/167_img.png" alt="Passo 3"><p>Passo 3</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/168_img.png" alt="Passo 4"><p>Passo 4</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/169_img.png" alt="Passo 5"><p>Passo 5</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/170_img.png" alt="Passo 6"><p>Passo 6</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/171_img.png" alt="Passo 7"><p>Passo 7</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/172_img.png" alt="Passo 8"><p>Passo 8</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/173_img.png" alt="Passo 9"><p>Passo 9</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/174_img.png" alt="Passo 10"><p>Passo 10</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/175_img.png" alt="Passo 11"><p>Passo 11</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/176_img.png" alt="Passo 12"><p>Passo 12</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/177_img.png" alt="Passo 13"><p>Passo 13</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/178_img.png" alt="Passo 14"><p>Passo 14</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/179_img.png" alt="Passo 15"><p>Passo 15</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/180_img.png" alt="Passo 16"><p>Passo 16</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/181_img.png" alt="Passo 17"><p>Passo 17</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/182_img.png" alt="Passo 18"><p>Passo 18</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/183_img.png" alt="Passo 19"><p>Passo 19</p></div>
+                </div>
+                <button class="carousel-button prev" onclick="moveCarousel(-1, 'module4-tutorial5')">‹</button>
+                <button class="carousel-button next" onclick="moveCarousel(1, 'module4-tutorial5')">›</button>
+                <div class="carousel-dots" id="dots-module4-tutorial5"></div>
+            </div>
+
+            <hr style="margin: 40px 0; border: none; border-top: 2px solid #333;">
+
+            <h3>Tutorial 6: Conteúdos Externos</h3>
+            
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/Y4tgdMs5C8Q" 
+                        title="Tutorial 6: Conteúdos Externos"
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                </iframe>
+            </div>
+
+            <div class="carousel-container">
+                <div class="carousel" id="carousel-module4-tutorial6">
+                    <div class="carousel-slide"><img src="images/modulo4/184_img.png" alt="Passo 1"><p>Passo 1</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/185_img.png" alt="Passo 2"><p>Passo 2</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/186_img.png" alt="Passo 3"><p>Passo 3</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/187_img.png" alt="Passo 4"><p>Passo 4</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/188_img.png" alt="Passo 5"><p>Passo 5</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/189_img.png" alt="Passo 6"><p>Passo 6</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/190_img.png" alt="Passo 7"><p>Passo 7</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/191_img.png" alt="Passo 8"><p>Passo 8</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/192_img.png" alt="Passo 9"><p>Passo 9</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/193_img.png" alt="Passo 10"><p>Passo 10</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/194_img.png" alt="Passo 11"><p>Passo 11</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/195_img.png" alt="Passo 12"><p>Passo 12</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/196_img.png" alt="Passo 13"><p>Passo 13</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/197_img.png" alt="Passo 14"><p>Passo 14</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/198_img.png" alt="Passo 15"><p>Passo 15</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/199_img.png" alt="Passo 16"><p>Passo 16</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/200_img.png" alt="Passo 17"><p>Passo 17</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/201_img.png" alt="Passo 18"><p>Passo 18</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/202_img.png" alt="Passo 19"><p>Passo 19</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/203_img.png" alt="Passo 20"><p>Passo 20</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/204_img.png" alt="Passo 21"><p>Passo 21</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/205_img.png" alt="Passo 22"><p>Passo 22</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/206_img.png" alt="Passo 23"><p>Passo 23</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/207_img.png" alt="Passo 24"><p>Passo 24</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/208_img.png" alt="Passo 25"><p>Passo 25</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/209_img.png" alt="Passo 26"><p>Passo 26</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/210_img.png" alt="Passo 27"><p>Passo 27</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/211_img.png" alt="Passo 28"><p>Passo 28</p></div>
+                </div>
+                <button class="carousel-button prev" onclick="moveCarousel(-1, 'module4-tutorial6')">‹</button>
+                <button class="carousel-button next" onclick="moveCarousel(1, 'module4-tutorial6')">›</button>
+                <div class="carousel-dots" id="dots-module4-tutorial6"></div>
+            </div>
+
+            <hr style="margin: 40px 0; border: none; border-top: 2px solid #333;">
+
+            <h3>Tutorial 7: Configurações do Frame</h3>
+            
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/CtFW7HdalgQ" 
+                        title="Tutorial 7: Configurações do Frame"
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                </iframe>
+            </div>
+
+            <div class="carousel-container">
+                <div class="carousel" id="carousel-module4-tutorial7">
+                    <div class="carousel-slide"><img src="images/modulo4/212_img.png" alt="Passo 1"><p>Passo 1</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/213_img.png" alt="Passo 2"><p>Passo 2</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/214_img.png" alt="Passo 3"><p>Passo 3</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/215_img.png" alt="Passo 4"><p>Passo 4</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/216_img.png" alt="Passo 5"><p>Passo 5</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/217_img.png" alt="Passo 6"><p>Passo 6</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/218_img.png" alt="Passo 7"><p>Passo 7</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/219_img.png" alt="Passo 8"><p>Passo 8</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/220_img.png" alt="Passo 9"><p>Passo 9</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/221_img.png" alt="Passo 10"><p>Passo 10</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/222_img.png" alt="Passo 11"><p>Passo 11</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/223_img.png" alt="Passo 12"><p>Passo 12</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/224_img.png" alt="Passo 13"><p>Passo 13</p></div>
+                    <div class="carousel-slide"><img src="images/modulo4/225_img.png" alt="Passo 14"><p>Passo 14</p></div>
+                </div>
+                <button class="carousel-button prev" onclick="moveCarousel(-1, 'module4-tutorial7')">‹</button>
+                <button class="carousel-button next" onclick="moveCarousel(1, 'module4-tutorial7')">›</button>
+                <div class="carousel-dots" id="dots-module4-tutorial7"></div>
+            </div>
+
+            <hr style="margin: 40px 0; border: none; border-top: 2px solid #333;">
         `
     },
     5: {
@@ -669,7 +965,14 @@ document.addEventListener('DOMContentLoaded', function() {
 let currentSlideIndex = {
     module1: 0,
     'module2-tutorial1': 0,
-    'module2-tutorial2': 0
+    'module2-tutorial2': 0,
+    'module4-tutorial1': 0,
+    'module4-tutorial2': 0,
+    'module4-tutorial3': 0,
+    'module4-tutorial4': 0,
+    'module4-tutorial5': 0,
+    'module4-tutorial6': 0,
+    'module4-tutorial7': 0
 };
 
 function moveCarousel(direction, moduleId) {
