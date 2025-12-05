@@ -666,9 +666,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .carousel-slide img {
-    width: 300px;
+    width: 450px;
     height: auto;
-    max-height: 250px;
+    max-height: 350px;
     object-fit: contain;
     background: var(--bg-secondary);
     border-radius: 8px;
@@ -697,7 +697,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .carousel-btn {
     position: absolute;
-    top: 50%;
+    top: 40%;
     transform: translateY(-50%);
     background: rgba(59, 130, 246, 0.9);
     color: white;
@@ -721,11 +721,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .carousel-btn.prev {
-    left: 1rem;
+    left: -25px;
 }
 
 .carousel-btn.next {
-    right: 1rem;
+    right: -25px;
 }
 
 .carousel-dots {
