@@ -1,0 +1,109 @@
+### Tutorial 1: Capturando um Objeto com Luma AI (Modo Guided)
+
+<div class="carousel" id="carousel-modulo2-parte1">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="images/modulo2/08_img.png" alt="Obtenha o Luma AI">
+            <div class="carousel-text">
+                <h4>1. Obtenha o Luma</h4>
+                <p>Baixe o Luma AI no seu celular.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/modulo2/09_img.jpg" alt="Baixe o aplicativo">
+            <div class="carousel-text">
+                <h4>2. Baixe o aplicativo</h4>
+                <p>Baixe o aplicativo Luma AI na sua loja de apps (disponível para iOS e Android). Este aplicativo usa inteligência artificial para transformar objetos reais em modelos 3D.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/modulo2/10_img.png" alt="Comece uma captura - Create">
+            <div class="carousel-text">
+                <h4>3. Comece uma captura - Create</h4>
+                <p>Clique em Create no ícone de "+".</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/modulo2/11_img.png" alt="Escolha Captura Guiada">
+            <div class="carousel-text">
+                <h4>4. Escolha Captura Guiada</h4>
+                <p>Clique em Guided para fazer uma captura Guiada.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/modulo2/12_img.png" alt="Parametrize - Clique no objeto">
+            <div class="carousel-text">
+                <h4>5. Parametrize - Clique no objeto</h4>
+                <p>Clique no objeto que deseja capturar.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/modulo2/13_img.png" alt="Centralize o círculo">
+            <div class="carousel-text">
+                <h4>6. Centralize o círculo</h4>
+                <p>Centralize o círculo no objeto que fará a captura. Observação: Você pode clicar quantas vezes forem necessárias para alinhar o círculo abaixo do objeto e também fazer um movimento de pinça com os dedos para aumentar e diminuir o círculo conforme o tamanho do objeto.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/modulo2/14_img.png" alt="Finalize a parametrização">
+            <div class="carousel-text">
+                <h4>7. Finalize a parametrização</h4>
+                <p>Clique em Scan para finalizar a parametrização do domo.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/modulo2/15_img.png" alt="Confira o domo">
+            <div class="carousel-text">
+                <h4>8. Confira o domo</h4>
+                <p>Confira se o domo envolve todo o objeto que será capturado.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/modulo2/16.png" alt="Circule o objeto">
+            <div class="carousel-text">
+                <h4>9. Circule o objeto</h4>
+                <p>Circule o objeto com seu celular para fazer a captura dos diversos pontos de vista.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/modulo2/17_img.png" alt="Cubra toda a superfície">
+            <div class="carousel-text">
+                <h4>10. Cubra toda a superfície</h4>
+                <p>Cubra toda a superfície do domo. Observação: Note que o domo muda de cor uma vez que já passou por aquele ponto de vista.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/modulo2/18_img.png" alt="Finalize a captura">
+            <div class="carousel-text">
+                <h4>11. Finalize a captura</h4>
+                <p>Clique Finish após cobrir todos os ângulos do objeto. Observação: O aplicativo pode finalizar a captura automaticamente se detectar que o domo foi coberto por inteiro.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/modulo2/19_img.png" alt="Nomeie a captura">
+            <div class="carousel-text">
+                <h4>12. Nomeie a captura</h4>
+                <p>Nomeie a captura que realizou.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/modulo2/20_img.png" alt="Crie o modelo">
+            <div class="carousel-text">
+                <h4>13. Crie o modelo</h4>
+                <p>Clique em Create.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/modulo2/21_img.png" alt="Aguarde o processamento">
+            <div class="carousel-text">
+                <h4>14. Aguarde o processamento</h4>
+                <p>Espere o carregamento das imagens com o aplicativo aberto. Depois que o Uploading acabar, o aplicativo iniciará o processamento das imagens. O processamento pode ser feito em segundo plano. Esse processamento pode levar um tempo longo, chegando eventualmente a várias horas. Você pode fechar o aplicativo e reabri-lo periodicamente para checar se o processo foi completado. Não é preciso esperar a finalização do processamento de um objeto para capturar outro.</p>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" onclick="moveCarousel('carousel-modulo2-parte1', -1)">‹</button>
+    <button class="carousel-control-next" onclick="moveCarousel('carousel-modulo2-parte1', 1)">›</button>
+    <div class="carousel-indicators"></div>
+</div>
+
+<p class="text-center mt-4">**Pronto, você finalizou sua primeira captura!**</p>
