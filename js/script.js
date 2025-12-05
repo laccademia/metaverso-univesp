@@ -444,560 +444,1646 @@ const modulesContent = {
         `
     },
     4: {
-        title: "Módulo 4: Expor",
-        icon: "🏛️",
-        content: `
-            <h2>🏛️ Módulo 4 – Expor</h2>
-            
-            <p><strong>Aprenda a criar sua própria exposição imersiva em metaverso.</strong></p>
-
-            <h3>O que irá aprender neste módulo</h3>
-            
-            <p>Agora que já sabe criar modelos virtuais 3D a partir de objetos físicos e também como buscar e baixar modelos 3D prontos, já dá para organizar sua exposição imersiva. A seguir você verá como selecionar um dos inúmeros espaços virtuais imersivos disponíveis pela plataforma Frame VR, dispor seus modelos 3D no ambiente escolhido e configurar algumas ações para que os visitantes de sua exposição interajam com os objetos lá expostos.</p>
-            
-            <p>Acompanhe e execute os tutoriais dos tópicos a seguir e divirta-se enquanto aprende. Ou vice-versa!</p>
-            
-            <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/WRj9FVLb6So" 
-                        title="Módulo 4 - Expor - Introdução"
-                        frameborder="0" 
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                        allowfullscreen>
-                </iframe>
-            </div>
-
-            <hr style="margin: 40px 0; border: none; border-top: 2px solid #333;">
-
-            <h3>Tutorial 1: Criando seu primeiro ambiente com FrameVR</h3>
-            
-            <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/6FaCPYmQkk4" 
-                        title="Tutorial 1: Criando seu primeiro ambiente com FrameVR"
-                        frameborder="0" 
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                        allowfullscreen>
-                </iframe>
-            </div>
-
-            <div class="carousel-container">
-                <div class="carousel" id="carousel-module4-tutorial1">
-                    <div class="carousel-slide"><img src="images/modulo4/39_img.png" alt="Passo 1"><p>Passo 1</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/40_img.png" alt="Passo 2"><p>Passo 2</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/41_img.png" alt="Passo 3"><p>Passo 3</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/42_img.png" alt="Passo 4"><p>Passo 4</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/43_img.png" alt="Passo 5"><p>Passo 5</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/44_img.png" alt="Passo 6"><p>Passo 6</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/45_img.png" alt="Passo 7"><p>Passo 7</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/46_img.png" alt="Passo 8"><p>Passo 8</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/47_img.png" alt="Passo 9"><p>Passo 9</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/48_img.png" alt="Passo 10"><p>Passo 10</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/49_img.png" alt="Passo 11"><p>Passo 11</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/50_img.png" alt="Passo 12"><p>Passo 12</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/51_img.png" alt="Passo 13"><p>Passo 13</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/52_img.png" alt="Passo 14"><p>Passo 14</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/53_img.png" alt="Passo 15"><p>Passo 15</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/54_img.png" alt="Passo 16"><p>Passo 16</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/55_img.png" alt="Passo 17"><p>Passo 17</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/56_img.png" alt="Passo 18"><p>Passo 18</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/57_img.png" alt="Passo 19"><p>Passo 19</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/58_img.png" alt="Passo 20"><p>Passo 20</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/59_img.png" alt="Passo 21"><p>Passo 21</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/60_img.png" alt="Passo 22"><p>Passo 22</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/61_img.png" alt="Passo 23"><p>Passo 23</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/62_img.png" alt="Passo 24"><p>Passo 24</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/63_img.png" alt="Passo 25"><p>Passo 25</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/64_img.png" alt="Passo 26"><p>Passo 26</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/65_img.png" alt="Passo 27"><p>Passo 27</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/66_img.png" alt="Passo 28"><p>Passo 28</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/67_img.png" alt="Passo 29"><p>Passo 29</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/68_img.png" alt="Passo 30"><p>Passo 30</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/69_img.png" alt="Passo 31"><p>Passo 31</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/70_img.png" alt="Passo 32"><p>Passo 32</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/71_img.png" alt="Passo 33"><p>Passo 33</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/72_img.png" alt="Passo 34"><p>Passo 34</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/73_img.png" alt="Passo 35"><p>Passo 35</p></div>
+            title: "Módulo 4 – Expor",
+            icon: "🏛️",
+            duration: "90 min",
+            level: "Criar",
+            description: "Aprenda a criar sua própria exposição imersiva em metaverso.",
+            content: `
+                <div class="module-intro">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/WRj9FVLb6So" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    
+                    <h3>O que irá aprender neste módulo</h3>
+                    <p>Agora que já sabe criar modelos virtuais 3D a partir de objetos físicos e também como buscar e baixar modelos 3D prontos, já dá para organizar sua exposição imersiva. A seguir você verá como selecionar um dos inúmeros espaços virtuais imersivos disponíveis pela plataforma Frame VR, dispor seus modelos 3D no ambiente escolhido e configurar algumas ações para que os visitantes de sua exposição interajam com os objetos lá expostos.</p>
+                    
+                    <p>Acompanhe e execute os tutoriais dos tópicos a seguir e divirta-se enquanto aprende. Ou vice-versa!</p>
                 </div>
-                <button class="carousel-btn prev" onclick="moveCarousel(-1, 'module4-tutorial1')">‹</button>
-                <button class="carousel-btn next" onclick="moveCarousel(1, 'module4-tutorial1')">›</button>
-                <div class="carousel-dots">
-                    <span class="dot active" onclick="currentSlide(1, 'module4-tutorial1')" data-slide="1"></span>
-                    <span class="dot" onclick="currentSlide(2, 'module4-tutorial1')" data-slide="2"></span>
-                    <span class="dot" onclick="currentSlide(3, 'module4-tutorial1')" data-slide="3"></span>
-                    <span class="dot" onclick="currentSlide(4, 'module4-tutorial1')" data-slide="4"></span>
-                    <span class="dot" onclick="currentSlide(5, 'module4-tutorial1')" data-slide="5"></span>
-                    <span class="dot" onclick="currentSlide(6, 'module4-tutorial1')" data-slide="6"></span>
-                    <span class="dot" onclick="currentSlide(7, 'module4-tutorial1')" data-slide="7"></span>
-                    <span class="dot" onclick="currentSlide(8, 'module4-tutorial1')" data-slide="8"></span>
-                    <span class="dot" onclick="currentSlide(9, 'module4-tutorial1')" data-slide="9"></span>
-                    <span class="dot" onclick="currentSlide(10, 'module4-tutorial1')" data-slide="10"></span>
-                    <span class="dot" onclick="currentSlide(11, 'module4-tutorial1')" data-slide="11"></span>
-                    <span class="dot" onclick="currentSlide(12, 'module4-tutorial1')" data-slide="12"></span>
-                    <span class="dot" onclick="currentSlide(13, 'module4-tutorial1')" data-slide="13"></span>
-                    <span class="dot" onclick="currentSlide(14, 'module4-tutorial1')" data-slide="14"></span>
-                    <span class="dot" onclick="currentSlide(15, 'module4-tutorial1')" data-slide="15"></span>
-                    <span class="dot" onclick="currentSlide(16, 'module4-tutorial1')" data-slide="16"></span>
-                    <span class="dot" onclick="currentSlide(17, 'module4-tutorial1')" data-slide="17"></span>
-                    <span class="dot" onclick="currentSlide(18, 'module4-tutorial1')" data-slide="18"></span>
-                    <span class="dot" onclick="currentSlide(19, 'module4-tutorial1')" data-slide="19"></span>
-                    <span class="dot" onclick="currentSlide(20, 'module4-tutorial1')" data-slide="20"></span>
-                    <span class="dot" onclick="currentSlide(21, 'module4-tutorial1')" data-slide="21"></span>
-                    <span class="dot" onclick="currentSlide(22, 'module4-tutorial1')" data-slide="22"></span>
-                    <span class="dot" onclick="currentSlide(23, 'module4-tutorial1')" data-slide="23"></span>
-                    <span class="dot" onclick="currentSlide(24, 'module4-tutorial1')" data-slide="24"></span>
-                    <span class="dot" onclick="currentSlide(25, 'module4-tutorial1')" data-slide="25"></span>
-                    <span class="dot" onclick="currentSlide(26, 'module4-tutorial1')" data-slide="26"></span>
-                    <span class="dot" onclick="currentSlide(27, 'module4-tutorial1')" data-slide="27"></span>
-                    <span class="dot" onclick="currentSlide(28, 'module4-tutorial1')" data-slide="28"></span>
-                    <span class="dot" onclick="currentSlide(29, 'module4-tutorial1')" data-slide="29"></span>
-                    <span class="dot" onclick="currentSlide(30, 'module4-tutorial1')" data-slide="30"></span>
-                    <span class="dot" onclick="currentSlide(31, 'module4-tutorial1')" data-slide="31"></span>
-                    <span class="dot" onclick="currentSlide(32, 'module4-tutorial1')" data-slide="32"></span>
-                    <span class="dot" onclick="currentSlide(33, 'module4-tutorial1')" data-slide="33"></span>
-                    <span class="dot" onclick="currentSlide(34, 'module4-tutorial1')" data-slide="34"></span>
-                    <span class="dot" onclick="currentSlide(35, 'module4-tutorial1')" data-slide="35"></span>
+
+                <h3>Tutorial 1: Criando seu primeiro ambiente com FrameVR</h3>
+                <div class="tutorial-section">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/6FaCPYmQkk4" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    
+
+                    <div class="carousel-container">
+                        <div class="carousel" id="carousel-module4-tutorial1">
+
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/39_img.png" alt="Passo 1">
+                            <div class="carousel-text">
+                                <p>1.2 Crie sua conta. 
+Observação: Recomendamos criar com sua conta Google, pela facilidade, mas caso precise, é possível criar com e-mail da sua instituição e criando uma senha usando o botão Signup.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/40_img.png" alt="Passo 2">
+                            <div class="carousel-text">
+                                <p>1.3 Selecione a conta do Google que irá utilizar para criar sua conta no Frame VR</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/41_img.png" alt="Passo 3">
+                            <div class="carousel-text">
+                                <p>1.4 Aguarde o acesso a Home da plataforma.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/42_img.png" alt="Passo 4">
+                            <div class="carousel-text">
+                                <p>Crie seu primeiro ambiente virtual. 
+2.1 Clique em New Frame</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/43_img.png" alt="Passo 5">
+                            <div class="carousel-text">
+                                <p>2.2 Digite o nome da sua sala virtual (somente letras minúsculas e traço “-”)</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/44_img.png" alt="Passo 6">
+                            <div class="carousel-text">
+                                <p>Observação: O título do ambiente virtual que você escolher estará contido no link de compartilhamento. 2.3 Clique em Environment para escolher um dos modelos de ambiente disponíveis.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/45_img.png" alt="Passo 7">
+                            <div class="carousel-text">
+                                <p>Observação: Existem dezenas de modelos, em nosso exemplo vamos utilizar a mesma sala que você conheceu no módulo Explorar, a galeria pequena. Por sua simplicidade e funcionalidade. Mas fique à vontade para experimentar e encontrar um ambiente que seja mais adequado à sua proposta de exposição.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/46_img.png" alt="Passo 8">
+                            <div class="carousel-text">
+                                <p>2.4 Selecione o ambiente Gallery (Small)</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/47_img.png" alt="Passo 9">
+                            <div class="carousel-text">
+                                <p>2.5 Clique em New Frame</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/48_img.png" alt="Passo 10">
+                            <div class="carousel-text">
+                                <p>Observação: O plano gratuito Trial permite a criação de 3 salas gratuitas com 8 pessoas simultâneas em cada uma das salas. Você pode excluir e recriar salas quantas vezes desejarr, respeitando o limite de 3 salas simultâneas. Também deve ser respeitado o limite de o upload de vídeos/imagens de até 500 MB somados. 
+ 
+2.6 Aguarde ser reencaminhado à sua sala virtual.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/49_img.png" alt="Passo 11">
+                            <div class="carousel-text">
+                                <p>2.7 Digite o nome que deseja exibir para todas as pessoas que estiverem com você na sala.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/50_img.png" alt="Passo 12">
+                            <div class="carousel-text">
+                                <p>2.8 Clique em Connect</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/51_img.png" alt="Passo 13">
+                            <div class="carousel-text">
+                                <p>Faça o tutorial do site.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/52_img.png" alt="Passo 14">
+                            <div class="carousel-text">
+                                <p>Observação: Você pode traduzir o tutorial clicando com o botão direito do mouse na parte preta do menu e selecionando, traduzir para o português na árvore de opções.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/53_img.png" alt="Passo 15">
+                            <div class="carousel-text">
+                                <p>3.1 Navegue pela sala: 
+com as setas do teclado.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/54_img.png" alt="Passo 16">
+                            <div class="carousel-text">
+                                <p>GIF ou pelas teclas (W↑) (A←) (S↓) (D→) com a mão esquerda no teclado e a mão direita no mouse.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/55_img.png" alt="Passo 17">
+                            <div class="carousel-text">
+                                <p>GIF 3.2 Utilize a barra inferior para controlar funções na sala virtual.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/56_img.png" alt="Passo 18">
+                            <div class="carousel-text">
+                                <p>Passo 18</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/57_img.png" alt="Passo 19">
+                            <div class="carousel-text">
+                                <p>O ícone de microfone para habilitar ou desabilitar seu microfone.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/58_img.png" alt="Passo 20">
+                            <div class="carousel-text">
+                                <p>Ícone de câmera para habilitar ou desabilitar sua webcam.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/59_img.png" alt="Passo 21">
+                            <div class="carousel-text">
+                                <p>Ícone do lápis para entrar em modo edição do Frame. Ícone de estrelas para entrar no menu de criação.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/60_img.png" alt="Passo 22">
+                            <div class="carousel-text">
+                                <p>Passo 22</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/61_img.png" alt="Passo 23">
+                            <div class="carousel-text">
+                                <p>4. Configure seu perfil. 
+4.1Clique no botão disponível na região direita acima da sua tela.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/62_img.png" alt="Passo 24">
+                            <div class="carousel-text">
+                                <p>4.2 Clique na opção Profile</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/63_img.png" alt="Passo 25">
+                            <div class="carousel-text">
+                                <p>4.3 Atualize seus dados.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/64_img.png" alt="Passo 26">
+                            <div class="carousel-text">
+                                <p>Passo 26</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/65_img.png" alt="Passo 27">
+                            <div class="carousel-text">
+                                <p>Passo 27</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/66_img.png" alt="Passo 28">
+                            <div class="carousel-text">
+                                <p>Observação: Em suas preferências, defina principalmente o modo de câmera que preferir, entre primeira ou terceira pessoa. As salas que não possuírem modo de câmera padrão definido, permitem alteração. Como administrador, você pode escolher se haverá ou não modo padrão para as suas salas. 
+ 
+ GIF</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/67_img.png" alt="Passo 29">
+                            <div class="carousel-text">
+                                <p>5. Defina a aparência do seu avatar 
+5.1 Clique em Customize avatar 
+ 
+ 
+5.2 Escolha o formato Android/Humano. 
+  
+Exemplo Android:</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/68_img.png" alt="Passo 30">
+                            <div class="carousel-text">
+                                <p>Passo 30</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/69_img.png" alt="Passo 31">
+                            <div class="carousel-text">
+                                <p>Passo 31</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/70_img.png" alt="Passo 32">
+                            <div class="carousel-text">
+                                <p>Exemplo Humano</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/71_img.png" alt="Passo 33">
+                            <div class="carousel-text">
+                                <p>5.3 Personalize o seu avatar. 
+Defina tipo de rosto, cor e corte de cabelo e muito mais. Não se esqueça de salvar após finalizar a personalização.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/72_img.png" alt="Passo 34">
+                            <div class="carousel-text">
+                                <p>Caso não queira escolher todas as opções, você pode clicar em Randomize e deixar que a aleatoriedade defina um avatar para você. 
+  
+ 
+ 
+ 
+Observação: Você também pode escolher um avatar já pronto em Ready Player me ou criar na plataforma parceira, clicando em Set up ready player me. Agora que já criou seu primeiro ambiente virtual, já está mais que pronto(a) para aprender adicionar os conteúdo e objetos na sua sala.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/73_img.png" alt="Passo 35">
+                            <div class="carousel-text">
+                                <p>Passo 35</p>
+                            </div>
+                        </div>
+                        </div>
+                        <button class="carousel-btn prev" onclick="moveCarousel(-1, 'module4-tutorial1')">&lt;</button>
+                        <button class="carousel-btn next" onclick="moveCarousel(1, 'module4-tutorial1')">&gt;</button>
+                        <div class="carousel-dots">
+                            <span class="dot active" onclick="currentSlide(1, 'module4-tutorial1')"></span> <span class="dot" onclick="currentSlide(2, 'module4-tutorial1')"></span> <span class="dot" onclick="currentSlide(3, 'module4-tutorial1')"></span> <span class="dot" onclick="currentSlide(4, 'module4-tutorial1')"></span> <span class="dot" onclick="currentSlide(5, 'module4-tutorial1')"></span> <span class="dot" onclick="currentSlide(6, 'module4-tutorial1')"></span> <span class="dot" onclick="currentSlide(7, 'module4-tutorial1')"></span> <span class="dot" onclick="currentSlide(8, 'module4-tutorial1')"></span> <span class="dot" onclick="currentSlide(9, 'module4-tutorial1')"></span> <span class="dot" onclick="currentSlide(10, 'module4-tutorial1')"></span> <span class="dot" onclick="currentSlide(11, 'module4-tutorial1')"></span> <span class="dot" onclick="currentSlide(12, 'module4-tutorial1')"></span> <span class="dot" onclick="currentSlide(13, 'module4-tutorial1')"></span> <span class="dot" onclick="currentSlide(14, 'module4-tutorial1')"></span> <span class="dot" onclick="currentSlide(15, 'module4-tutorial1')"></span> <span class="dot" onclick="currentSlide(16, 'module4-tutorial1')"></span> <span class="dot" onclick="currentSlide(17, 'module4-tutorial1')"></span> <span class="dot" onclick="currentSlide(18, 'module4-tutorial1')"></span> <span class="dot" onclick="currentSlide(19, 'module4-tutorial1')"></span> <span class="dot" onclick="currentSlide(20, 'module4-tutorial1')"></span> <span class="dot" onclick="currentSlide(21, 'module4-tutorial1')"></span> <span class="dot" onclick="currentSlide(22, 'module4-tutorial1')"></span> <span class="dot" onclick="currentSlide(23, 'module4-tutorial1')"></span> <span class="dot" onclick="currentSlide(24, 'module4-tutorial1')"></span> <span class="dot" onclick="currentSlide(25, 'module4-tutorial1')"></span> <span class="dot" onclick="currentSlide(26, 'module4-tutorial1')"></span> <span class="dot" onclick="currentSlide(27, 'module4-tutorial1')"></span> <span class="dot" onclick="currentSlide(28, 'module4-tutorial1')"></span> <span class="dot" onclick="currentSlide(29, 'module4-tutorial1')"></span> <span class="dot" onclick="currentSlide(30, 'module4-tutorial1')"></span> <span class="dot" onclick="currentSlide(31, 'module4-tutorial1')"></span> <span class="dot" onclick="currentSlide(32, 'module4-tutorial1')"></span> <span class="dot" onclick="currentSlide(33, 'module4-tutorial1')"></span> <span class="dot" onclick="currentSlide(34, 'module4-tutorial1')"></span> <span class="dot" onclick="currentSlide(35, 'module4-tutorial1')"></span>
+                        </div>
+                    </div>
                 </div>
-            </div>
 
-            <hr style="margin: 40px 0; border: none; border-top: 2px solid #333;">
+                <h3>Tutorial 2: Inserindo Imagens e Vídeos</h3>
+                <div class="tutorial-section">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/kZ7EzP_YLqo" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    
 
-            <h3>Tutorial 2: Inserindo Imagens e Vídeos</h3>
-            
-            <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/qmiknpS5ohE" 
-                        title="Tutorial 2: Inserindo Imagens e Vídeos"
-                        frameborder="0" 
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                        allowfullscreen>
-                </iframe>
-            </div>
+                    <div class="carousel-container">
+                        <div class="carousel" id="carousel-module4-tutorial2">
 
-            <div class="carousel-container">
-                <div class="carousel" id="carousel-module4-tutorial2">
-                    <div class="carousel-slide"><img src="images/modulo4/74_img.png" alt="Passo 1"><p>Passo 1</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/75_img.png" alt="Passo 2"><p>Passo 2</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/76_img.png" alt="Passo 3"><p>Passo 3</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/77_img.png" alt="Passo 4"><p>Passo 4</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/78_img.png" alt="Passo 5"><p>Passo 5</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/79_img.png" alt="Passo 6"><p>Passo 6</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/80_img.png" alt="Passo 7"><p>Passo 7</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/81_img.png" alt="Passo 8"><p>Passo 8</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/82_img.png" alt="Passo 9"><p>Passo 9</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/83_img.png" alt="Passo 10"><p>Passo 10</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/84_img.png" alt="Passo 11"><p>Passo 11</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/85_img.png" alt="Passo 12"><p>Passo 12</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/86_img.png" alt="Passo 13"><p>Passo 13</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/87_img.png" alt="Passo 14"><p>Passo 14</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/88_img.png" alt="Passo 15"><p>Passo 15</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/89_img.png" alt="Passo 16"><p>Passo 16</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/90_img.png" alt="Passo 17"><p>Passo 17</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/91_img.png" alt="Passo 18"><p>Passo 18</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/92_img.png" alt="Passo 19"><p>Passo 19</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/93_img.png" alt="Passo 20"><p>Passo 20</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/94_img.png" alt="Passo 21"><p>Passo 21</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/95_img.png" alt="Passo 22"><p>Passo 22</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/96_img.png" alt="Passo 23"><p>Passo 23</p></div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/74_img.png" alt="Passo 1">
+                            <div class="carousel-text">
+                                <p>Clique em Creation menu</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/75_img.png" alt="Passo 2">
+                            <div class="carousel-text">
+                                <p>Observação: Clicando tanto no ícone que está na parede, quanto, no mesmo ícone na barra inferior, você conseguirá carregar sua imagem. A diferença é que usando o que está na parede a imagem já está mais bem posicionada. Mas as duas maneiras você conseguirá posicionar a imagem onde quiser editando a imagem. 
+ 
+1.2 Clique em image. 
+ 
+ 
+1.3 Carregue sua imagem no menu, escolhendo ou arrastando da sua pasta de arquivo. 
+ 
+ 
+ 
+1.4 Clique em done ao carregar a imagem</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/76_img.png" alt="Passo 3">
+                            <div class="carousel-text">
+                                <p>Passo 3</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/77_img.png" alt="Passo 4">
+                            <div class="carousel-text">
+                                <p>Passo 4</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/78_img.png" alt="Passo 5">
+                            <div class="carousel-text">
+                                <p>Passo 5</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/79_img.png" alt="Passo 6">
+                            <div class="carousel-text">
+                                <p>Observação: Este passo pode ser pulado automaticamente pela plataforma, carregando a imagem.  
+ 
+ 
+ 
+ 
+1.5 Clique no ícone de lápis para entrar no modo de edição e poder modificar a posição e tamanho da imagem.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/80_img.png" alt="Passo 7">
+                            <div class="carousel-text">
+                                <p>Passo 7</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/81_img.png" alt="Passo 8">
+                            <div class="carousel-text">
+                                <p>1.6 Com modo de edição ativado, clique na imagem para posicioná-la e/ou redimensioná-la. Observação: Ao abrir o menu lateral de edição, você pode posicionar a imagem clicando e arrastando com o mouse, mas às vezes não é muito preciso. Também haverá um círculo na imagem onde é possível movimentar a imagem nos 3 eixos com mais precisão. Você edita o tamanho da imagem clicando e arrastando as quinas da imagem ao tamanho desejado.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/82_img.png" alt="Passo 9">
+                            <div class="carousel-text">
+                                <p>1.7 Posicione e ajuste a imagem no local adequado. 
+ GIF</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/83_img.png" alt="Passo 10">
+                            <div class="carousel-text">
+                                <p>1.8 Trave posição, rotação e tamanho da imagem após finalizar a edição.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/84_img.png" alt="Passo 11">
+                            <div class="carousel-text">
+                                <p>Observação: Você não é obrigado a travar a imagem ao finalizar a edição, mas quando existem muitos elementos num mesmo ambiente, às vezes você pode mover algo que não deseja, então com a posição dele travada você não vai ter esse problema. 
+ 
+Você também pode usar o botão de desfazer, “Undo”, caso queira voltar atrás em alguma edição errada ou indesejada. 1.9 Duplique a imagem 
+Se desejar reutilizar a imagem em outro ponto de seu metaverso, você pode duplicá-la e mover a cópia para onde desejar e redimensioná-la e/ou rotacioná-la, se necessário. 
+[IMAG85</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/85_img.png" alt="Passo 12">
+                            <div class="carousel-text">
+                                <p>Passo 12</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/86_img.png" alt="Passo 13">
+                            <div class="carousel-text">
+                                <p>Adicione um vídeo. 
+2.1Clique em Creation menu 
+ 
+ 
+2.2 Clique na opção video 
+ 
+ 
+2.3 Carregue seu vídeo, escolhendo ou arrastando da sua pasta de arquivo. 
+ 
+ 
+ 
+1.4 Aguarde o processamento do vídeo 
+ 
+ 
+1.5 Posicione, rotacione e/ou redimensione o vídeo. 
+As formas de movimentar, redimensionar e rotacionar um vídeo são as mesmas já explicadas para as imagens. 
+ 
+ 
+1.6 Trave a posição, rotação e tamanho do vídeo após finalizar a edição. 
+Recomendável, para evitar modificações indesejáveis enquanto edita outros elementos do ambiente.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/87_img.png" alt="Passo 14">
+                            <div class="carousel-text">
+                                <p>Passo 14</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/88_img.png" alt="Passo 15">
+                            <div class="carousel-text">
+                                <p>Passo 15</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/89_img.png" alt="Passo 16">
+                            <div class="carousel-text">
+                                <p>Passo 16</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/90_img.png" alt="Passo 17">
+                            <div class="carousel-text">
+                                <p>Passo 17</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/91_img.png" alt="Passo 18">
+                            <div class="carousel-text">
+                                <p>Passo 18</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/92_img.png" alt="Passo 19">
+                            <div class="carousel-text">
+                                <p>Passo 19</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/93_img.png" alt="Passo 20">
+                            <div class="carousel-text">
+                                <p>1.7 Defina a opção de áudio posicional “positional audio”.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/94_img.png" alt="Passo 21">
+                            <div class="carousel-text">
+                                <p>Observação: Esta função define como funcionará o áudio do vídeo. Optando por sua ativação, o áudio do vídeo será escutado apenas pelos usuários que estiverem próximos do vídeo. Você pode escolher até que distância o vídeo será escutado. Optando por ela desativada, todas as pessoas da sala ouvirão o vídeo quando este for executado. Clicando no ícone do olho, você verá a distância limite para que o vídeo seja escutado, podendo escolher 3 opções de distância.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/95_img.png" alt="Passo 22">
+                            <div class="carousel-text">
+                                <p>1.8 Defina a opção de Loop  
+ 
+Observação: Vídeo com essa opção ativa irão ser executados em looping. 
+ 
+ 
+1.9 Defina opção de autoplay. 
+ 
+Observação: Com essa opção ativa, o vídeo será executado automaticamente assim que o usuário entrar na sala. É uma opção positiva para vídeos de ambientação ou de estética da sala. Mas vídeo de conteúdo em si, essa opção desativada é melhor.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/96_img.png" alt="Passo 23">
+                            <div class="carousel-text">
+                                <p>Passo 23</p>
+                            </div>
+                        </div>
+                        </div>
+                        <button class="carousel-btn prev" onclick="moveCarousel(-1, 'module4-tutorial2')">&lt;</button>
+                        <button class="carousel-btn next" onclick="moveCarousel(1, 'module4-tutorial2')">&gt;</button>
+                        <div class="carousel-dots">
+                            <span class="dot active" onclick="currentSlide(1, 'module4-tutorial2')"></span> <span class="dot" onclick="currentSlide(2, 'module4-tutorial2')"></span> <span class="dot" onclick="currentSlide(3, 'module4-tutorial2')"></span> <span class="dot" onclick="currentSlide(4, 'module4-tutorial2')"></span> <span class="dot" onclick="currentSlide(5, 'module4-tutorial2')"></span> <span class="dot" onclick="currentSlide(6, 'module4-tutorial2')"></span> <span class="dot" onclick="currentSlide(7, 'module4-tutorial2')"></span> <span class="dot" onclick="currentSlide(8, 'module4-tutorial2')"></span> <span class="dot" onclick="currentSlide(9, 'module4-tutorial2')"></span> <span class="dot" onclick="currentSlide(10, 'module4-tutorial2')"></span> <span class="dot" onclick="currentSlide(11, 'module4-tutorial2')"></span> <span class="dot" onclick="currentSlide(12, 'module4-tutorial2')"></span> <span class="dot" onclick="currentSlide(13, 'module4-tutorial2')"></span> <span class="dot" onclick="currentSlide(14, 'module4-tutorial2')"></span> <span class="dot" onclick="currentSlide(15, 'module4-tutorial2')"></span> <span class="dot" onclick="currentSlide(16, 'module4-tutorial2')"></span> <span class="dot" onclick="currentSlide(17, 'module4-tutorial2')"></span> <span class="dot" onclick="currentSlide(18, 'module4-tutorial2')"></span> <span class="dot" onclick="currentSlide(19, 'module4-tutorial2')"></span> <span class="dot" onclick="currentSlide(20, 'module4-tutorial2')"></span> <span class="dot" onclick="currentSlide(21, 'module4-tutorial2')"></span> <span class="dot" onclick="currentSlide(22, 'module4-tutorial2')"></span> <span class="dot" onclick="currentSlide(23, 'module4-tutorial2')"></span>
+                        </div>
+                    </div>
                 </div>
-                <button class="carousel-btn prev" onclick="moveCarousel(-1, 'module4-tutorial2')">‹</button>
-                <button class="carousel-btn next" onclick="moveCarousel(1, 'module4-tutorial2')">›</button>
-                <div class="carousel-dots">
-                    <span class="dot active" onclick="currentSlide(1, 'module4-tutorial2')" data-slide="1"></span>
-                    <span class="dot" onclick="currentSlide(2, 'module4-tutorial2')" data-slide="2"></span>
-                    <span class="dot" onclick="currentSlide(3, 'module4-tutorial2')" data-slide="3"></span>
-                    <span class="dot" onclick="currentSlide(4, 'module4-tutorial2')" data-slide="4"></span>
-                    <span class="dot" onclick="currentSlide(5, 'module4-tutorial2')" data-slide="5"></span>
-                    <span class="dot" onclick="currentSlide(6, 'module4-tutorial2')" data-slide="6"></span>
-                    <span class="dot" onclick="currentSlide(7, 'module4-tutorial2')" data-slide="7"></span>
-                    <span class="dot" onclick="currentSlide(8, 'module4-tutorial2')" data-slide="8"></span>
-                    <span class="dot" onclick="currentSlide(9, 'module4-tutorial2')" data-slide="9"></span>
-                    <span class="dot" onclick="currentSlide(10, 'module4-tutorial2')" data-slide="10"></span>
-                    <span class="dot" onclick="currentSlide(11, 'module4-tutorial2')" data-slide="11"></span>
-                    <span class="dot" onclick="currentSlide(12, 'module4-tutorial2')" data-slide="12"></span>
-                    <span class="dot" onclick="currentSlide(13, 'module4-tutorial2')" data-slide="13"></span>
-                    <span class="dot" onclick="currentSlide(14, 'module4-tutorial2')" data-slide="14"></span>
-                    <span class="dot" onclick="currentSlide(15, 'module4-tutorial2')" data-slide="15"></span>
-                    <span class="dot" onclick="currentSlide(16, 'module4-tutorial2')" data-slide="16"></span>
-                    <span class="dot" onclick="currentSlide(17, 'module4-tutorial2')" data-slide="17"></span>
-                    <span class="dot" onclick="currentSlide(18, 'module4-tutorial2')" data-slide="18"></span>
-                    <span class="dot" onclick="currentSlide(19, 'module4-tutorial2')" data-slide="19"></span>
-                    <span class="dot" onclick="currentSlide(20, 'module4-tutorial2')" data-slide="20"></span>
-                    <span class="dot" onclick="currentSlide(21, 'module4-tutorial2')" data-slide="21"></span>
-                    <span class="dot" onclick="currentSlide(22, 'module4-tutorial2')" data-slide="22"></span>
-                    <span class="dot" onclick="currentSlide(23, 'module4-tutorial2')" data-slide="23"></span>
+
+                <h3>Tutorial 3: Inserindo objetos 3D</h3>
+                <div class="tutorial-section">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/yoIG8nQJ7Qo" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    
+
+                    <div class="carousel-container">
+                        <div class="carousel" id="carousel-module4-tutorial3">
+
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/97_img.png" alt="Passo 1">
+                            <div class="carousel-text">
+                                <p>Adicionando objetos da biblioteca do Frame. 
+1.1 Clique em Creation menu. 
+ 
+ 
+1.2 Clique em 3D Model.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/98_img.png" alt="Passo 2">
+                            <div class="carousel-text">
+                                <p>Passo 2</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/99_img.png" alt="Passo 3">
+                            <div class="carousel-text">
+                                <p>1.3 Utilize o menu lateral para inserir objetos da biblioteca. 
+ 
+ 
+1.4 Navegue pelas categorias da biblioteca de modelos do Frame em Library.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/100_img.png" alt="Passo 4">
+                            <div class="carousel-text">
+                                <p>Passo 4</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/101_img.png" alt="Passo 5">
+                            <div class="carousel-text">
+                                <p>1.5 Clique no modelo escolhido. 
+ 
+ 
+1.6 Aguarde ser carregado.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/102_img.png" alt="Passo 6">
+                            <div class="carousel-text">
+                                <p>Passo 6</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/103_img.png" alt="Passo 7">
+                            <div class="carousel-text">
+                                <p>1.7 Clique no ícone de edição. 
+ 
+ 
+1.8 Clique no objeto. Observação: Além de definir a posição do objeto, com o modo de edição ativado, você também pode configurar outras coisas do objeto no menu lateral. Se ele levará para outro destino com um link (que pode ser outro ambiente do Frame ou um link para um conteúdo). Se deseja travar sua posição ou ainda se deseja que ele fique rotacionando.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/104_img.png" alt="Passo 8">
+                            <div class="carousel-text">
+                                <p>Passo 8</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/105_img.png" alt="Passo 9">
+                            <div class="carousel-text">
+                                <p>1.9 Posicione seu objeto. 
+ GIF 
+ 
+Pronto! Inserimos nosso primeiro objeto, agora veremos os outros métodos. Inserido objeto diretamente do Sketchfab. 
+Observação: 
+No módulo anterior, você aprendeu a buscar e a baixar modelos na plataforma do Sketchfab. O Frame oferece uma conexão direta com aquela plataforma, tornando o processo de importação mais prático, como verá a seguir. Mas nem sempre você irá encontrar todos os modelos disponíveis na plataforma. Se preferir você ainda poderá buscar seus objetos na plataforma do Sketchfab, baixá-los e fazer os uploads no Frame (no próximo tópico você aprenderá como fazer uploads de objetos 3D).</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/106_img.png" alt="Passo 10">
+                            <div class="carousel-text">
+                                <p>2.1 Clique em Creation menu. 
+ 
+ 
+2.2 Clique em 3D Model.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/107_img.png" alt="Passo 11">
+                            <div class="carousel-text">
+                                <p>Passo 11</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/108_img.png" alt="Passo 12">
+                            <div class="carousel-text">
+                                <p>2.3 Clique em Sketchfab.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/109_img.png" alt="Passo 13">
+                            <div class="carousel-text">
+                                <p>2.4 Cliquem Log in.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/110_img.png" alt="Passo 14">
+                            <div class="carousel-text">
+                                <p>2.5 Faça seu login no popup  
+ 
+ 
+2.6 Busque pelo modelo que deseja na barra de busca “search”. 
+ 
+ 
+2.7 Navegue até encontrar o modelo desejado. 
+ 
+ 
+2.8 Selecione o modelo desejado. 
+ 
+ 
+2.9 Clique em Import. 
+ 
+ 
+2.10 Defina suas opções de importação. 
+ 
+Observação: A opção “Optimize”, que se refere ao modelo já ser otimizado para o Frame, é sempre bom ser ativada. Em alguns casos a otimização apresentará problemas e você poderá fazer a importação sem otimização. 
+A segunda opção,”Add to this Frame”, é para importar no ambiente que estamos editando. Se não deixar essa opção ativada, você pode clicar em Add model e achar que ocorreu algum erro, mas o que aconteceu de fato que o objeto foi para o inventario e não para o ambiente.  
+E a terceira opção, "Add to inventory" se refere a adicionar ao seu inventório, para que você não necessite buscar no Sketchfab no futuro. 
+ 
+2.11 Clique em Add model. 
+ 
+ 
+2.12 Aguarde a optimização e carregamento. 
+ 
+Observação: o tempo de carregamento varia de acordo com tamanho do moledo importado. 
+[IMAG116B]</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/111_img.png" alt="Passo 15">
+                            <div class="carousel-text">
+                                <p>Passo 15</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/112_img.png" alt="Passo 16">
+                            <div class="carousel-text">
+                                <p>Passo 16</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/113_img.png" alt="Passo 17">
+                            <div class="carousel-text">
+                                <p>Passo 17</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/114_img.png" alt="Passo 18">
+                            <div class="carousel-text">
+                                <p>Passo 18</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/115_img.png" alt="Passo 19">
+                            <div class="carousel-text">
+                                <p>Passo 19</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/116_img.png" alt="Passo 20">
+                            <div class="carousel-text">
+                                <p>Passo 20</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/117_img.png" alt="Passo 21">
+                            <div class="carousel-text">
+                                <p>Passo 21</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/118_img.png" alt="Passo 22">
+                            <div class="carousel-text">
+                                <p>2.13 Clique no ícone de edição. 
+ 
+ 
+2.14  Clique no objeto</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/119_img.png" alt="Passo 23">
+                            <div class="carousel-text">
+                                <p>Passo 23</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/120_img.png" alt="Passo 24">
+                            <div class="carousel-text">
+                                <p>Observação: Algumas vezes o objeto importado possui o centro de edição deslocado do objeto, mas isso não altera sua edição. 
+ 
+2.15 Posicione, rotacione e/ou redimensione  o objeto no local desejado. 
+ 
+ 
+Pronto! 
+Agora você também já sabe importar objetos 3D diretamente do Skechtfab para o Frame.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/121_img.png" alt="Passo 25">
+                            <div class="carousel-text">
+                                <p>Importando objetos criados e/ou curados por você. 
+Com este método, você poderá fazer upload, tanto de modelos que você tenha criado / capturado quanto de arquivos que tenha obtido de outras fontes externas. Lembre-se que o formato dos obetos 3D aceito pelo Frame é o GLB. 
+ 
+3.1 Clique em Creation menu. 3.2 Clique em 3D Model.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/122_img.png" alt="Passo 26">
+                            <div class="carousel-text">
+                                <p>Passo 26</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/123_img.png" alt="Passo 27">
+                            <div class="carousel-text">
+                                <p>3.3 Clique em Upload</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/124_img.png" alt="Passo 28">
+                            <div class="carousel-text">
+                                <p>3.4 Selecione o arquivo do modelo no seu navegador de arquivos (formato GLB) 
+ 
+ 
+3.5 Defina suas opções de carregamento do modelo.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/125_img.png" alt="Passo 29">
+                            <div class="carousel-text">
+                                <p>Passo 29</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/126_img.png" alt="Passo 30">
+                            <div class="carousel-text">
+                                <p>3.6 Clique em Add Model. 
+ 
+ 
+3.7 Aguarde o processamento.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/127_img.png" alt="Passo 31">
+                            <div class="carousel-text">
+                                <p>Passo 31</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/128_img.png" alt="Passo 32">
+                            <div class="carousel-text">
+                                <p>3.8 Clique no ícone de edição. 
+ 
+ 
+3.9  Clique no objeto.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/129_img.png" alt="Passo 33">
+                            <div class="carousel-text">
+                                <p>Passo 33</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/130_img.png" alt="Passo 34">
+                            <div class="carousel-text">
+                                <p>3.10 Posicione, rotacione e/ou redimensione o objeto. 
+ 
+ GIF Observação: Neste exemplo deixamos a função de Spin no objeto como exemplo, na quale o objeto fica girando, sendo que você pode escolher em torno de qual eixo deseja que ele rotacione. 
+ 
+ 
+ 
+Dica Extra: 
+Você pode clicar e segurar o objeto com seu mouse e caminhar com seu avatar caso queira levar o objeto para algum local mais distante.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/131_img.png" alt="Passo 35">
+                            <div class="carousel-text">
+                                <p>GIF</p>
+                            </div>
+                        </div>
+                        </div>
+                        <button class="carousel-btn prev" onclick="moveCarousel(-1, 'module4-tutorial3')">&lt;</button>
+                        <button class="carousel-btn next" onclick="moveCarousel(1, 'module4-tutorial3')">&gt;</button>
+                        <div class="carousel-dots">
+                            <span class="dot active" onclick="currentSlide(1, 'module4-tutorial3')"></span> <span class="dot" onclick="currentSlide(2, 'module4-tutorial3')"></span> <span class="dot" onclick="currentSlide(3, 'module4-tutorial3')"></span> <span class="dot" onclick="currentSlide(4, 'module4-tutorial3')"></span> <span class="dot" onclick="currentSlide(5, 'module4-tutorial3')"></span> <span class="dot" onclick="currentSlide(6, 'module4-tutorial3')"></span> <span class="dot" onclick="currentSlide(7, 'module4-tutorial3')"></span> <span class="dot" onclick="currentSlide(8, 'module4-tutorial3')"></span> <span class="dot" onclick="currentSlide(9, 'module4-tutorial3')"></span> <span class="dot" onclick="currentSlide(10, 'module4-tutorial3')"></span> <span class="dot" onclick="currentSlide(11, 'module4-tutorial3')"></span> <span class="dot" onclick="currentSlide(12, 'module4-tutorial3')"></span> <span class="dot" onclick="currentSlide(13, 'module4-tutorial3')"></span> <span class="dot" onclick="currentSlide(14, 'module4-tutorial3')"></span> <span class="dot" onclick="currentSlide(15, 'module4-tutorial3')"></span> <span class="dot" onclick="currentSlide(16, 'module4-tutorial3')"></span> <span class="dot" onclick="currentSlide(17, 'module4-tutorial3')"></span> <span class="dot" onclick="currentSlide(18, 'module4-tutorial3')"></span> <span class="dot" onclick="currentSlide(19, 'module4-tutorial3')"></span> <span class="dot" onclick="currentSlide(20, 'module4-tutorial3')"></span> <span class="dot" onclick="currentSlide(21, 'module4-tutorial3')"></span> <span class="dot" onclick="currentSlide(22, 'module4-tutorial3')"></span> <span class="dot" onclick="currentSlide(23, 'module4-tutorial3')"></span> <span class="dot" onclick="currentSlide(24, 'module4-tutorial3')"></span> <span class="dot" onclick="currentSlide(25, 'module4-tutorial3')"></span> <span class="dot" onclick="currentSlide(26, 'module4-tutorial3')"></span> <span class="dot" onclick="currentSlide(27, 'module4-tutorial3')"></span> <span class="dot" onclick="currentSlide(28, 'module4-tutorial3')"></span> <span class="dot" onclick="currentSlide(29, 'module4-tutorial3')"></span> <span class="dot" onclick="currentSlide(30, 'module4-tutorial3')"></span> <span class="dot" onclick="currentSlide(31, 'module4-tutorial3')"></span> <span class="dot" onclick="currentSlide(32, 'module4-tutorial3')"></span> <span class="dot" onclick="currentSlide(33, 'module4-tutorial3')"></span> <span class="dot" onclick="currentSlide(34, 'module4-tutorial3')"></span> <span class="dot" onclick="currentSlide(35, 'module4-tutorial3')"></span>
+                        </div>
+                    </div>
                 </div>
-            </div>
 
-            <hr style="margin: 40px 0; border: none; border-top: 2px solid #333;">
+                <h3>Tutorial 4: Inserindo texto</h3>
+                <div class="tutorial-section">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/fTIlUVPbfvg" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    
 
-            <h3>Tutorial 3: Inserindo objetos 3D</h3>
-            
-            <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/jVap9FbcDd0" 
-                        title="Tutorial 3: Inserindo objetos 3D"
-                        frameborder="0" 
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                        allowfullscreen>
-                </iframe>
-            </div>
+                    <div class="carousel-container">
+                        <div class="carousel" id="carousel-module4-tutorial4">
 
-            <div class="carousel-container">
-                <div class="carousel" id="carousel-module4-tutorial3">
-                    <div class="carousel-slide"><img src="images/modulo4/97_img.png" alt="Passo 1"><p>Passo 1</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/98_img.png" alt="Passo 2"><p>Passo 2</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/99_img.png" alt="Passo 3"><p>Passo 3</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/100_img.png" alt="Passo 4"><p>Passo 4</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/101_img.png" alt="Passo 5"><p>Passo 5</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/102_img.png" alt="Passo 6"><p>Passo 6</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/103_img.png" alt="Passo 7"><p>Passo 7</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/104_img.png" alt="Passo 8"><p>Passo 8</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/105_img.png" alt="Passo 9"><p>Passo 9</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/106_img.png" alt="Passo 10"><p>Passo 10</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/107_img.png" alt="Passo 11"><p>Passo 11</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/108_img.png" alt="Passo 12"><p>Passo 12</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/109_img.png" alt="Passo 13"><p>Passo 13</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/110_img.png" alt="Passo 14"><p>Passo 14</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/111_img.png" alt="Passo 15"><p>Passo 15</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/112_img.png" alt="Passo 16"><p>Passo 16</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/113_img.png" alt="Passo 17"><p>Passo 17</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/114_img.png" alt="Passo 18"><p>Passo 18</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/115_img.png" alt="Passo 19"><p>Passo 19</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/116_img.png" alt="Passo 20"><p>Passo 20</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/117_img.png" alt="Passo 21"><p>Passo 21</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/118_img.png" alt="Passo 22"><p>Passo 22</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/119_img.png" alt="Passo 23"><p>Passo 23</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/120_img.png" alt="Passo 24"><p>Passo 24</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/121_img.png" alt="Passo 25"><p>Passo 25</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/122_img.png" alt="Passo 26"><p>Passo 26</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/123_img.png" alt="Passo 27"><p>Passo 27</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/124_img.png" alt="Passo 28"><p>Passo 28</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/125_img.png" alt="Passo 29"><p>Passo 29</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/126_img.png" alt="Passo 30"><p>Passo 30</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/127_img.png" alt="Passo 31"><p>Passo 31</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/128_img.png" alt="Passo 32"><p>Passo 32</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/129_img.png" alt="Passo 33"><p>Passo 33</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/130_img.png" alt="Passo 34"><p>Passo 34</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/131_img.png" alt="Passo 35"><p>Passo 35</p></div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/132_img.png" alt="Passo 1">
+                            <div class="carousel-text">
+                                <p>Inserindo Text Label. 
+1.1 Clique em Creation menu.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/133_img.png" alt="Passo 2">
+                            <div class="carousel-text">
+                                <p>1.2 Clique em Text Label.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/134_img.png" alt="Passo 3">
+                            <div class="carousel-text">
+                                <p>Passo 3</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/135_img.png" alt="Passo 4">
+                            <div class="carousel-text">
+                                <p>1.3 Clique no ícone de edição. 
+ 
+ 
+1.4 Clique no objeto. 
+ 
+ 
+1.4 Escreva seu texto na caixa de texto. 
+ 
+Observação: O seu texto é carregado para o elemento no Frame assim que você clica fora do menu de texto. 
+ 
+1.5 Defina a cor da fonte. 
+ 
+Observação: Você pode pegar alguma cor do seu cenário clicando no ícone de conta-gotas na barra de seleção de cor. 
+ 
+1.6 Defina a cor de fundo do seu texto. 
+ 
+ 
+1.7 Retire a cor de fundo clicando em Transparent. 
+ 
+ 
+1.8 Posicione, rotacione e/ou redimensione seu texto. 
+ GIF</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/136_img.png" alt="Passo 5">
+                            <div class="carousel-text">
+                                <p>Passo 5</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/137_img.png" alt="Passo 6">
+                            <div class="carousel-text">
+                                <p>Passo 6</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/138_img.png" alt="Passo 7">
+                            <div class="carousel-text">
+                                <p>Passo 7</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/139_img.png" alt="Passo 8">
+                            <div class="carousel-text">
+                                <p>Passo 8</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/140_img.png" alt="Passo 9">
+                            <div class="carousel-text">
+                                <p>Passo 9</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/141_img.png" alt="Passo 10">
+                            <div class="carousel-text">
+                                <p>Passo 10</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/142_img.png" alt="Passo 11">
+                            <div class="carousel-text">
+                                <p>1.9 Defina as configurações do seu texto. 
+ 
+Lock Position — Travar a posição do texto. 
+Snap to Surface — Prender o texto à superfície. 
+Spin — Rotacionar.  
+Alwayes Face Camera — Texto sempre voltado para câmera do usuário.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/143_img.png" alt="Passo 12">
+                            <div class="carousel-text">
+                                <p>Inserindo Text Area. 
+2.1 Clique em Creation menu.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/144_img.png" alt="Passo 13">
+                            <div class="carousel-text">
+                                <p>2.2 Clique em Text Area 
+ 
+ 
+2.3 Clique no ícone de edição. 
+ 
+ 
+2.4 Clique no objeto. 
+ 
+ 
+2.5 Defina sua fonte. 
+ 
+Observação: Caso não esteja vendo estas opções no menu lateral, role o menu para baixo para ver mais opções. 
+ 
+2.6 Defina seu título. 
+ 
+ 
+2.7 Escreva seu texto. 
+ 
+ 
+2.8 Defina a orientação do texto.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/145_img.png" alt="Passo 14">
+                            <div class="carousel-text">
+                                <p>Passo 14</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/146_img.png" alt="Passo 15">
+                            <div class="carousel-text">
+                                <p>Passo 15</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/147_img.png" alt="Passo 16">
+                            <div class="carousel-text">
+                                <p>Passo 16</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/148_img.png" alt="Passo 17">
+                            <div class="carousel-text">
+                                <p>Passo 17</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/149_img.png" alt="Passo 18">
+                            <div class="carousel-text">
+                                <p>Passo 18</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/150_img.png" alt="Passo 19">
+                            <div class="carousel-text">
+                                <p>Passo 19</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/151_img.png" alt="Passo 20">
+                            <div class="carousel-text">
+                                <p>2.9 Configure as cores de fonte e de fundo. 
+ 
+ 
+2.10 Posicione, rotacione e/ou redimensione seu texto. 
+ 
+ 
+2.11 Defina as configurações desejadas. 
+ 
+Observação: Além das configurações que vimos em text label, também é possível adicionar uma imagem de cabeçalho na text area, mudar o tamanho da fonte, ou configurar para o texto desaparecer a uma certa distância. Teste e veja o que acha dessas possibilidades.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/152_img.png" alt="Passo 21">
+                            <div class="carousel-text">
+                                <p>Passo 21</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/153_img.png" alt="Passo 22">
+                            <div class="carousel-text">
+                                <p>Passo 22</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/154_img.png" alt="Passo 23">
+                            <div class="carousel-text">
+                                <p>Adicionando 3D text. 
+3.1 Clique em Creation menu.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/155_img.png" alt="Passo 24">
+                            <div class="carousel-text">
+                                <p>3.2 Clique em 3DText. 
+ 
+ 
+ 
+3.3 Clique no ícone de edição. 
+ 
+ 
+3.4 Clique no objeto. 
+ 
+ 
+3.5 Escreva seu texto.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/156_img.png" alt="Passo 25">
+                            <div class="carousel-text">
+                                <p>Passo 25</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/157_img.png" alt="Passo 26">
+                            <div class="carousel-text">
+                                <p>Passo 26</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/158_img.png" alt="Passo 27">
+                            <div class="carousel-text">
+                                <p>Passo 27</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/159_img.png" alt="Passo 28">
+                            <div class="carousel-text">
+                                <p>Passo 28</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/160_img.png" alt="Passo 29">
+                            <div class="carousel-text">
+                                <p>3.6 Defina sua fonte. 
+ 
+ 
+3.7 Defina a profundidade do texto.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/161_img.png" alt="Passo 30">
+                            <div class="carousel-text">
+                                <p>Passo 30</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/162_img.png" alt="Passo 31">
+                            <div class="carousel-text">
+                                <p>3.8 Configure suas preferências. 
+ 
+ 
+3.9 Selecione um efeito para o texto.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/163_img.png" alt="Passo 32">
+                            <div class="carousel-text">
+                                <p>Passo 32</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/164_img.png" alt="Passo 33">
+                            <div class="carousel-text">
+                                <p>3.10 Clique em Set para ver o resultado. 
+ 
+Muito bem! 
+Agora você já sabe tudo que precisa para enriquecer sua exposição com texto.</p>
+                            </div>
+                        </div>
+                        </div>
+                        <button class="carousel-btn prev" onclick="moveCarousel(-1, 'module4-tutorial4')">&lt;</button>
+                        <button class="carousel-btn next" onclick="moveCarousel(1, 'module4-tutorial4')">&gt;</button>
+                        <div class="carousel-dots">
+                            <span class="dot active" onclick="currentSlide(1, 'module4-tutorial4')"></span> <span class="dot" onclick="currentSlide(2, 'module4-tutorial4')"></span> <span class="dot" onclick="currentSlide(3, 'module4-tutorial4')"></span> <span class="dot" onclick="currentSlide(4, 'module4-tutorial4')"></span> <span class="dot" onclick="currentSlide(5, 'module4-tutorial4')"></span> <span class="dot" onclick="currentSlide(6, 'module4-tutorial4')"></span> <span class="dot" onclick="currentSlide(7, 'module4-tutorial4')"></span> <span class="dot" onclick="currentSlide(8, 'module4-tutorial4')"></span> <span class="dot" onclick="currentSlide(9, 'module4-tutorial4')"></span> <span class="dot" onclick="currentSlide(10, 'module4-tutorial4')"></span> <span class="dot" onclick="currentSlide(11, 'module4-tutorial4')"></span> <span class="dot" onclick="currentSlide(12, 'module4-tutorial4')"></span> <span class="dot" onclick="currentSlide(13, 'module4-tutorial4')"></span> <span class="dot" onclick="currentSlide(14, 'module4-tutorial4')"></span> <span class="dot" onclick="currentSlide(15, 'module4-tutorial4')"></span> <span class="dot" onclick="currentSlide(16, 'module4-tutorial4')"></span> <span class="dot" onclick="currentSlide(17, 'module4-tutorial4')"></span> <span class="dot" onclick="currentSlide(18, 'module4-tutorial4')"></span> <span class="dot" onclick="currentSlide(19, 'module4-tutorial4')"></span> <span class="dot" onclick="currentSlide(20, 'module4-tutorial4')"></span> <span class="dot" onclick="currentSlide(21, 'module4-tutorial4')"></span> <span class="dot" onclick="currentSlide(22, 'module4-tutorial4')"></span> <span class="dot" onclick="currentSlide(23, 'module4-tutorial4')"></span> <span class="dot" onclick="currentSlide(24, 'module4-tutorial4')"></span> <span class="dot" onclick="currentSlide(25, 'module4-tutorial4')"></span> <span class="dot" onclick="currentSlide(26, 'module4-tutorial4')"></span> <span class="dot" onclick="currentSlide(27, 'module4-tutorial4')"></span> <span class="dot" onclick="currentSlide(28, 'module4-tutorial4')"></span> <span class="dot" onclick="currentSlide(29, 'module4-tutorial4')"></span> <span class="dot" onclick="currentSlide(30, 'module4-tutorial4')"></span> <span class="dot" onclick="currentSlide(31, 'module4-tutorial4')"></span> <span class="dot" onclick="currentSlide(32, 'module4-tutorial4')"></span> <span class="dot" onclick="currentSlide(33, 'module4-tutorial4')"></span>
+                        </div>
+                    </div>
                 </div>
-                <button class="carousel-btn prev" onclick="moveCarousel(-1, 'module4-tutorial3')">‹</button>
-                <button class="carousel-btn next" onclick="moveCarousel(1, 'module4-tutorial3')">›</button>
-                <div class="carousel-dots">
-                    <span class="dot active" onclick="currentSlide(1, 'module4-tutorial3')" data-slide="1"></span>
-                    <span class="dot" onclick="currentSlide(2, 'module4-tutorial3')" data-slide="2"></span>
-                    <span class="dot" onclick="currentSlide(3, 'module4-tutorial3')" data-slide="3"></span>
-                    <span class="dot" onclick="currentSlide(4, 'module4-tutorial3')" data-slide="4"></span>
-                    <span class="dot" onclick="currentSlide(5, 'module4-tutorial3')" data-slide="5"></span>
-                    <span class="dot" onclick="currentSlide(6, 'module4-tutorial3')" data-slide="6"></span>
-                    <span class="dot" onclick="currentSlide(7, 'module4-tutorial3')" data-slide="7"></span>
-                    <span class="dot" onclick="currentSlide(8, 'module4-tutorial3')" data-slide="8"></span>
-                    <span class="dot" onclick="currentSlide(9, 'module4-tutorial3')" data-slide="9"></span>
-                    <span class="dot" onclick="currentSlide(10, 'module4-tutorial3')" data-slide="10"></span>
-                    <span class="dot" onclick="currentSlide(11, 'module4-tutorial3')" data-slide="11"></span>
-                    <span class="dot" onclick="currentSlide(12, 'module4-tutorial3')" data-slide="12"></span>
-                    <span class="dot" onclick="currentSlide(13, 'module4-tutorial3')" data-slide="13"></span>
-                    <span class="dot" onclick="currentSlide(14, 'module4-tutorial3')" data-slide="14"></span>
-                    <span class="dot" onclick="currentSlide(15, 'module4-tutorial3')" data-slide="15"></span>
-                    <span class="dot" onclick="currentSlide(16, 'module4-tutorial3')" data-slide="16"></span>
-                    <span class="dot" onclick="currentSlide(17, 'module4-tutorial3')" data-slide="17"></span>
-                    <span class="dot" onclick="currentSlide(18, 'module4-tutorial3')" data-slide="18"></span>
-                    <span class="dot" onclick="currentSlide(19, 'module4-tutorial3')" data-slide="19"></span>
-                    <span class="dot" onclick="currentSlide(20, 'module4-tutorial3')" data-slide="20"></span>
-                    <span class="dot" onclick="currentSlide(21, 'module4-tutorial3')" data-slide="21"></span>
-                    <span class="dot" onclick="currentSlide(22, 'module4-tutorial3')" data-slide="22"></span>
-                    <span class="dot" onclick="currentSlide(23, 'module4-tutorial3')" data-slide="23"></span>
-                    <span class="dot" onclick="currentSlide(24, 'module4-tutorial3')" data-slide="24"></span>
-                    <span class="dot" onclick="currentSlide(25, 'module4-tutorial3')" data-slide="25"></span>
-                    <span class="dot" onclick="currentSlide(26, 'module4-tutorial3')" data-slide="26"></span>
-                    <span class="dot" onclick="currentSlide(27, 'module4-tutorial3')" data-slide="27"></span>
-                    <span class="dot" onclick="currentSlide(28, 'module4-tutorial3')" data-slide="28"></span>
-                    <span class="dot" onclick="currentSlide(29, 'module4-tutorial3')" data-slide="29"></span>
-                    <span class="dot" onclick="currentSlide(30, 'module4-tutorial3')" data-slide="30"></span>
-                    <span class="dot" onclick="currentSlide(31, 'module4-tutorial3')" data-slide="31"></span>
-                    <span class="dot" onclick="currentSlide(32, 'module4-tutorial3')" data-slide="32"></span>
-                    <span class="dot" onclick="currentSlide(33, 'module4-tutorial3')" data-slide="33"></span>
-                    <span class="dot" onclick="currentSlide(34, 'module4-tutorial3')" data-slide="34"></span>
-                    <span class="dot" onclick="currentSlide(35, 'module4-tutorial3')" data-slide="35"></span>
+
+                <h3>Tutorial 5: Áudios e Enquetes</h3>
+                <div class="tutorial-section">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/Zb3ZzOqW7Ew" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    
+
+                    <div class="carousel-container">
+                        <div class="carousel" id="carousel-module4-tutorial5">
+
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/165_img.png" alt="Passo 1">
+                            <div class="carousel-text">
+                                <p>Passo 1</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/166_img.png" alt="Passo 2">
+                            <div class="carousel-text">
+                                <p>1.2 Clique em Audio. 
+ 
+ 
+1.3 Selecione o arquivo no seu navegador de arquivos. 
+ 
+Observação: Arquivos de MP3.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/167_img.png" alt="Passo 3">
+                            <div class="carousel-text">
+                                <p>Passo 3</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/168_img.png" alt="Passo 4">
+                            <div class="carousel-text">
+                                <p>1.4 Aguarde o áudio carregar na plataforma.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/169_img.png" alt="Passo 5">
+                            <div class="carousel-text">
+                                <p>Observação: O áudio irá ser inserido na forma de uma pequena esfera destacada na imagem. Você pode posicioná-lo como outros elementos 3D. A posição é importante caso você defina áudio posicional e para acionar os comados de volume, play e stop. Caso não selecionar a opção de áudio posicional, todos do ambiente o escutarão em qualquer parte do ambiente em que se encontrarem. 
+ 
+ 
+1.5 Clique no ícone de lápis para editar o elemento.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/170_img.png" alt="Passo 6">
+                            <div class="carousel-text">
+                                <p>1.6 Clique na esfera do áudio. 
+ 
+ 
+ 
+1.7 Clique em positional audio para definir a distância que será possível escutar a música. 
+ 
+ 
+Observação: Clicando no ícone de “olho”, você consegue ver a que distância será possível ouvir seu áudio. O círculo branco delimita a região onde se poderá ouvir completamente o áudio, os círculos pretos, onde se poderá ouvir moderadamente. Os avatares que estiverem posicionados fora desses círculos não ouvirão o áudio. 
+ 
+1.8 Defina as opções de áudio.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/171_img.png" alt="Passo 7">
+                            <div class="carousel-text">
+                                <p>Passo 7</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/172_img.png" alt="Passo 8">
+                            <div class="carousel-text">
+                                <p>Passo 8</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/173_img.png" alt="Passo 9">
+                            <div class="carousel-text">
+                                <p>Observações: 
+1. A opção Loop define se ele irá tocar em looping e a Opção Auto Play fará com que o aúdio inicia a tocar automaticamente quando o visitante entrar na sala. 
+2. A opção Hide at a distance define se a esfera do áudio irá sumir a uma distância, mas não se o áudio será audível ou não. Isso é definido no positional áudio. Inserindo uma enquete. 2.1 Clique em Creation menu</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/174_img.png" alt="Passo 10">
+                            <div class="carousel-text">
+                                <p>2.2 Clique em Poll. 
+ 
+ 
+ 
+2.3 Escreva a pergunta da sua enquete. 
+ 
+ 
+ 
+2.4 Escreva as alternativas de resposta da enquete. 
+ 
+ 
+2.5 Clique em Add choice para adicionar mais alternativas. 
+ 
+ 
+ 
+2.6 Defina se a enquete será anônima. 
+ 
+ 
+2.7 Clique em Ask audience para lançar a enquete.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/175_img.png" alt="Passo 11">
+                            <div class="carousel-text">
+                                <p>Passo 11</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/176_img.png" alt="Passo 12">
+                            <div class="carousel-text">
+                                <p>Passo 12</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/177_img.png" alt="Passo 13">
+                            <div class="carousel-text">
+                                <p>Passo 13</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/178_img.png" alt="Passo 14">
+                            <div class="carousel-text">
+                                <p>Passo 14</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/179_img.png" alt="Passo 15">
+                            <div class="carousel-text">
+                                <p>Passo 15</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/180_img.png" alt="Passo 16">
+                            <div class="carousel-text">
+                                <p>Passo 16</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/181_img.png" alt="Passo 17">
+                            <div class="carousel-text">
+                                <p>2.8 Posicione a enquete no local desejado. 
+ 
+ 
+2.9 Confira as alternativas da sua enquete.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/182_img.png" alt="Passo 18">
+                            <div class="carousel-text">
+                                <p>Passo 18</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/183_img.png" alt="Passo 19">
+                            <div class="carousel-text">
+                                <p>2.10 Veja o resultado das respostas da enquete no gráfico de pizza. Agora você sabe inserir novos tipos de conteúdos interativos na sua exposição!</p>
+                            </div>
+                        </div>
+                        </div>
+                        <button class="carousel-btn prev" onclick="moveCarousel(-1, 'module4-tutorial5')">&lt;</button>
+                        <button class="carousel-btn next" onclick="moveCarousel(1, 'module4-tutorial5')">&gt;</button>
+                        <div class="carousel-dots">
+                            <span class="dot active" onclick="currentSlide(1, 'module4-tutorial5')"></span> <span class="dot" onclick="currentSlide(2, 'module4-tutorial5')"></span> <span class="dot" onclick="currentSlide(3, 'module4-tutorial5')"></span> <span class="dot" onclick="currentSlide(4, 'module4-tutorial5')"></span> <span class="dot" onclick="currentSlide(5, 'module4-tutorial5')"></span> <span class="dot" onclick="currentSlide(6, 'module4-tutorial5')"></span> <span class="dot" onclick="currentSlide(7, 'module4-tutorial5')"></span> <span class="dot" onclick="currentSlide(8, 'module4-tutorial5')"></span> <span class="dot" onclick="currentSlide(9, 'module4-tutorial5')"></span> <span class="dot" onclick="currentSlide(10, 'module4-tutorial5')"></span> <span class="dot" onclick="currentSlide(11, 'module4-tutorial5')"></span> <span class="dot" onclick="currentSlide(12, 'module4-tutorial5')"></span> <span class="dot" onclick="currentSlide(13, 'module4-tutorial5')"></span> <span class="dot" onclick="currentSlide(14, 'module4-tutorial5')"></span> <span class="dot" onclick="currentSlide(15, 'module4-tutorial5')"></span> <span class="dot" onclick="currentSlide(16, 'module4-tutorial5')"></span> <span class="dot" onclick="currentSlide(17, 'module4-tutorial5')"></span> <span class="dot" onclick="currentSlide(18, 'module4-tutorial5')"></span> <span class="dot" onclick="currentSlide(19, 'module4-tutorial5')"></span>
+                        </div>
+                    </div>
                 </div>
-            </div>
 
-            <hr style="margin: 40px 0; border: none; border-top: 2px solid #333;">
+                <h3>Tutorial 6: Conteúdos Externos</h3>
+                <div class="tutorial-section">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/nMdPbPcQhxs" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    
 
-            <h3>Tutorial 4: Inserindo texto</h3>
-            
-            <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/oIKrDQk1_nc" 
-                        title="Tutorial 4: Inserindo texto"
-                        frameborder="0" 
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                        allowfullscreen>
-                </iframe>
-            </div>
+                    <div class="carousel-container">
+                        <div class="carousel" id="carousel-module4-tutorial6">
 
-            <div class="carousel-container">
-                <div class="carousel" id="carousel-module4-tutorial4">
-                    <div class="carousel-slide"><img src="images/modulo4/132_img.png" alt="Passo 1"><p>Passo 1</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/133_img.png" alt="Passo 2"><p>Passo 2</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/134_img.png" alt="Passo 3"><p>Passo 3</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/135_img.png" alt="Passo 4"><p>Passo 4</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/136_img.png" alt="Passo 5"><p>Passo 5</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/137_img.png" alt="Passo 6"><p>Passo 6</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/138_img.png" alt="Passo 7"><p>Passo 7</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/139_img.png" alt="Passo 8"><p>Passo 8</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/140_img.png" alt="Passo 9"><p>Passo 9</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/141_img.png" alt="Passo 10"><p>Passo 10</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/142_img.png" alt="Passo 11"><p>Passo 11</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/143_img.png" alt="Passo 12"><p>Passo 12</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/144_img.png" alt="Passo 13"><p>Passo 13</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/145_img.png" alt="Passo 14"><p>Passo 14</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/146_img.png" alt="Passo 15"><p>Passo 15</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/147_img.png" alt="Passo 16"><p>Passo 16</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/148_img.png" alt="Passo 17"><p>Passo 17</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/149_img.png" alt="Passo 18"><p>Passo 18</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/150_img.png" alt="Passo 19"><p>Passo 19</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/151_img.png" alt="Passo 20"><p>Passo 20</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/152_img.png" alt="Passo 21"><p>Passo 21</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/153_img.png" alt="Passo 22"><p>Passo 22</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/154_img.png" alt="Passo 23"><p>Passo 23</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/155_img.png" alt="Passo 24"><p>Passo 24</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/156_img.png" alt="Passo 25"><p>Passo 25</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/157_img.png" alt="Passo 26"><p>Passo 26</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/158_img.png" alt="Passo 27"><p>Passo 27</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/159_img.png" alt="Passo 28"><p>Passo 28</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/160_img.png" alt="Passo 29"><p>Passo 29</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/161_img.png" alt="Passo 30"><p>Passo 30</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/162_img.png" alt="Passo 31"><p>Passo 31</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/163_img.png" alt="Passo 32"><p>Passo 32</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/164_img.png" alt="Passo 33"><p>Passo 33</p></div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/184_img.png" alt="Passo 1">
+                            <div class="carousel-text">
+                                <p>Compartilhando sua apresentação ou alguma janela do seu computador. 
+1.1 Clique em Creation menu</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/185_img.png" alt="Passo 2">
+                            <div class="carousel-text">
+                                <p>1.2 Clique em streaming screen. 
+ 
+ 
+1.3 Aguarde o carregamento do elemento.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/186_img.png" alt="Passo 3">
+                            <div class="carousel-text">
+                                <p>Passo 3</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/187_img.png" alt="Passo 4">
+                            <div class="carousel-text">
+                                <p>1.4 Clique no ícone de lápis para editar o elemento. 
+ 
+ 
+1.5 Posicione o compartilhamento no local desejado. 
+ 
+ 
+1.6 Configure as opções do compartilhamento de tela. 
+ 
+Observação:  As opções são as seguintes. 
+ 
+Lock Position | Travar a posição  
+Snap to surface | Fixar na superfície 
+Make private to zone | Definir uma área de privacidade para o compartilhamento (não utilizado neste curso). 
+Green Screen | Tela verde, utilizado para compartilhamento da webcam com fundo verde. Para dar efeito especial de substituição do fundo. 
+Hide at a distance | Esconder a uma distância. 
+Positional Audio | Áudio posicional, para compartilhamento de tela com áudio e da webcam. 
+ 
+1.7 Clique em Share Screen para compartilhar sua tela.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/188_img.png" alt="Passo 5">
+                            <div class="carousel-text">
+                                <p>Passo 5</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/189_img.png" alt="Passo 6">
+                            <div class="carousel-text">
+                                <p>Passo 6</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/190_img.png" alt="Passo 7">
+                            <div class="carousel-text">
+                                <p>Passo 7</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/191_img.png" alt="Passo 8">
+                            <div class="carousel-text">
+                                <p>1.8 Selecione o que irá compartilhar no menu pop up. 
+ 
+Observação: Você pode selecionar compartilhar uma guia do seu navegador, uma janela de algum programa que esteja usando ou então a toda a tela do seu computador. Não se esqueça de ativar o compartilhamento de áudio, se desejado. 
+ 
+ 
+1.9 Clique em Share webcam para compartilhar sua câmera. 
+  
+Observação: Os usuários podem clicar em Zoom In para ver seu compartilhamento em tela cheia.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/192_img.png" alt="Passo 9">
+                            <div class="carousel-text">
+                                <p>Passo 9</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/193_img.png" alt="Passo 10">
+                            <div class="carousel-text">
+                                <p>Passo 10</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/194_img.png" alt="Passo 11">
+                            <div class="carousel-text">
+                                <p>2. Inserindo Quadro branco. 
+2.1 Clique em Creation menu 
+ 
+ 
+2.2 Clique em Whiteboard. 
+ 
+2.3 Aguarde o carregamento do elemento.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/195_img.png" alt="Passo 12">
+                            <div class="carousel-text">
+                                <p>Passo 12</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/196_img.png" alt="Passo 13">
+                            <div class="carousel-text">
+                                <p>Passo 13</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/197_img.png" alt="Passo 14">
+                            <div class="carousel-text">
+                                <p>2.4 Clique no ícone de lápis para editar o elemento.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/198_img.png" alt="Passo 15">
+                            <div class="carousel-text">
+                                <p>2.5  Posicione o quadro no local desejado. 
+ 
+2.6 Clique em Start Drawing para começar a desenhar no quadro.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/199_img.png" alt="Passo 16">
+                            <div class="carousel-text">
+                                <p>2.7 Clique em Zoom para ver o quadro em tela cheia. 
+ 
+ 
+2.8 Defina o tamanho do traço na barra lateral e as cores no menu de cores a esquerda.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/200_img.png" alt="Passo 17">
+                            <div class="carousel-text">
+                                <p>Passo 17</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/201_img.png" alt="Passo 18">
+                            <div class="carousel-text">
+                                <p>2.9 Clique em Download para baixar o que foi desenhado no quadro. Inserindo uma página da Internet | Web Browser 
+3.1 Clique em Creation menu</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/202_img.png" alt="Passo 19">
+                            <div class="carousel-text">
+                                <p>3.2 Clique em Web browser (Navegador da Internet).</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/203_img.png" alt="Passo 20">
+                            <div class="carousel-text">
+                                <p>3.3 Aguarde o carregamento do elemento. 
+ 
+ 
+3.4 Selecione o Kiosk Mode para ocultar a barra de busca do navegador. 
+ 
+ 
+3.5 Defina quem tem autorização para manipulá-lo. 
+ 
+Observação: Na aula seguinte você vai aprender a dar permissões e definir papéis de membros e administradores. É possível permitir que os visitantes tenham controle total do navegador (opção Anyone), mas analise caso-a-caso a conveniência ou não de fazê-lo. 
+ 
+3.6 Insira o link (URL) da página desejada. 
+ 
+ 
+3.7 Clique em Create browser 
+ 
+ 
+ 
+3.8 Clique no ícone de lápis para editar o elemento. 
+ 
+ 
+3.9 Posicione o navegador no local desejado. 
+ 
+ 
+3.10 Interaja com o navegador simultaneamente com os outros usuários. Meus parabéns! 
+ 
+Agora você já sabe tudo que precisa (e mais um pouco!) para criar sua exposição interativa e imersiva no metaverso.  
+ 
+Na próxima aula vamos ver como definir papéis e funções para melhorar a qualidade e segurança do seu metaverso. Você já está apto(a) para criar a sua exposição! Crie sua exposição e compartilhe o link conosco na próxima atividade prática.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/204_img.png" alt="Passo 21">
+                            <div class="carousel-text">
+                                <p>Passo 21</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/205_img.png" alt="Passo 22">
+                            <div class="carousel-text">
+                                <p>Passo 22</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/206_img.png" alt="Passo 23">
+                            <div class="carousel-text">
+                                <p>Passo 23</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/207_img.png" alt="Passo 24">
+                            <div class="carousel-text">
+                                <p>Passo 24</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/208_img.png" alt="Passo 25">
+                            <div class="carousel-text">
+                                <p>Passo 25</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/209_img.png" alt="Passo 26">
+                            <div class="carousel-text">
+                                <p>Passo 26</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/210_img.png" alt="Passo 27">
+                            <div class="carousel-text">
+                                <p>Passo 27</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/211_img.png" alt="Passo 28">
+                            <div class="carousel-text">
+                                <p>Passo 28</p>
+                            </div>
+                        </div>
+                        </div>
+                        <button class="carousel-btn prev" onclick="moveCarousel(-1, 'module4-tutorial6')">&lt;</button>
+                        <button class="carousel-btn next" onclick="moveCarousel(1, 'module4-tutorial6')">&gt;</button>
+                        <div class="carousel-dots">
+                            <span class="dot active" onclick="currentSlide(1, 'module4-tutorial6')"></span> <span class="dot" onclick="currentSlide(2, 'module4-tutorial6')"></span> <span class="dot" onclick="currentSlide(3, 'module4-tutorial6')"></span> <span class="dot" onclick="currentSlide(4, 'module4-tutorial6')"></span> <span class="dot" onclick="currentSlide(5, 'module4-tutorial6')"></span> <span class="dot" onclick="currentSlide(6, 'module4-tutorial6')"></span> <span class="dot" onclick="currentSlide(7, 'module4-tutorial6')"></span> <span class="dot" onclick="currentSlide(8, 'module4-tutorial6')"></span> <span class="dot" onclick="currentSlide(9, 'module4-tutorial6')"></span> <span class="dot" onclick="currentSlide(10, 'module4-tutorial6')"></span> <span class="dot" onclick="currentSlide(11, 'module4-tutorial6')"></span> <span class="dot" onclick="currentSlide(12, 'module4-tutorial6')"></span> <span class="dot" onclick="currentSlide(13, 'module4-tutorial6')"></span> <span class="dot" onclick="currentSlide(14, 'module4-tutorial6')"></span> <span class="dot" onclick="currentSlide(15, 'module4-tutorial6')"></span> <span class="dot" onclick="currentSlide(16, 'module4-tutorial6')"></span> <span class="dot" onclick="currentSlide(17, 'module4-tutorial6')"></span> <span class="dot" onclick="currentSlide(18, 'module4-tutorial6')"></span> <span class="dot" onclick="currentSlide(19, 'module4-tutorial6')"></span> <span class="dot" onclick="currentSlide(20, 'module4-tutorial6')"></span> <span class="dot" onclick="currentSlide(21, 'module4-tutorial6')"></span> <span class="dot" onclick="currentSlide(22, 'module4-tutorial6')"></span> <span class="dot" onclick="currentSlide(23, 'module4-tutorial6')"></span> <span class="dot" onclick="currentSlide(24, 'module4-tutorial6')"></span> <span class="dot" onclick="currentSlide(25, 'module4-tutorial6')"></span> <span class="dot" onclick="currentSlide(26, 'module4-tutorial6')"></span> <span class="dot" onclick="currentSlide(27, 'module4-tutorial6')"></span> <span class="dot" onclick="currentSlide(28, 'module4-tutorial6')"></span>
+                        </div>
+                    </div>
                 </div>
-                <button class="carousel-btn prev" onclick="moveCarousel(-1, 'module4-tutorial4')">‹</button>
-                <button class="carousel-btn next" onclick="moveCarousel(1, 'module4-tutorial4')">›</button>
-                <div class="carousel-dots">
-                    <span class="dot active" onclick="currentSlide(1, 'module4-tutorial4')" data-slide="1"></span>
-                    <span class="dot" onclick="currentSlide(2, 'module4-tutorial4')" data-slide="2"></span>
-                    <span class="dot" onclick="currentSlide(3, 'module4-tutorial4')" data-slide="3"></span>
-                    <span class="dot" onclick="currentSlide(4, 'module4-tutorial4')" data-slide="4"></span>
-                    <span class="dot" onclick="currentSlide(5, 'module4-tutorial4')" data-slide="5"></span>
-                    <span class="dot" onclick="currentSlide(6, 'module4-tutorial4')" data-slide="6"></span>
-                    <span class="dot" onclick="currentSlide(7, 'module4-tutorial4')" data-slide="7"></span>
-                    <span class="dot" onclick="currentSlide(8, 'module4-tutorial4')" data-slide="8"></span>
-                    <span class="dot" onclick="currentSlide(9, 'module4-tutorial4')" data-slide="9"></span>
-                    <span class="dot" onclick="currentSlide(10, 'module4-tutorial4')" data-slide="10"></span>
-                    <span class="dot" onclick="currentSlide(11, 'module4-tutorial4')" data-slide="11"></span>
-                    <span class="dot" onclick="currentSlide(12, 'module4-tutorial4')" data-slide="12"></span>
-                    <span class="dot" onclick="currentSlide(13, 'module4-tutorial4')" data-slide="13"></span>
-                    <span class="dot" onclick="currentSlide(14, 'module4-tutorial4')" data-slide="14"></span>
-                    <span class="dot" onclick="currentSlide(15, 'module4-tutorial4')" data-slide="15"></span>
-                    <span class="dot" onclick="currentSlide(16, 'module4-tutorial4')" data-slide="16"></span>
-                    <span class="dot" onclick="currentSlide(17, 'module4-tutorial4')" data-slide="17"></span>
-                    <span class="dot" onclick="currentSlide(18, 'module4-tutorial4')" data-slide="18"></span>
-                    <span class="dot" onclick="currentSlide(19, 'module4-tutorial4')" data-slide="19"></span>
-                    <span class="dot" onclick="currentSlide(20, 'module4-tutorial4')" data-slide="20"></span>
-                    <span class="dot" onclick="currentSlide(21, 'module4-tutorial4')" data-slide="21"></span>
-                    <span class="dot" onclick="currentSlide(22, 'module4-tutorial4')" data-slide="22"></span>
-                    <span class="dot" onclick="currentSlide(23, 'module4-tutorial4')" data-slide="23"></span>
-                    <span class="dot" onclick="currentSlide(24, 'module4-tutorial4')" data-slide="24"></span>
-                    <span class="dot" onclick="currentSlide(25, 'module4-tutorial4')" data-slide="25"></span>
-                    <span class="dot" onclick="currentSlide(26, 'module4-tutorial4')" data-slide="26"></span>
-                    <span class="dot" onclick="currentSlide(27, 'module4-tutorial4')" data-slide="27"></span>
-                    <span class="dot" onclick="currentSlide(28, 'module4-tutorial4')" data-slide="28"></span>
-                    <span class="dot" onclick="currentSlide(29, 'module4-tutorial4')" data-slide="29"></span>
-                    <span class="dot" onclick="currentSlide(30, 'module4-tutorial4')" data-slide="30"></span>
-                    <span class="dot" onclick="currentSlide(31, 'module4-tutorial4')" data-slide="31"></span>
-                    <span class="dot" onclick="currentSlide(32, 'module4-tutorial4')" data-slide="32"></span>
-                    <span class="dot" onclick="currentSlide(33, 'module4-tutorial4')" data-slide="33"></span>
+
+                <h3>Tutorial 7: Configurações do Frame</h3>
+                <div class="tutorial-section">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/tPuMgQPCyOw" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    
+
+                    <div class="carousel-container">
+                        <div class="carousel" id="carousel-module4-tutorial7">
+
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/212_img.png" alt="Passo 1">
+                            <div class="carousel-text">
+                                <p>1 Clique no botão disponível na região direita acima da sua tela. 
+ 
+ 
+1.2 Clique em Frame. 
+ 
+ 
+ 
+1.3 Clique em Frame Setting 
+ 
+Observação: Dentro desse menu suspenso há coisas importantes. 
+Você pode encontrar o link para o seu metaverso, criado pelo Frame, alterar seu ambiente, ajustar permissões, convidar membros ou administradores e muitas outras coisas. Vamos mostrar o essencial, mas vale pesquisar e conhecer mais opções. 
+ 
+1.4 Clique em General 
+ 
+ 
+1.5 Defina o modo de vista padrão do seu Frame em Camera Mode Override 
+(Escolha entre: Nenhum, primeira pessoa e terceira pessoa).</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/213_img.png" alt="Passo 2">
+                            <div class="carousel-text">
+                                <p>Passo 2</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/214_img.png" alt="Passo 3">
+                            <div class="carousel-text">
+                                <p>Passo 3</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/215_img.png" alt="Passo 4">
+                            <div class="carousel-text">
+                                <p>Passo 4</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/216_img.png" alt="Passo 5">
+                            <div class="carousel-text">
+                                <p>Passo 5</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/217_img.png" alt="Passo 6">
+                            <div class="carousel-text">
+                                <p>1 Clique em Permissions And Role para definir funções e permissões. 
+ 
+  
+Observação: Isso será importante caso haja mais pessoas trabalhando com você no seu ambiente de metaverso para decidir quem pode ou não editar as coisas no seu espaço imersivo.  
+ 
+2.2 Coloque uma senha na sua sala. 
+  
+ 
+2.3 Defina sua se seu Metaverso está aberto para visitas. 
+  
+Observação: Isso pode ser útil caso esteja fazendo alterações na sala e não queira que ninguém entre. Você pode alterar isso a qualquer momento. 
+ 
+ 
+2.4 Defina quem poderá editar objetos e ativos do seu ambiente. 
+  
+ 
+2.5 Escolha a opção de Adminis para que só membros administradores editem o ambiente.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/218_img.png" alt="Passo 7">
+                            <div class="carousel-text">
+                                <p>Passo 7</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/219_img.png" alt="Passo 8">
+                            <div class="carousel-text">
+                                <p>Passo 8</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/220_img.png" alt="Passo 9">
+                            <div class="carousel-text">
+                                <p>Passo 9</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/221_img.png" alt="Passo 10">
+                            <div class="carousel-text">
+                                <p>Passo 10</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/222_img.png" alt="Passo 11">
+                            <div class="carousel-text">
+                                <p>Adicionando papéis e funções. 
+3.1 Clique em Admins no menu de Roles. 
+  
+ 
+3.2 Atribua a função de administrador escrevendo seu email no campo de texto aberto. 
+  
+ 
+3.3 Clique em Add. 
+  
+ 
+3.4 Confirme que inseriu o email correto.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/223_img.png" alt="Passo 12">
+                            <div class="carousel-text">
+                                <p>Passo 12</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/224_img.png" alt="Passo 13">
+                            <div class="carousel-text">
+                                <p>Passo 13</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/modulo4/225_img.png" alt="Passo 14">
+                            <div class="carousel-text">
+                                <p>Passo 14</p>
+                            </div>
+                        </div>
+                        </div>
+                        <button class="carousel-btn prev" onclick="moveCarousel(-1, 'module4-tutorial7')">&lt;</button>
+                        <button class="carousel-btn next" onclick="moveCarousel(1, 'module4-tutorial7')">&gt;</button>
+                        <div class="carousel-dots">
+                            <span class="dot active" onclick="currentSlide(1, 'module4-tutorial7')"></span> <span class="dot" onclick="currentSlide(2, 'module4-tutorial7')"></span> <span class="dot" onclick="currentSlide(3, 'module4-tutorial7')"></span> <span class="dot" onclick="currentSlide(4, 'module4-tutorial7')"></span> <span class="dot" onclick="currentSlide(5, 'module4-tutorial7')"></span> <span class="dot" onclick="currentSlide(6, 'module4-tutorial7')"></span> <span class="dot" onclick="currentSlide(7, 'module4-tutorial7')"></span> <span class="dot" onclick="currentSlide(8, 'module4-tutorial7')"></span> <span class="dot" onclick="currentSlide(9, 'module4-tutorial7')"></span> <span class="dot" onclick="currentSlide(10, 'module4-tutorial7')"></span> <span class="dot" onclick="currentSlide(11, 'module4-tutorial7')"></span> <span class="dot" onclick="currentSlide(12, 'module4-tutorial7')"></span> <span class="dot" onclick="currentSlide(13, 'module4-tutorial7')"></span> <span class="dot" onclick="currentSlide(14, 'module4-tutorial7')"></span>
+                        </div>
+                    </div>
                 </div>
-            </div>
 
-            <hr style="margin: 40px 0; border: none; border-top: 2px solid #333;">
-
-            <h3>Tutorial 5: Áudios e Enquetes</h3>
-            
-            <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/d_2KjOEjL88" 
-                        title="Tutorial 5: Áudios e Enquetes"
-                        frameborder="0" 
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                        allowfullscreen>
-                </iframe>
-            </div>
-
-            <div class="carousel-container">
-                <div class="carousel" id="carousel-module4-tutorial5">
-                    <div class="carousel-slide"><img src="images/modulo4/165_img.png" alt="Passo 1"><p>Passo 1</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/166_img.png" alt="Passo 2"><p>Passo 2</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/167_img.png" alt="Passo 3"><p>Passo 3</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/168_img.png" alt="Passo 4"><p>Passo 4</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/169_img.png" alt="Passo 5"><p>Passo 5</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/170_img.png" alt="Passo 6"><p>Passo 6</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/171_img.png" alt="Passo 7"><p>Passo 7</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/172_img.png" alt="Passo 8"><p>Passo 8</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/173_img.png" alt="Passo 9"><p>Passo 9</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/174_img.png" alt="Passo 10"><p>Passo 10</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/175_img.png" alt="Passo 11"><p>Passo 11</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/176_img.png" alt="Passo 12"><p>Passo 12</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/177_img.png" alt="Passo 13"><p>Passo 13</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/178_img.png" alt="Passo 14"><p>Passo 14</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/179_img.png" alt="Passo 15"><p>Passo 15</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/180_img.png" alt="Passo 16"><p>Passo 16</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/181_img.png" alt="Passo 17"><p>Passo 17</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/182_img.png" alt="Passo 18"><p>Passo 18</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/183_img.png" alt="Passo 19"><p>Passo 19</p></div>
-                </div>
-                <button class="carousel-btn prev" onclick="moveCarousel(-1, 'module4-tutorial5')">‹</button>
-                <button class="carousel-btn next" onclick="moveCarousel(1, 'module4-tutorial5')">›</button>
-                <div class="carousel-dots">
-                    <span class="dot active" onclick="currentSlide(1, 'module4-tutorial5')" data-slide="1"></span>
-                    <span class="dot" onclick="currentSlide(2, 'module4-tutorial5')" data-slide="2"></span>
-                    <span class="dot" onclick="currentSlide(3, 'module4-tutorial5')" data-slide="3"></span>
-                    <span class="dot" onclick="currentSlide(4, 'module4-tutorial5')" data-slide="4"></span>
-                    <span class="dot" onclick="currentSlide(5, 'module4-tutorial5')" data-slide="5"></span>
-                    <span class="dot" onclick="currentSlide(6, 'module4-tutorial5')" data-slide="6"></span>
-                    <span class="dot" onclick="currentSlide(7, 'module4-tutorial5')" data-slide="7"></span>
-                    <span class="dot" onclick="currentSlide(8, 'module4-tutorial5')" data-slide="8"></span>
-                    <span class="dot" onclick="currentSlide(9, 'module4-tutorial5')" data-slide="9"></span>
-                    <span class="dot" onclick="currentSlide(10, 'module4-tutorial5')" data-slide="10"></span>
-                    <span class="dot" onclick="currentSlide(11, 'module4-tutorial5')" data-slide="11"></span>
-                    <span class="dot" onclick="currentSlide(12, 'module4-tutorial5')" data-slide="12"></span>
-                    <span class="dot" onclick="currentSlide(13, 'module4-tutorial5')" data-slide="13"></span>
-                    <span class="dot" onclick="currentSlide(14, 'module4-tutorial5')" data-slide="14"></span>
-                    <span class="dot" onclick="currentSlide(15, 'module4-tutorial5')" data-slide="15"></span>
-                    <span class="dot" onclick="currentSlide(16, 'module4-tutorial5')" data-slide="16"></span>
-                    <span class="dot" onclick="currentSlide(17, 'module4-tutorial5')" data-slide="17"></span>
-                    <span class="dot" onclick="currentSlide(18, 'module4-tutorial5')" data-slide="18"></span>
-                    <span class="dot" onclick="currentSlide(19, 'module4-tutorial5')" data-slide="19"></span>
-                </div>
-            </div>
-
-            <hr style="margin: 40px 0; border: none; border-top: 2px solid #333;">
-
-            <h3>Tutorial 6: Conteúdos Externos</h3>
-            
-            <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/Y4tgdMs5C8Q" 
-                        title="Tutorial 6: Conteúdos Externos"
-                        frameborder="0" 
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                        allowfullscreen>
-                </iframe>
-            </div>
-
-            <div class="carousel-container">
-                <div class="carousel" id="carousel-module4-tutorial6">
-                    <div class="carousel-slide"><img src="images/modulo4/184_img.png" alt="Passo 1"><p>Passo 1</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/185_img.png" alt="Passo 2"><p>Passo 2</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/186_img.png" alt="Passo 3"><p>Passo 3</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/187_img.png" alt="Passo 4"><p>Passo 4</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/188_img.png" alt="Passo 5"><p>Passo 5</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/189_img.png" alt="Passo 6"><p>Passo 6</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/190_img.png" alt="Passo 7"><p>Passo 7</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/191_img.png" alt="Passo 8"><p>Passo 8</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/192_img.png" alt="Passo 9"><p>Passo 9</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/193_img.png" alt="Passo 10"><p>Passo 10</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/194_img.png" alt="Passo 11"><p>Passo 11</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/195_img.png" alt="Passo 12"><p>Passo 12</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/196_img.png" alt="Passo 13"><p>Passo 13</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/197_img.png" alt="Passo 14"><p>Passo 14</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/198_img.png" alt="Passo 15"><p>Passo 15</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/199_img.png" alt="Passo 16"><p>Passo 16</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/200_img.png" alt="Passo 17"><p>Passo 17</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/201_img.png" alt="Passo 18"><p>Passo 18</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/202_img.png" alt="Passo 19"><p>Passo 19</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/203_img.png" alt="Passo 20"><p>Passo 20</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/204_img.png" alt="Passo 21"><p>Passo 21</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/205_img.png" alt="Passo 22"><p>Passo 22</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/206_img.png" alt="Passo 23"><p>Passo 23</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/207_img.png" alt="Passo 24"><p>Passo 24</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/208_img.png" alt="Passo 25"><p>Passo 25</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/209_img.png" alt="Passo 26"><p>Passo 26</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/210_img.png" alt="Passo 27"><p>Passo 27</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/211_img.png" alt="Passo 28"><p>Passo 28</p></div>
-                </div>
-                <button class="carousel-btn prev" onclick="moveCarousel(-1, 'module4-tutorial6')">‹</button>
-                <button class="carousel-btn next" onclick="moveCarousel(1, 'module4-tutorial6')">›</button>
-                <div class="carousel-dots">
-                    <span class="dot active" onclick="currentSlide(1, 'module4-tutorial6')" data-slide="1"></span>
-                    <span class="dot" onclick="currentSlide(2, 'module4-tutorial6')" data-slide="2"></span>
-                    <span class="dot" onclick="currentSlide(3, 'module4-tutorial6')" data-slide="3"></span>
-                    <span class="dot" onclick="currentSlide(4, 'module4-tutorial6')" data-slide="4"></span>
-                    <span class="dot" onclick="currentSlide(5, 'module4-tutorial6')" data-slide="5"></span>
-                    <span class="dot" onclick="currentSlide(6, 'module4-tutorial6')" data-slide="6"></span>
-                    <span class="dot" onclick="currentSlide(7, 'module4-tutorial6')" data-slide="7"></span>
-                    <span class="dot" onclick="currentSlide(8, 'module4-tutorial6')" data-slide="8"></span>
-                    <span class="dot" onclick="currentSlide(9, 'module4-tutorial6')" data-slide="9"></span>
-                    <span class="dot" onclick="currentSlide(10, 'module4-tutorial6')" data-slide="10"></span>
-                    <span class="dot" onclick="currentSlide(11, 'module4-tutorial6')" data-slide="11"></span>
-                    <span class="dot" onclick="currentSlide(12, 'module4-tutorial6')" data-slide="12"></span>
-                    <span class="dot" onclick="currentSlide(13, 'module4-tutorial6')" data-slide="13"></span>
-                    <span class="dot" onclick="currentSlide(14, 'module4-tutorial6')" data-slide="14"></span>
-                    <span class="dot" onclick="currentSlide(15, 'module4-tutorial6')" data-slide="15"></span>
-                    <span class="dot" onclick="currentSlide(16, 'module4-tutorial6')" data-slide="16"></span>
-                    <span class="dot" onclick="currentSlide(17, 'module4-tutorial6')" data-slide="17"></span>
-                    <span class="dot" onclick="currentSlide(18, 'module4-tutorial6')" data-slide="18"></span>
-                    <span class="dot" onclick="currentSlide(19, 'module4-tutorial6')" data-slide="19"></span>
-                    <span class="dot" onclick="currentSlide(20, 'module4-tutorial6')" data-slide="20"></span>
-                    <span class="dot" onclick="currentSlide(21, 'module4-tutorial6')" data-slide="21"></span>
-                    <span class="dot" onclick="currentSlide(22, 'module4-tutorial6')" data-slide="22"></span>
-                    <span class="dot" onclick="currentSlide(23, 'module4-tutorial6')" data-slide="23"></span>
-                    <span class="dot" onclick="currentSlide(24, 'module4-tutorial6')" data-slide="24"></span>
-                    <span class="dot" onclick="currentSlide(25, 'module4-tutorial6')" data-slide="25"></span>
-                    <span class="dot" onclick="currentSlide(26, 'module4-tutorial6')" data-slide="26"></span>
-                    <span class="dot" onclick="currentSlide(27, 'module4-tutorial6')" data-slide="27"></span>
-                    <span class="dot" onclick="currentSlide(28, 'module4-tutorial6')" data-slide="28"></span>
-                </div>
-            </div>
-
-            <hr style="margin: 40px 0; border: none; border-top: 2px solid #333;">
-
-            <h3>Tutorial 7: Configurações do Frame</h3>
-            
-            <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/CtFW7HdalgQ" 
-                        title="Tutorial 7: Configurações do Frame"
-                        frameborder="0" 
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                        allowfullscreen>
-                </iframe>
-            </div>
-
-            <div class="carousel-container">
-                <div class="carousel" id="carousel-module4-tutorial7">
-                    <div class="carousel-slide"><img src="images/modulo4/212_img.png" alt="Passo 1"><p>Passo 1</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/213_img.png" alt="Passo 2"><p>Passo 2</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/214_img.png" alt="Passo 3"><p>Passo 3</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/215_img.png" alt="Passo 4"><p>Passo 4</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/216_img.png" alt="Passo 5"><p>Passo 5</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/217_img.png" alt="Passo 6"><p>Passo 6</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/218_img.png" alt="Passo 7"><p>Passo 7</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/219_img.png" alt="Passo 8"><p>Passo 8</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/220_img.png" alt="Passo 9"><p>Passo 9</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/221_img.png" alt="Passo 10"><p>Passo 10</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/222_img.png" alt="Passo 11"><p>Passo 11</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/223_img.png" alt="Passo 12"><p>Passo 12</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/224_img.png" alt="Passo 13"><p>Passo 13</p></div>
-                    <div class="carousel-slide"><img src="images/modulo4/225_img.png" alt="Passo 14"><p>Passo 14</p></div>
-                </div>
-                <button class="carousel-btn prev" onclick="moveCarousel(-1, 'module4-tutorial7')">‹</button>
-                <button class="carousel-btn next" onclick="moveCarousel(1, 'module4-tutorial7')">›</button>
-                <div class="carousel-dots">
-                    <span class="dot active" onclick="currentSlide(1, 'module4-tutorial7')" data-slide="1"></span>
-                    <span class="dot" onclick="currentSlide(2, 'module4-tutorial7')" data-slide="2"></span>
-                    <span class="dot" onclick="currentSlide(3, 'module4-tutorial7')" data-slide="3"></span>
-                    <span class="dot" onclick="currentSlide(4, 'module4-tutorial7')" data-slide="4"></span>
-                    <span class="dot" onclick="currentSlide(5, 'module4-tutorial7')" data-slide="5"></span>
-                    <span class="dot" onclick="currentSlide(6, 'module4-tutorial7')" data-slide="6"></span>
-                    <span class="dot" onclick="currentSlide(7, 'module4-tutorial7')" data-slide="7"></span>
-                    <span class="dot" onclick="currentSlide(8, 'module4-tutorial7')" data-slide="8"></span>
-                    <span class="dot" onclick="currentSlide(9, 'module4-tutorial7')" data-slide="9"></span>
-                    <span class="dot" onclick="currentSlide(10, 'module4-tutorial7')" data-slide="10"></span>
-                    <span class="dot" onclick="currentSlide(11, 'module4-tutorial7')" data-slide="11"></span>
-                    <span class="dot" onclick="currentSlide(12, 'module4-tutorial7')" data-slide="12"></span>
-                    <span class="dot" onclick="currentSlide(13, 'module4-tutorial7')" data-slide="13"></span>
-                    <span class="dot" onclick="currentSlide(14, 'module4-tutorial7')" data-slide="14"></span>
-                </div>
-            </div>
-
-            <hr style="margin: 40px 0; border: none; border-top: 2px solid #333;">
-        `
-    },
-    5: {
+            `
+        },
+        5: {
         title: "Módulo 5: Colaborar",
         icon: "🤝",
         content: `
