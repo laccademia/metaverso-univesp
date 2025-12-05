@@ -11,7 +11,7 @@ const modulesContent = {
             <h3>O que irá aprender neste módulo</h3>
             
             <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/QAcpr0176xY" 
+                <iframe src="https://www.youtube.com/embed/-xuyqhV7yGs" 
                         frameborder="0" 
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                         allowfullscreen>
@@ -106,7 +106,7 @@ const modulesContent = {
 <p>Neste módulo você verá como instalar e usar um aplicativo para capturar um objeto do espaço físico e transformá-lo em um modelo digital 3D.</p>
 
 <div class="video-container mb-4">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/bYcfYzAGRUw" title="Captura de Objetos 3D" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/k6Ml0Mwr6xI" title="Captura de Objetos 3D" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <h3>Capturando um Objeto do mundo físico</h3>
@@ -216,8 +216,8 @@ const modulesContent = {
             </div>
         </div>
     </div>
-    <button class="carousel-control-prev" onclick="moveCarousel('carousel-modulo2-parte1', -1)">‹</button>
-    <button class="carousel-control-next" onclick="moveCarousel('carousel-modulo2-parte1', 1)">›</button>
+    <button class="carousel-control-prev" onclick="moveCarousel('modulo2-parte1', -1)">‹</button>
+    <button class="carousel-control-next" onclick="moveCarousel('modulo2-parte1', 1)">›</button>
     <div class="carousel-indicators"></div>
 </div>
 
@@ -330,8 +330,8 @@ const modulesContent = {
             </div>
         </div>
     </div>
-    <button class="carousel-control-prev" onclick="moveCarousel('carousel-modulo2-parte2', -1)">‹</button>
-    <button class="carousel-control-next" onclick="moveCarousel('carousel-modulo2-parte2', 1)">›</button>
+    <button class="carousel-control-prev" onclick="moveCarousel('modulo2-parte2', -1)">‹</button>
+    <button class="carousel-control-next" onclick="moveCarousel('modulo2-parte2', 1)">›</button>
     <div class="carousel-indicators"></div>
 </div>
 `
