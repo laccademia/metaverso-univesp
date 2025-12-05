@@ -119,115 +119,128 @@ const modulesContent = {
     <iframe width="560" height="315" src="https://www.youtube.com/embed/k6Ml0Mwr6xI" title="Tutorial: Capturando um Objeto" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-<div class="carousel" id="carousel-modulo2-parte1">
-    <div class="carousel-inner">
-        <div class="carousel-item active">
+<div class="tutorial-carousel">
+    <div class="carousel-container">
+        <div class="carousel-slide active">
             <img src="images/modulo2/08_img.png" alt="Obtenha o Luma AI">
-            <div class="carousel-text">
+            <div class="carousel-caption">
                 <h4>1. Obtenha o Luma</h4>
                 <p>Baixe o Luma AI no seu celular.</p>
             </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-slide">
             <img src="images/modulo2/09_img.jpg" alt="Baixe o aplicativo">
-            <div class="carousel-text">
+            <div class="carousel-caption">
                 <h4>2. Baixe o aplicativo</h4>
                 <p>Baixe o aplicativo Luma AI na sua loja de apps (disponível para iOS e Android). Este aplicativo usa inteligência artificial para transformar objetos reais em modelos 3D.</p>
             </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-slide">
             <img src="images/modulo2/10_img.png" alt="Comece uma captura - Create">
-            <div class="carousel-text">
+            <div class="carousel-caption">
                 <h4>3. Comece uma captura - Create</h4>
                 <p>Clique em Create no ícone de "+".</p>
             </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-slide">
             <img src="images/modulo2/11_img.png" alt="Escolha Captura Guiada">
-            <div class="carousel-text">
+            <div class="carousel-caption">
                 <h4>4. Escolha Captura Guiada</h4>
                 <p>Clique em Guided para fazer uma captura Guiada.</p>
             </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-slide">
             <img src="images/modulo2/12_img.png" alt="Parametrize - Clique no objeto">
-            <div class="carousel-text">
+            <div class="carousel-caption">
                 <h4>5. Parametrize - Clique no objeto</h4>
                 <p>Clique no objeto que deseja capturar.</p>
             </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-slide">
             <img src="images/modulo2/13_img.png" alt="Centralize o círculo">
-            <div class="carousel-text">
+            <div class="carousel-caption">
                 <h4>6. Centralize o círculo</h4>
                 <p>Centralize o círculo no objeto que fará a captura. Observação: Você pode clicar quantas vezes forem necessárias para alinhar o círculo abaixo do objeto e também fazer um movimento de pinça com os dedos para aumentar e diminuir o círculo conforme o tamanho do objeto.</p>
             </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-slide">
             <img src="images/modulo2/14_img.png" alt="Finalize a parametrização">
-            <div class="carousel-text">
+            <div class="carousel-caption">
                 <h4>7. Finalize a parametrização</h4>
                 <p>Clique em Scan para finalizar a parametrização do domo.</p>
             </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-slide">
             <img src="images/modulo2/15_img.png" alt="Confira o domo">
-            <div class="carousel-text">
+            <div class="carousel-caption">
                 <h4>8. Confira o domo</h4>
                 <p>Confira se o domo envolve todo o objeto que será capturado.</p>
             </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-slide">
             <img src="images/modulo2/16.png" alt="Circule o objeto">
-            <div class="carousel-text">
+            <div class="carousel-caption">
                 <h4>9. Circule o objeto</h4>
                 <p>Circule o objeto com seu celular para fazer a captura dos diversos pontos de vista.</p>
             </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-slide">
             <img src="images/modulo2/17_img.png" alt="Cubra toda a superfície">
-            <div class="carousel-text">
+            <div class="carousel-caption">
                 <h4>10. Cubra toda a superfície</h4>
                 <p>Cubra toda a superfície do domo. Observação: Note que o domo muda de cor uma vez que já passou por aquele ponto de vista.</p>
             </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-slide">
             <img src="images/modulo2/18_img.png" alt="Finalize a captura">
-            <div class="carousel-text">
+            <div class="carousel-caption">
                 <h4>11. Finalize a captura</h4>
                 <p>Clique Finish após cobrir todos os ângulos do objeto. Observação: O aplicativo pode finalizar a captura automaticamente se detectar que o domo foi coberto por inteiro.</p>
             </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-slide">
             <img src="images/modulo2/19_img.png" alt="Nomeie a captura">
-            <div class="carousel-text">
+            <div class="carousel-caption">
                 <h4>12. Nomeie a captura</h4>
                 <p>Nomeie a captura que realizou.</p>
             </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-slide">
             <img src="images/modulo2/20_img.png" alt="Crie o modelo">
-            <div class="carousel-text">
+            <div class="carousel-caption">
                 <h4>13. Crie o modelo</h4>
                 <p>Clique em Create.</p>
             </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-slide">
             <img src="images/modulo2/21_img.png" alt="Aguarde o processamento">
-            <div class="carousel-text">
+            <div class="carousel-caption">
                 <h4>14. Aguarde o processamento</h4>
                 <p>Espere o carregamento das imagens com o aplicativo aberto. Depois que o Uploading acabar, o aplicativo iniciará o processamento das imagens. O processamento pode ser feito em segundo plano. Esse processamento pode levar um tempo longo, chegando eventualmente a várias horas. Você pode fechar o aplicativo e reabri-lo periodicamente para checar se o processo foi completado. Não é preciso esperar a finalização do processamento de um objeto para capturar outro.</p>
             </div>
         </div>
     </div>
-    <button class="carousel-control-prev" onclick="moveCarousel('modulo2-parte1', -1)">‹</button>
-    <button class="carousel-control-next" onclick="moveCarousel('modulo2-parte1', 1)">›</button>
-    <div class="carousel-indicators"></div>
+    <button class="carousel-btn prev" onclick="moveCarousel(-1, 'module2-tutorial1')">&lt;</button>
+    <button class="carousel-btn next" onclick="moveCarousel(1, 'module2-tutorial1')">&gt;</button>
+    <div class="carousel-dots">
+        <span class="dot active" onclick="currentSlide(1, 'module2-tutorial1')"></span>
+        <span class="dot" onclick="currentSlide(2, 'module2-tutorial1')"></span>
+        <span class="dot" onclick="currentSlide(3, 'module2-tutorial1')"></span>
+        <span class="dot" onclick="currentSlide(4, 'module2-tutorial1')"></span>
+        <span class="dot" onclick="currentSlide(5, 'module2-tutorial1')"></span>
+        <span class="dot" onclick="currentSlide(6, 'module2-tutorial1')"></span>
+        <span class="dot" onclick="currentSlide(7, 'module2-tutorial1')"></span>
+        <span class="dot" onclick="currentSlide(8, 'module2-tutorial1')"></span>
+        <span class="dot" onclick="currentSlide(9, 'module2-tutorial1')"></span>
+        <span class="dot" onclick="currentSlide(10, 'module2-tutorial1')"></span>
+        <span class="dot" onclick="currentSlide(11, 'module2-tutorial1')"></span>
+        <span class="dot" onclick="currentSlide(12, 'module2-tutorial1')"></span>
+        <span class="dot" onclick="currentSlide(13, 'module2-tutorial1')"></span>
+        <span class="dot" onclick="currentSlide(14, 'module2-tutorial1')"></span>
+    </div>
 </div>
 
-<p class="text-center mt-4"><strong>Pronto, você finalizou sua primeira captura!</strong></p>
-
-<hr class="my-5">
+<p><strong>Pronto, você finalizou sua primeira captura!</strong></p>
 
 <h3>Baixando e Utilizando o Modelo 3D Criado</h3>
 
@@ -244,99 +257,112 @@ const modulesContent = {
 <p>Acompanhe esses passos pelo vídeo a seguir ou pelo tutorial textual após o vídeo.</p>
 
 <div class="video-container mb-4">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/2c52OgEJH3E" title="Tutorial: Baixando e utilizando o modelo 3D" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/2c52OgEJH3E" title="Tutorial: Baixando e Utilizando" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-<div class="carousel" id="carousel-modulo2-parte2">
-    <div class="carousel-inner">
-        <div class="carousel-item active">
+<div class="tutorial-carousel">
+    <div class="carousel-container">
+        <div class="carousel-slide active">
             <img src="images/modulo2/22_img.png" alt="Acesse sua biblioteca">
-            <div class="carousel-text">
+            <div class="carousel-caption">
                 <h4>1. Acesse sua biblioteca</h4>
                 <p>Acesse sua biblioteca de captações Library.</p>
             </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-slide">
             <img src="images/modulo2/23_img.png" alt="Clique no objeto">
-            <div class="carousel-text">
+            <div class="carousel-caption">
                 <h4>2. Clique no objeto</h4>
                 <p>Clique no objeto que deseja ver.</p>
             </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-slide">
             <img src="images/modulo2/24_img.png" alt="Espere o carregamento">
-            <div class="carousel-text">
+            <div class="carousel-caption">
                 <h4>3. Espere o carregamento</h4>
                 <p>Espere o carregamento do objeto.</p>
             </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-slide">
             <img src="images/modulo2/26_img.png" alt="Visualize em Magic View">
-            <div class="carousel-text">
+            <div class="carousel-caption">
                 <h4>4. Visualize em Magic View</h4>
                 <p>Clique e arraste para ver os vários ângulos do objeto. Observação: Este é o modo de visualização do próprio aplicativo, por este denominado de "Magic View", no qual você já pode experimentar ver o objeto em 3D sob qualquer ângulo. Para visualizar e manipular o objeto fora do aplicativo, será necessário baixar o modelo 3D do objeto e carregá-lo em outras ferramentas, como será mostrado adiante. Para uma visualização não interativa, a aplicação também gera um vídeo do objeto que você pode ver clicando no ícone de Play.</p>
             </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-slide">
             <img src="images/modulo2/27_img.png" alt="Compartilhe o Magic View - Parte 1">
-            <div class="carousel-text">
+            <div class="carousel-caption">
                 <h4>5. Compartilhe o Magic View - Parte 1</h4>
                 <p>Compartilhe o Magic View do seu objeto.</p>
             </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-slide">
             <img src="images/modulo2/28_img.png" alt="Compartilhe o Magic View - Parte 2">
-            <div class="carousel-text">
+            <div class="carousel-caption">
                 <h4>6. Compartilhe o Magic View - Parte 2</h4>
                 <p>Você pode compartilhar o link do Magic View com outras pessoas para que elas visualizem seu modelo 3D.</p>
             </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-slide">
             <img src="images/modulo2/30_img.png" alt="Faça o download">
-            <div class="carousel-text">
+            <div class="carousel-caption">
                 <h4>7. Faça o download</h4>
                 <p>Faça o download do objeto 3D.</p>
             </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-slide">
             <img src="images/modulo2/31_img.png" alt="AR View - Clique em AR View">
-            <div class="carousel-text">
+            <div class="carousel-caption">
                 <h4>8. AR View - Clique em AR View</h4>
                 <p>Faça a visualização em realidade aumentada. Clique em AR View.</p>
             </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-slide">
             <img src="images/modulo2/32_img.png" alt="AR View - Mire a superfície">
-            <div class="carousel-text">
+            <div class="carousel-caption">
                 <h4>9. AR View - Mire a superfície</h4>
                 <p>Mire seu celular sobre a superfície que quer projetar o Objeto capturado.</p>
             </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-slide">
             <img src="images/modulo2/33_img.png" alt="AR View - Projete o objeto">
-            <div class="carousel-text">
+            <div class="carousel-caption">
                 <h4>10. AR View - Projete o objeto</h4>
                 <p>Clique na superfície para projetar o objeto.</p>
             </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-slide">
             <img src="images/modulo2/34_img.png" alt="AR View - Redimensione">
-            <div class="carousel-text">
+            <div class="carousel-caption">
                 <h4>11. AR View - Redimensione</h4>
                 <p>Clique com dois dedos no objeto e redimensione fazendo movimento de pinça com os dedos.</p>
             </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-slide">
             <img src="images/modulo2/35_img.png" alt="AR View - Caminhe pelo ambiente">
-            <div class="carousel-text">
+            <div class="carousel-caption">
                 <h4>12. AR View - Caminhe pelo ambiente</h4>
                 <p>Caminhe pelo ambiente para ter uma visualização em Realidade aumentada completa.</p>
             </div>
         </div>
     </div>
-    <button class="carousel-control-prev" onclick="moveCarousel('modulo2-parte2', -1)">‹</button>
-    <button class="carousel-control-next" onclick="moveCarousel('modulo2-parte2', 1)">›</button>
-    <div class="carousel-indicators"></div>
+    <button class="carousel-btn prev" onclick="moveCarousel(-1, 'module2-tutorial2')">&lt;</button>
+    <button class="carousel-btn next" onclick="moveCarousel(1, 'module2-tutorial2')">&gt;</button>
+    <div class="carousel-dots">
+        <span class="dot active" onclick="currentSlide(1, 'module2-tutorial2')"></span>
+        <span class="dot" onclick="currentSlide(2, 'module2-tutorial2')"></span>
+        <span class="dot" onclick="currentSlide(3, 'module2-tutorial2')"></span>
+        <span class="dot" onclick="currentSlide(4, 'module2-tutorial2')"></span>
+        <span class="dot" onclick="currentSlide(5, 'module2-tutorial2')"></span>
+        <span class="dot" onclick="currentSlide(6, 'module2-tutorial2')"></span>
+        <span class="dot" onclick="currentSlide(7, 'module2-tutorial2')"></span>
+        <span class="dot" onclick="currentSlide(8, 'module2-tutorial2')"></span>
+        <span class="dot" onclick="currentSlide(9, 'module2-tutorial2')"></span>
+        <span class="dot" onclick="currentSlide(10, 'module2-tutorial2')"></span>
+        <span class="dot" onclick="currentSlide(11, 'module2-tutorial2')"></span>
+        <span class="dot" onclick="currentSlide(12, 'module2-tutorial2')"></span>
+    </div>
 </div>
 `
     },
