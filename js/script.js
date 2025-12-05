@@ -760,18 +760,19 @@ function updateCarouselIndicators(moduleId) {
     if (!carousel) return;
     
     const slides = carousel.querySelectorAll('.carousel-slide');
-    const indicators = carousel.querySelector('.carousel-indicators');
+    const dotsContainer = carousel.querySelector('.carousel-dots');
     
-    if (!indicators) return;
+    if (!dotsContainer) return;
     
-    // Clear and rebuild indicators
-    indicators.innerHTML = '';
+    // Atualizar apenas as classes dos dots existentes ao invés de recriar
+    const dots = dotsContainer.querySelectorAll('.dot');
     
-    slides.forEach((slide, index) => {
-        const dot = document.createElement('span');
-        dot.className = 'dot' + (index === currentSlideIndex[moduleId] ? ' active' : '');
-        dot.onclick = () => goToSlide(index, moduleId);
-        indicators.appendChild(dot);
+    dots.forEach((dot, index) => {
+        if (index === currentSlideIndex[moduleId]) {
+            dot.classList.add('active');
+        } else {
+            dot.classList.remove('active');
+        }
     });
 }
 
