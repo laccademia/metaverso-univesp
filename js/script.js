@@ -378,7 +378,8 @@ const modulesContent = {
             <h3>O que irá aprender neste módulo</h3>
             
             <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/VIDEO_ID" 
+                <iframe src="https://www.youtube.com/embed/wlFGoC7_UYM" 
+                        title="Curar e Recriar"
                         frameborder="0" 
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                         allowfullscreen>
