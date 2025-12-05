@@ -517,9 +517,45 @@ const modulesContent = {
                     <div class="carousel-slide"><img src="images/modulo4/72_img.png" alt="Passo 34"><p>Passo 34</p></div>
                     <div class="carousel-slide"><img src="images/modulo4/73_img.png" alt="Passo 35"><p>Passo 35</p></div>
                 </div>
-                <button class="carousel-button prev" onclick="moveCarousel(-1, 'module4-tutorial1')">‹</button>
-                <button class="carousel-button next" onclick="moveCarousel(1, 'module4-tutorial1')">›</button>
-                <div class="carousel-dots" id="dots-module4-tutorial1"></div>
+                <button class="carousel-btn prev" onclick="moveCarousel(-1, 'module4-tutorial1')">‹</button>
+                <button class="carousel-btn next" onclick="moveCarousel(1, 'module4-tutorial1')">›</button>
+                <div class="carousel-dots">
+                    <span class="dot active" onclick="currentSlide(1, 'module4-tutorial1')" data-slide="1"></span>
+                    <span class="dot" onclick="currentSlide(2, 'module4-tutorial1')" data-slide="2"></span>
+                    <span class="dot" onclick="currentSlide(3, 'module4-tutorial1')" data-slide="3"></span>
+                    <span class="dot" onclick="currentSlide(4, 'module4-tutorial1')" data-slide="4"></span>
+                    <span class="dot" onclick="currentSlide(5, 'module4-tutorial1')" data-slide="5"></span>
+                    <span class="dot" onclick="currentSlide(6, 'module4-tutorial1')" data-slide="6"></span>
+                    <span class="dot" onclick="currentSlide(7, 'module4-tutorial1')" data-slide="7"></span>
+                    <span class="dot" onclick="currentSlide(8, 'module4-tutorial1')" data-slide="8"></span>
+                    <span class="dot" onclick="currentSlide(9, 'module4-tutorial1')" data-slide="9"></span>
+                    <span class="dot" onclick="currentSlide(10, 'module4-tutorial1')" data-slide="10"></span>
+                    <span class="dot" onclick="currentSlide(11, 'module4-tutorial1')" data-slide="11"></span>
+                    <span class="dot" onclick="currentSlide(12, 'module4-tutorial1')" data-slide="12"></span>
+                    <span class="dot" onclick="currentSlide(13, 'module4-tutorial1')" data-slide="13"></span>
+                    <span class="dot" onclick="currentSlide(14, 'module4-tutorial1')" data-slide="14"></span>
+                    <span class="dot" onclick="currentSlide(15, 'module4-tutorial1')" data-slide="15"></span>
+                    <span class="dot" onclick="currentSlide(16, 'module4-tutorial1')" data-slide="16"></span>
+                    <span class="dot" onclick="currentSlide(17, 'module4-tutorial1')" data-slide="17"></span>
+                    <span class="dot" onclick="currentSlide(18, 'module4-tutorial1')" data-slide="18"></span>
+                    <span class="dot" onclick="currentSlide(19, 'module4-tutorial1')" data-slide="19"></span>
+                    <span class="dot" onclick="currentSlide(20, 'module4-tutorial1')" data-slide="20"></span>
+                    <span class="dot" onclick="currentSlide(21, 'module4-tutorial1')" data-slide="21"></span>
+                    <span class="dot" onclick="currentSlide(22, 'module4-tutorial1')" data-slide="22"></span>
+                    <span class="dot" onclick="currentSlide(23, 'module4-tutorial1')" data-slide="23"></span>
+                    <span class="dot" onclick="currentSlide(24, 'module4-tutorial1')" data-slide="24"></span>
+                    <span class="dot" onclick="currentSlide(25, 'module4-tutorial1')" data-slide="25"></span>
+                    <span class="dot" onclick="currentSlide(26, 'module4-tutorial1')" data-slide="26"></span>
+                    <span class="dot" onclick="currentSlide(27, 'module4-tutorial1')" data-slide="27"></span>
+                    <span class="dot" onclick="currentSlide(28, 'module4-tutorial1')" data-slide="28"></span>
+                    <span class="dot" onclick="currentSlide(29, 'module4-tutorial1')" data-slide="29"></span>
+                    <span class="dot" onclick="currentSlide(30, 'module4-tutorial1')" data-slide="30"></span>
+                    <span class="dot" onclick="currentSlide(31, 'module4-tutorial1')" data-slide="31"></span>
+                    <span class="dot" onclick="currentSlide(32, 'module4-tutorial1')" data-slide="32"></span>
+                    <span class="dot" onclick="currentSlide(33, 'module4-tutorial1')" data-slide="33"></span>
+                    <span class="dot" onclick="currentSlide(34, 'module4-tutorial1')" data-slide="34"></span>
+                    <span class="dot" onclick="currentSlide(35, 'module4-tutorial1')" data-slide="35"></span>
+                </div>
             </div>
 
             <hr style="margin: 40px 0; border: none; border-top: 2px solid #333;">
@@ -561,9 +597,33 @@ const modulesContent = {
                     <div class="carousel-slide"><img src="images/modulo4/95_img.png" alt="Passo 22"><p>Passo 22</p></div>
                     <div class="carousel-slide"><img src="images/modulo4/96_img.png" alt="Passo 23"><p>Passo 23</p></div>
                 </div>
-                <button class="carousel-button prev" onclick="moveCarousel(-1, 'module4-tutorial2')">‹</button>
-                <button class="carousel-button next" onclick="moveCarousel(1, 'module4-tutorial2')">›</button>
-                <div class="carousel-dots" id="dots-module4-tutorial2"></div>
+                <button class="carousel-btn prev" onclick="moveCarousel(-1, 'module4-tutorial2')">‹</button>
+                <button class="carousel-btn next" onclick="moveCarousel(1, 'module4-tutorial2')">›</button>
+                <div class="carousel-dots">
+                    <span class="dot active" onclick="currentSlide(1, 'module4-tutorial2')" data-slide="1"></span>
+                    <span class="dot" onclick="currentSlide(2, 'module4-tutorial2')" data-slide="2"></span>
+                    <span class="dot" onclick="currentSlide(3, 'module4-tutorial2')" data-slide="3"></span>
+                    <span class="dot" onclick="currentSlide(4, 'module4-tutorial2')" data-slide="4"></span>
+                    <span class="dot" onclick="currentSlide(5, 'module4-tutorial2')" data-slide="5"></span>
+                    <span class="dot" onclick="currentSlide(6, 'module4-tutorial2')" data-slide="6"></span>
+                    <span class="dot" onclick="currentSlide(7, 'module4-tutorial2')" data-slide="7"></span>
+                    <span class="dot" onclick="currentSlide(8, 'module4-tutorial2')" data-slide="8"></span>
+                    <span class="dot" onclick="currentSlide(9, 'module4-tutorial2')" data-slide="9"></span>
+                    <span class="dot" onclick="currentSlide(10, 'module4-tutorial2')" data-slide="10"></span>
+                    <span class="dot" onclick="currentSlide(11, 'module4-tutorial2')" data-slide="11"></span>
+                    <span class="dot" onclick="currentSlide(12, 'module4-tutorial2')" data-slide="12"></span>
+                    <span class="dot" onclick="currentSlide(13, 'module4-tutorial2')" data-slide="13"></span>
+                    <span class="dot" onclick="currentSlide(14, 'module4-tutorial2')" data-slide="14"></span>
+                    <span class="dot" onclick="currentSlide(15, 'module4-tutorial2')" data-slide="15"></span>
+                    <span class="dot" onclick="currentSlide(16, 'module4-tutorial2')" data-slide="16"></span>
+                    <span class="dot" onclick="currentSlide(17, 'module4-tutorial2')" data-slide="17"></span>
+                    <span class="dot" onclick="currentSlide(18, 'module4-tutorial2')" data-slide="18"></span>
+                    <span class="dot" onclick="currentSlide(19, 'module4-tutorial2')" data-slide="19"></span>
+                    <span class="dot" onclick="currentSlide(20, 'module4-tutorial2')" data-slide="20"></span>
+                    <span class="dot" onclick="currentSlide(21, 'module4-tutorial2')" data-slide="21"></span>
+                    <span class="dot" onclick="currentSlide(22, 'module4-tutorial2')" data-slide="22"></span>
+                    <span class="dot" onclick="currentSlide(23, 'module4-tutorial2')" data-slide="23"></span>
+                </div>
             </div>
 
             <hr style="margin: 40px 0; border: none; border-top: 2px solid #333;">
@@ -617,9 +677,45 @@ const modulesContent = {
                     <div class="carousel-slide"><img src="images/modulo4/130_img.png" alt="Passo 34"><p>Passo 34</p></div>
                     <div class="carousel-slide"><img src="images/modulo4/131_img.png" alt="Passo 35"><p>Passo 35</p></div>
                 </div>
-                <button class="carousel-button prev" onclick="moveCarousel(-1, 'module4-tutorial3')">‹</button>
-                <button class="carousel-button next" onclick="moveCarousel(1, 'module4-tutorial3')">›</button>
-                <div class="carousel-dots" id="dots-module4-tutorial3"></div>
+                <button class="carousel-btn prev" onclick="moveCarousel(-1, 'module4-tutorial3')">‹</button>
+                <button class="carousel-btn next" onclick="moveCarousel(1, 'module4-tutorial3')">›</button>
+                <div class="carousel-dots">
+                    <span class="dot active" onclick="currentSlide(1, 'module4-tutorial3')" data-slide="1"></span>
+                    <span class="dot" onclick="currentSlide(2, 'module4-tutorial3')" data-slide="2"></span>
+                    <span class="dot" onclick="currentSlide(3, 'module4-tutorial3')" data-slide="3"></span>
+                    <span class="dot" onclick="currentSlide(4, 'module4-tutorial3')" data-slide="4"></span>
+                    <span class="dot" onclick="currentSlide(5, 'module4-tutorial3')" data-slide="5"></span>
+                    <span class="dot" onclick="currentSlide(6, 'module4-tutorial3')" data-slide="6"></span>
+                    <span class="dot" onclick="currentSlide(7, 'module4-tutorial3')" data-slide="7"></span>
+                    <span class="dot" onclick="currentSlide(8, 'module4-tutorial3')" data-slide="8"></span>
+                    <span class="dot" onclick="currentSlide(9, 'module4-tutorial3')" data-slide="9"></span>
+                    <span class="dot" onclick="currentSlide(10, 'module4-tutorial3')" data-slide="10"></span>
+                    <span class="dot" onclick="currentSlide(11, 'module4-tutorial3')" data-slide="11"></span>
+                    <span class="dot" onclick="currentSlide(12, 'module4-tutorial3')" data-slide="12"></span>
+                    <span class="dot" onclick="currentSlide(13, 'module4-tutorial3')" data-slide="13"></span>
+                    <span class="dot" onclick="currentSlide(14, 'module4-tutorial3')" data-slide="14"></span>
+                    <span class="dot" onclick="currentSlide(15, 'module4-tutorial3')" data-slide="15"></span>
+                    <span class="dot" onclick="currentSlide(16, 'module4-tutorial3')" data-slide="16"></span>
+                    <span class="dot" onclick="currentSlide(17, 'module4-tutorial3')" data-slide="17"></span>
+                    <span class="dot" onclick="currentSlide(18, 'module4-tutorial3')" data-slide="18"></span>
+                    <span class="dot" onclick="currentSlide(19, 'module4-tutorial3')" data-slide="19"></span>
+                    <span class="dot" onclick="currentSlide(20, 'module4-tutorial3')" data-slide="20"></span>
+                    <span class="dot" onclick="currentSlide(21, 'module4-tutorial3')" data-slide="21"></span>
+                    <span class="dot" onclick="currentSlide(22, 'module4-tutorial3')" data-slide="22"></span>
+                    <span class="dot" onclick="currentSlide(23, 'module4-tutorial3')" data-slide="23"></span>
+                    <span class="dot" onclick="currentSlide(24, 'module4-tutorial3')" data-slide="24"></span>
+                    <span class="dot" onclick="currentSlide(25, 'module4-tutorial3')" data-slide="25"></span>
+                    <span class="dot" onclick="currentSlide(26, 'module4-tutorial3')" data-slide="26"></span>
+                    <span class="dot" onclick="currentSlide(27, 'module4-tutorial3')" data-slide="27"></span>
+                    <span class="dot" onclick="currentSlide(28, 'module4-tutorial3')" data-slide="28"></span>
+                    <span class="dot" onclick="currentSlide(29, 'module4-tutorial3')" data-slide="29"></span>
+                    <span class="dot" onclick="currentSlide(30, 'module4-tutorial3')" data-slide="30"></span>
+                    <span class="dot" onclick="currentSlide(31, 'module4-tutorial3')" data-slide="31"></span>
+                    <span class="dot" onclick="currentSlide(32, 'module4-tutorial3')" data-slide="32"></span>
+                    <span class="dot" onclick="currentSlide(33, 'module4-tutorial3')" data-slide="33"></span>
+                    <span class="dot" onclick="currentSlide(34, 'module4-tutorial3')" data-slide="34"></span>
+                    <span class="dot" onclick="currentSlide(35, 'module4-tutorial3')" data-slide="35"></span>
+                </div>
             </div>
 
             <hr style="margin: 40px 0; border: none; border-top: 2px solid #333;">
@@ -671,9 +767,43 @@ const modulesContent = {
                     <div class="carousel-slide"><img src="images/modulo4/163_img.png" alt="Passo 32"><p>Passo 32</p></div>
                     <div class="carousel-slide"><img src="images/modulo4/164_img.png" alt="Passo 33"><p>Passo 33</p></div>
                 </div>
-                <button class="carousel-button prev" onclick="moveCarousel(-1, 'module4-tutorial4')">‹</button>
-                <button class="carousel-button next" onclick="moveCarousel(1, 'module4-tutorial4')">›</button>
-                <div class="carousel-dots" id="dots-module4-tutorial4"></div>
+                <button class="carousel-btn prev" onclick="moveCarousel(-1, 'module4-tutorial4')">‹</button>
+                <button class="carousel-btn next" onclick="moveCarousel(1, 'module4-tutorial4')">›</button>
+                <div class="carousel-dots">
+                    <span class="dot active" onclick="currentSlide(1, 'module4-tutorial4')" data-slide="1"></span>
+                    <span class="dot" onclick="currentSlide(2, 'module4-tutorial4')" data-slide="2"></span>
+                    <span class="dot" onclick="currentSlide(3, 'module4-tutorial4')" data-slide="3"></span>
+                    <span class="dot" onclick="currentSlide(4, 'module4-tutorial4')" data-slide="4"></span>
+                    <span class="dot" onclick="currentSlide(5, 'module4-tutorial4')" data-slide="5"></span>
+                    <span class="dot" onclick="currentSlide(6, 'module4-tutorial4')" data-slide="6"></span>
+                    <span class="dot" onclick="currentSlide(7, 'module4-tutorial4')" data-slide="7"></span>
+                    <span class="dot" onclick="currentSlide(8, 'module4-tutorial4')" data-slide="8"></span>
+                    <span class="dot" onclick="currentSlide(9, 'module4-tutorial4')" data-slide="9"></span>
+                    <span class="dot" onclick="currentSlide(10, 'module4-tutorial4')" data-slide="10"></span>
+                    <span class="dot" onclick="currentSlide(11, 'module4-tutorial4')" data-slide="11"></span>
+                    <span class="dot" onclick="currentSlide(12, 'module4-tutorial4')" data-slide="12"></span>
+                    <span class="dot" onclick="currentSlide(13, 'module4-tutorial4')" data-slide="13"></span>
+                    <span class="dot" onclick="currentSlide(14, 'module4-tutorial4')" data-slide="14"></span>
+                    <span class="dot" onclick="currentSlide(15, 'module4-tutorial4')" data-slide="15"></span>
+                    <span class="dot" onclick="currentSlide(16, 'module4-tutorial4')" data-slide="16"></span>
+                    <span class="dot" onclick="currentSlide(17, 'module4-tutorial4')" data-slide="17"></span>
+                    <span class="dot" onclick="currentSlide(18, 'module4-tutorial4')" data-slide="18"></span>
+                    <span class="dot" onclick="currentSlide(19, 'module4-tutorial4')" data-slide="19"></span>
+                    <span class="dot" onclick="currentSlide(20, 'module4-tutorial4')" data-slide="20"></span>
+                    <span class="dot" onclick="currentSlide(21, 'module4-tutorial4')" data-slide="21"></span>
+                    <span class="dot" onclick="currentSlide(22, 'module4-tutorial4')" data-slide="22"></span>
+                    <span class="dot" onclick="currentSlide(23, 'module4-tutorial4')" data-slide="23"></span>
+                    <span class="dot" onclick="currentSlide(24, 'module4-tutorial4')" data-slide="24"></span>
+                    <span class="dot" onclick="currentSlide(25, 'module4-tutorial4')" data-slide="25"></span>
+                    <span class="dot" onclick="currentSlide(26, 'module4-tutorial4')" data-slide="26"></span>
+                    <span class="dot" onclick="currentSlide(27, 'module4-tutorial4')" data-slide="27"></span>
+                    <span class="dot" onclick="currentSlide(28, 'module4-tutorial4')" data-slide="28"></span>
+                    <span class="dot" onclick="currentSlide(29, 'module4-tutorial4')" data-slide="29"></span>
+                    <span class="dot" onclick="currentSlide(30, 'module4-tutorial4')" data-slide="30"></span>
+                    <span class="dot" onclick="currentSlide(31, 'module4-tutorial4')" data-slide="31"></span>
+                    <span class="dot" onclick="currentSlide(32, 'module4-tutorial4')" data-slide="32"></span>
+                    <span class="dot" onclick="currentSlide(33, 'module4-tutorial4')" data-slide="33"></span>
+                </div>
             </div>
 
             <hr style="margin: 40px 0; border: none; border-top: 2px solid #333;">
@@ -711,9 +841,29 @@ const modulesContent = {
                     <div class="carousel-slide"><img src="images/modulo4/182_img.png" alt="Passo 18"><p>Passo 18</p></div>
                     <div class="carousel-slide"><img src="images/modulo4/183_img.png" alt="Passo 19"><p>Passo 19</p></div>
                 </div>
-                <button class="carousel-button prev" onclick="moveCarousel(-1, 'module4-tutorial5')">‹</button>
-                <button class="carousel-button next" onclick="moveCarousel(1, 'module4-tutorial5')">›</button>
-                <div class="carousel-dots" id="dots-module4-tutorial5"></div>
+                <button class="carousel-btn prev" onclick="moveCarousel(-1, 'module4-tutorial5')">‹</button>
+                <button class="carousel-btn next" onclick="moveCarousel(1, 'module4-tutorial5')">›</button>
+                <div class="carousel-dots">
+                    <span class="dot active" onclick="currentSlide(1, 'module4-tutorial5')" data-slide="1"></span>
+                    <span class="dot" onclick="currentSlide(2, 'module4-tutorial5')" data-slide="2"></span>
+                    <span class="dot" onclick="currentSlide(3, 'module4-tutorial5')" data-slide="3"></span>
+                    <span class="dot" onclick="currentSlide(4, 'module4-tutorial5')" data-slide="4"></span>
+                    <span class="dot" onclick="currentSlide(5, 'module4-tutorial5')" data-slide="5"></span>
+                    <span class="dot" onclick="currentSlide(6, 'module4-tutorial5')" data-slide="6"></span>
+                    <span class="dot" onclick="currentSlide(7, 'module4-tutorial5')" data-slide="7"></span>
+                    <span class="dot" onclick="currentSlide(8, 'module4-tutorial5')" data-slide="8"></span>
+                    <span class="dot" onclick="currentSlide(9, 'module4-tutorial5')" data-slide="9"></span>
+                    <span class="dot" onclick="currentSlide(10, 'module4-tutorial5')" data-slide="10"></span>
+                    <span class="dot" onclick="currentSlide(11, 'module4-tutorial5')" data-slide="11"></span>
+                    <span class="dot" onclick="currentSlide(12, 'module4-tutorial5')" data-slide="12"></span>
+                    <span class="dot" onclick="currentSlide(13, 'module4-tutorial5')" data-slide="13"></span>
+                    <span class="dot" onclick="currentSlide(14, 'module4-tutorial5')" data-slide="14"></span>
+                    <span class="dot" onclick="currentSlide(15, 'module4-tutorial5')" data-slide="15"></span>
+                    <span class="dot" onclick="currentSlide(16, 'module4-tutorial5')" data-slide="16"></span>
+                    <span class="dot" onclick="currentSlide(17, 'module4-tutorial5')" data-slide="17"></span>
+                    <span class="dot" onclick="currentSlide(18, 'module4-tutorial5')" data-slide="18"></span>
+                    <span class="dot" onclick="currentSlide(19, 'module4-tutorial5')" data-slide="19"></span>
+                </div>
             </div>
 
             <hr style="margin: 40px 0; border: none; border-top: 2px solid #333;">
@@ -760,9 +910,38 @@ const modulesContent = {
                     <div class="carousel-slide"><img src="images/modulo4/210_img.png" alt="Passo 27"><p>Passo 27</p></div>
                     <div class="carousel-slide"><img src="images/modulo4/211_img.png" alt="Passo 28"><p>Passo 28</p></div>
                 </div>
-                <button class="carousel-button prev" onclick="moveCarousel(-1, 'module4-tutorial6')">‹</button>
-                <button class="carousel-button next" onclick="moveCarousel(1, 'module4-tutorial6')">›</button>
-                <div class="carousel-dots" id="dots-module4-tutorial6"></div>
+                <button class="carousel-btn prev" onclick="moveCarousel(-1, 'module4-tutorial6')">‹</button>
+                <button class="carousel-btn next" onclick="moveCarousel(1, 'module4-tutorial6')">›</button>
+                <div class="carousel-dots">
+                    <span class="dot active" onclick="currentSlide(1, 'module4-tutorial6')" data-slide="1"></span>
+                    <span class="dot" onclick="currentSlide(2, 'module4-tutorial6')" data-slide="2"></span>
+                    <span class="dot" onclick="currentSlide(3, 'module4-tutorial6')" data-slide="3"></span>
+                    <span class="dot" onclick="currentSlide(4, 'module4-tutorial6')" data-slide="4"></span>
+                    <span class="dot" onclick="currentSlide(5, 'module4-tutorial6')" data-slide="5"></span>
+                    <span class="dot" onclick="currentSlide(6, 'module4-tutorial6')" data-slide="6"></span>
+                    <span class="dot" onclick="currentSlide(7, 'module4-tutorial6')" data-slide="7"></span>
+                    <span class="dot" onclick="currentSlide(8, 'module4-tutorial6')" data-slide="8"></span>
+                    <span class="dot" onclick="currentSlide(9, 'module4-tutorial6')" data-slide="9"></span>
+                    <span class="dot" onclick="currentSlide(10, 'module4-tutorial6')" data-slide="10"></span>
+                    <span class="dot" onclick="currentSlide(11, 'module4-tutorial6')" data-slide="11"></span>
+                    <span class="dot" onclick="currentSlide(12, 'module4-tutorial6')" data-slide="12"></span>
+                    <span class="dot" onclick="currentSlide(13, 'module4-tutorial6')" data-slide="13"></span>
+                    <span class="dot" onclick="currentSlide(14, 'module4-tutorial6')" data-slide="14"></span>
+                    <span class="dot" onclick="currentSlide(15, 'module4-tutorial6')" data-slide="15"></span>
+                    <span class="dot" onclick="currentSlide(16, 'module4-tutorial6')" data-slide="16"></span>
+                    <span class="dot" onclick="currentSlide(17, 'module4-tutorial6')" data-slide="17"></span>
+                    <span class="dot" onclick="currentSlide(18, 'module4-tutorial6')" data-slide="18"></span>
+                    <span class="dot" onclick="currentSlide(19, 'module4-tutorial6')" data-slide="19"></span>
+                    <span class="dot" onclick="currentSlide(20, 'module4-tutorial6')" data-slide="20"></span>
+                    <span class="dot" onclick="currentSlide(21, 'module4-tutorial6')" data-slide="21"></span>
+                    <span class="dot" onclick="currentSlide(22, 'module4-tutorial6')" data-slide="22"></span>
+                    <span class="dot" onclick="currentSlide(23, 'module4-tutorial6')" data-slide="23"></span>
+                    <span class="dot" onclick="currentSlide(24, 'module4-tutorial6')" data-slide="24"></span>
+                    <span class="dot" onclick="currentSlide(25, 'module4-tutorial6')" data-slide="25"></span>
+                    <span class="dot" onclick="currentSlide(26, 'module4-tutorial6')" data-slide="26"></span>
+                    <span class="dot" onclick="currentSlide(27, 'module4-tutorial6')" data-slide="27"></span>
+                    <span class="dot" onclick="currentSlide(28, 'module4-tutorial6')" data-slide="28"></span>
+                </div>
             </div>
 
             <hr style="margin: 40px 0; border: none; border-top: 2px solid #333;">
@@ -795,9 +974,24 @@ const modulesContent = {
                     <div class="carousel-slide"><img src="images/modulo4/224_img.png" alt="Passo 13"><p>Passo 13</p></div>
                     <div class="carousel-slide"><img src="images/modulo4/225_img.png" alt="Passo 14"><p>Passo 14</p></div>
                 </div>
-                <button class="carousel-button prev" onclick="moveCarousel(-1, 'module4-tutorial7')">‹</button>
-                <button class="carousel-button next" onclick="moveCarousel(1, 'module4-tutorial7')">›</button>
-                <div class="carousel-dots" id="dots-module4-tutorial7"></div>
+                <button class="carousel-btn prev" onclick="moveCarousel(-1, 'module4-tutorial7')">‹</button>
+                <button class="carousel-btn next" onclick="moveCarousel(1, 'module4-tutorial7')">›</button>
+                <div class="carousel-dots">
+                    <span class="dot active" onclick="currentSlide(1, 'module4-tutorial7')" data-slide="1"></span>
+                    <span class="dot" onclick="currentSlide(2, 'module4-tutorial7')" data-slide="2"></span>
+                    <span class="dot" onclick="currentSlide(3, 'module4-tutorial7')" data-slide="3"></span>
+                    <span class="dot" onclick="currentSlide(4, 'module4-tutorial7')" data-slide="4"></span>
+                    <span class="dot" onclick="currentSlide(5, 'module4-tutorial7')" data-slide="5"></span>
+                    <span class="dot" onclick="currentSlide(6, 'module4-tutorial7')" data-slide="6"></span>
+                    <span class="dot" onclick="currentSlide(7, 'module4-tutorial7')" data-slide="7"></span>
+                    <span class="dot" onclick="currentSlide(8, 'module4-tutorial7')" data-slide="8"></span>
+                    <span class="dot" onclick="currentSlide(9, 'module4-tutorial7')" data-slide="9"></span>
+                    <span class="dot" onclick="currentSlide(10, 'module4-tutorial7')" data-slide="10"></span>
+                    <span class="dot" onclick="currentSlide(11, 'module4-tutorial7')" data-slide="11"></span>
+                    <span class="dot" onclick="currentSlide(12, 'module4-tutorial7')" data-slide="12"></span>
+                    <span class="dot" onclick="currentSlide(13, 'module4-tutorial7')" data-slide="13"></span>
+                    <span class="dot" onclick="currentSlide(14, 'module4-tutorial7')" data-slide="14"></span>
+                </div>
             </div>
 
             <hr style="margin: 40px 0; border: none; border-top: 2px solid #333;">
