@@ -642,20 +642,40 @@ document.addEventListener('DOMContentLoaded', function() {
 // ===================================
 
 let currentSlideIndex = {
-    modulo1: 0,
-    'modulo2-parte1': 0,
-    'modulo2-parte2': 0
+    module1: 0,
+    'module2-tutorial1': 0,
+    'module2-tutorial2': 0
 };
 
-function moveCarousel(moduleId, direction) {
-    const carouselId = `carousel-${moduleId}`;
-    const carousel = document.getElementById(carouselId);
+function moveCarousel(direction, moduleId) {
+    // Encontrar o carrossel no modal aberto
+    const modal = document.getElementById('module-modal');
+    if (!modal) return;
+    
+    const carousels = modal.querySelectorAll('.tutorial-carousel');
+    if (!carousels.length) return;
+    
+    // Para módulos com múltiplos carrosséis, identificar qual usar
+    let carousel = null;
+    if (moduleId.includes('tutorial1')) {
+        carousel = carousels[0];
+    } else if (moduleId.includes('tutorial2')) {
+        carousel = carousels[1] || carousels[0];
+    } else {
+        carousel = carousels[0];
+    }
+    
     if (!carousel) return;
     
     const slides = carousel.querySelectorAll('.carousel-slide');
     const indicators = carousel.querySelector('.carousel-indicators');
     
     if (!slides.length) return;
+    
+    // Inicializar índice se não existir
+    if (currentSlideIndex[moduleId] === undefined) {
+        currentSlideIndex[moduleId] = 0;
+    }
     
     // Remove active class from current slide
     slides[currentSlideIndex[moduleId]].classList.remove('active');
@@ -678,13 +698,33 @@ function moveCarousel(moduleId, direction) {
     updateCarouselIndicators(moduleId);
 }
 
-function goToSlide(moduleId, index) {
-    const carouselId = `carousel-${moduleId}`;
-    const carousel = document.getElementById(carouselId);
+function goToSlide(index, moduleId) {
+    // Encontrar o carrossel no modal aberto
+    const modal = document.getElementById('module-modal');
+    if (!modal) return;
+    
+    const carousels = modal.querySelectorAll('.tutorial-carousel');
+    if (!carousels.length) return;
+    
+    // Para módulos com múltiplos carrosséis, identificar qual usar
+    let carousel = null;
+    if (moduleId.includes('tutorial1')) {
+        carousel = carousels[0];
+    } else if (moduleId.includes('tutorial2')) {
+        carousel = carousels[1] || carousels[0];
+    } else {
+        carousel = carousels[0];
+    }
+    
     if (!carousel) return;
     
     const slides = carousel.querySelectorAll('.carousel-slide');
     if (!slides.length) return;
+    
+    // Inicializar índice se não existir
+    if (currentSlideIndex[moduleId] === undefined) {
+        currentSlideIndex[moduleId] = 0;
+    }
     
     // Remove active class from current slide
     slides[currentSlideIndex[moduleId]].classList.remove('active');
@@ -700,8 +740,23 @@ function goToSlide(moduleId, index) {
 }
 
 function updateCarouselIndicators(moduleId) {
-    const carouselId = `carousel-${moduleId}`;
-    const carousel = document.getElementById(carouselId);
+    // Encontrar o carrossel no modal aberto
+    const modal = document.getElementById('module-modal');
+    if (!modal) return;
+    
+    const carousels = modal.querySelectorAll('.tutorial-carousel');
+    if (!carousels.length) return;
+    
+    // Para módulos com múltiplos carrosséis, identificar qual usar
+    let carousel = null;
+    if (moduleId.includes('tutorial1')) {
+        carousel = carousels[0];
+    } else if (moduleId.includes('tutorial2')) {
+        carousel = carousels[1] || carousels[0];
+    } else {
+        carousel = carousels[0];
+    }
+    
     if (!carousel) return;
     
     const slides = carousel.querySelectorAll('.carousel-slide');
@@ -715,14 +770,19 @@ function updateCarouselIndicators(moduleId) {
     slides.forEach((slide, index) => {
         const dot = document.createElement('span');
         dot.className = 'dot' + (index === currentSlideIndex[moduleId] ? ' active' : '');
-        dot.onclick = () => goToSlide(moduleId, index);
+        dot.onclick = () => goToSlide(index, moduleId);
         indicators.appendChild(dot);
     });
 }
 
+// Alias para compatibilidade com os botões HTML
+function currentSlide(index, moduleId) {
+    goToSlide(index - 1, moduleId); // Subtrai 1 porque os botões usam índice baseado em 1
+}
+
 // Initialize carousels when modal opens
 function initializeCarousels() {
-    ['modulo1', 'modulo2-parte1', 'modulo2-parte2'].forEach(moduleId => {
+    ['module1', 'module2-tutorial1', 'module2-tutorial2'].forEach(moduleId => {
         updateCarouselIndicators(moduleId);
     });
 }
