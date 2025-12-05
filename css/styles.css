@@ -649,12 +649,15 @@ h1, h2, h3, h4, h5, h6 {
 .carousel-container {
     position: relative;
     width: 100%;
-    min-height: 500px;
+    min-height: 300px;
 }
 
 .carousel-slide {
     display: none;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
     animation: fadeIn 0.5s ease-in-out;
 }
 
@@ -663,16 +666,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .carousel-slide img {
-    width: 100%;
+    width: 300px;
     height: auto;
-    max-height: 450px;
+    max-height: 250px;
     object-fit: contain;
     background: var(--bg-secondary);
+    border-radius: 8px;
+    flex-shrink: 0;
 }
 
 .carousel-caption {
-    padding: 2rem;
-    background: var(--bg-card);
+    flex: 1;
+    padding: 0;
+    background: transparent;
 }
 
 .carousel-caption h4 {
@@ -843,15 +849,19 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 768px) {
     .carousel-container {
-        min-height: 400px;
+        min-height: auto;
+    }
+    
+    .carousel-slide {
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1.5rem;
     }
     
     .carousel-slide img {
-        max-height: 300px;
-    }
-    
-    .carousel-caption {
-        padding: 1.5rem;
+        width: 100%;
+        max-width: 250px;
+        max-height: 200px;
     }
     
     .carousel-caption h4 {
@@ -883,16 +893,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 480px) {
-    .carousel-container {
-        min-height: 350px;
+    .carousel-slide {
+        padding: 1rem;
     }
     
     .carousel-slide img {
-        max-height: 250px;
-    }
-    
-    .carousel-caption {
-        padding: 1rem;
+        max-width: 200px;
+        max-height: 150px;
     }
     
     .carousel-caption h4 {

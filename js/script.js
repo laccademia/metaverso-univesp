@@ -477,13 +477,6 @@ function currentSlide(n, moduleId) {
     dots[currentSlideIndex[moduleId] - 1].classList.add('active');
 }
 
-// Auto-advance carousel (opcional)
-setInterval(() => {
-    if (document.querySelector('.tutorial-carousel')) {
-        moveCarousel(1, 'module1');
-    }
-}, 5000); // Muda a cada 5 segundos
-
 // ===================================
 // ACCORDION
 // ===================================
