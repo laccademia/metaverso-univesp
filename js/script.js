@@ -97,8 +97,7 @@ const modulesContent = {
     2: {
         title: "Módulo 2: Capturar",
         icon: "📸",
-        content: `
-            <h2>📸 Módulo 2 – Capturar</h2>
+        content: `            <h2>📸 Módulo 2 – Capturar</h2>
             
             <p><strong>Aprenda a capturar objetos do espaço físico, transformando-os em modelos digitais 3D.</strong></p>
 
@@ -128,38 +127,119 @@ const modulesContent = {
                 </iframe>
             </div>
 
-            <h3>Os passos são:</h3>
+            <h3>Tutorial Passo a Passo</h3>
+            
+            <div class="carousel-container" id="carousel-modulo2">
+                <button class="carousel-btn prev" onclick="moveCarousel('modulo2', -1)">‹</button>
+                <button class="carousel-btn next" onclick="moveCarousel('modulo2', 1)">›</button>
+                
+                <div class="carousel-slide active">
+                    <img src="images/modulo2/08_img.png" alt="Tela inicial do Luma AI">
+                    <div class="carousel-text">
+                        <h4>1. Obtenha o Luma AI</h4>
+                        <p>Baixe o aplicativo Luma AI na sua loja de apps (disponível para iOS e Android). Este aplicativo usa inteligência artificial para transformar objetos reais em modelos 3D.</p>
+                    </div>
+                </div>
+                
+                <div class="carousel-slide">
+                    <img src="images/modulo2/09_img.jpg" alt="Botão Create">
+                    <div class="carousel-text">
+                        <h4>2. Comece uma captura</h4>
+                        <p>Após abrir o aplicativo, clique no ícone de "+" para criar uma nova captura.</p>
+                    </div>
+                </div>
+                
+                <div class="carousel-slide">
+                    <img src="images/modulo2/10_img.png" alt="Opção Guided">
+                    <div class="carousel-text">
+                        <h4>3. Escolha Captura Guiada</h4>
+                        <p>Clique em "Guided" para fazer uma captura assistida. Esta opção é ideal para iniciantes, pois o aplicativo guia você durante todo o processo.</p>
+                    </div>
+                </div>
+                
+                <div class="carousel-slide">
+                    <img src="images/modulo2/11_img.png" alt="Círculo de captura">
+                    <div class="carousel-text">
+                        <h4>4. Parametrize o Domo</h4>
+                        <p>Clique no objeto que deseja capturar e centralize o círculo sobre ele. Você pode ajustar o tamanho do círculo fazendo um movimento de pinça com os dedos.</p>
+                    </div>
+                </div>
+                
+                <div class="carousel-slide">
+                    <img src="images/modulo2/12_img.png" alt="Botão Scan">
+                    <div class="carousel-text">
+                        <h4>5. Confirme a Parametrização</h4>
+                        <p>Após ajustar o domo de captura, clique em "Scan" para confirmar. Confira se o domo envolve todo o objeto que será capturado.</p>
+                    </div>
+                </div>
+                
+                <div class="carousel-slide">
+                    <img src="images/modulo2/13_img.png" alt="Captura em 360 graus">
+                    <div class="carousel-text">
+                        <h4>6. Capture o Objeto</h4>
+                        <p>Circule o objeto com seu celular, cobrindo todos os ângulos do domo. O domo mudará de cor para indicar as áreas já capturadas. Cubra toda a superfície do domo.</p>
+                    </div>
+                </div>
+                
+                <div class="carousel-slide">
+                    <img src="images/modulo2/14_img.png" alt="Botão Finish">
+                    <div class="carousel-text">
+                        <h4>7. Finalize a Captura</h4>
+                        <p>Clique em "Finish" após cobrir todos os ângulos do objeto. O aplicativo também pode finalizar automaticamente se detectar que o domo foi coberto por inteiro.</p>
+                    </div>
+                </div>
+                
+                <div class="carousel-slide">
+                    <img src="images/modulo2/15_img.png" alt="Nomear captura">
+                    <div class="carousel-text">
+                        <h4>8. Nomeie a Captura</h4>
+                        <p>Dê um nome para sua captura e clique em "Create".</p>
+                    </div>
+                </div>
+                
+                <div class="carousel-slide">
+                    <img src="images/modulo2/17_img.png" alt="Upload e processamento">
+                    <div class="carousel-text">
+                        <h4>9. Aguarde o Processamento</h4>
+                        <p>Espere o carregamento das imagens com o aplicativo aberto. Depois que o upload acabar, o aplicativo iniciará o processamento. Esse processo pode levar algumas horas.</p>
+                    </div>
+                </div>
+                
+                <div class="carousel-slide">
+                    <img src="images/modulo2/18_img.png" alt="Visualização 3D">
+                    <div class="carousel-text">
+                        <h4>10. Visualize seu Modelo 3D</h4>
+                        <p>Após o processamento, acesse sua biblioteca (Library) e clique no objeto. Você pode visualizar em "Magic View", girando o modelo 3D com o dedo.</p>
+                    </div>
+                </div>
+                
+                <div class="carousel-indicators"></div>
+            </div>
 
-            <p><strong>1. Obtenha o Luma AI</strong></p>
-            <p>Baixe o Luma AI no seu celular.</p>
+            <div class="accordion">
+                <button class="accordion-header" onclick="toggleAccordion(this)">
+                    <span>🥽 Visualizando em Realidade Aumentada</span>
+                    <span class="accordion-icon">+</span>
+                </button>
+                <div class="accordion-content">
+                    <img src="images/modulo2/35_img.png" alt="Realidade Aumentada" style="max-width: 450px; width: 100%; height: auto; margin: 1rem 0; border-radius: 0.5rem;">
+                    
+                    <p>O Luma AI também permite visualizar seu modelo 3D no mundo real usando a câmera do seu celular. Para isso, siga os passos:</p>
+                    
+                    <ol>
+                        <li>Clique em "AR View".</li>
+                        <li>Mire seu celular sobre a superfície onde quer projetar o objeto capturado.</li>
+                        <li>Clique na superfície para projetar o objeto.</li>
+                        <li>Clique com dois dedos no objeto e redimensione fazendo movimento de pinça.</li>
+                        <li>Caminhe pelo ambiente para ter uma visualização em Realidade Aumentada completa.</li>
+                    </ol>
+                    
+                    <p>Pronto! Você finalizou sua primeira captura e já sabe como visualizá-la em 3D e em Realidade Aumentada!</p>
+                </div>
+            </div>
 
-            <p><strong>2. Comece uma captura</strong></p>
-            <p>2.1 Clique em Create no ícone de "+".</p>
-            <p>2.2 Clique em Guided para fazer uma captura Guiada.</p>
-
-            <p><strong>3. Escolha o que capturar</strong></p>
-            <p>3.1 Escolha o objeto que você quer capturar.</p>
-            <p>3.2 Posicione-o de forma que fique bem iluminado e que você possa circular ao redor dele.</p>
-
-            <p><strong>4. Capture o objeto</strong></p>
-            <p>4.1 Siga as instruções na tela do aplicativo.</p>
-            <p>4.2 Circule o objeto lentamente, mantendo-o sempre no centro da tela.</p>
-            <p>4.3 O aplicativo irá guiá-lo durante todo o processo.</p>
-
-            <p><strong>5. Faça o upload</strong></p>
-            <p>5.1 Após finalizar a captura, clique em Upload.</p>
-            <p>5.2 Aguarde o processamento (pode levar de 10 a 30 minutos).</p>
-            <p>5.3 Você receberá uma notificação quando estiver pronto.</p>
-
-            <p><strong>6. Visualize e baixe</strong></p>
-            <p>6.1 Abra o modelo 3D processado.</p>
-            <p>6.2 Use gestos de toque para rotacionar e ampliar.</p>
-            <p>6.3 Toque em "AR View" para ver o objeto em realidade aumentada.</p>
-            <p>6.4 Para baixar, toque no ícone de compartilhar e selecione "Download".</p>
-            <p>6.5 Escolha o formato GLB (recomendado para metaverso).</p>
-
-            <p><strong>Nota:</strong> O conteúdo completo com imagens e instruções detalhadas está disponível no PDF original do curso.</p>
-        `
+            <p><strong>Nota:</strong> Consulte o PDF original do curso para instruções detalhadas e exemplos visuais completos.</p>
+`
     },
     3: {
         title: "Módulo 3: Curar e Recriar",
@@ -365,6 +445,11 @@ function toggleModule(moduleId) {
     body.innerHTML = modulesContent[moduleId].content;
     modal.classList.remove('hidden');
     document.body.style.overflow = 'hidden';
+    
+    // Initialize carousels after content is loaded
+    setTimeout(() => {
+        initializeCarousels();
+    }, 100);
 }
 
 // Função para fechar detalhes do módulo
@@ -431,51 +516,88 @@ document.addEventListener('DOMContentLoaded', function() {
 // ===================================
 
 let currentSlideIndex = {
-    module1: 1
+    modulo1: 0,
+    modulo2: 0
 };
 
-function moveCarousel(direction, moduleId) {
-    const slides = document.querySelectorAll('.tutorial-carousel .carousel-slide');
-    const dots = document.querySelectorAll('.tutorial-carousel .dot');
+function moveCarousel(moduleId, direction) {
+    const carouselId = `carousel-${moduleId}`;
+    const carousel = document.getElementById(carouselId);
+    if (!carousel) return;
+    
+    const slides = carousel.querySelectorAll('.carousel-slide');
+    const indicators = carousel.querySelector('.carousel-indicators');
     
     if (!slides.length) return;
     
-    // Remove active class
-    slides[currentSlideIndex[moduleId] - 1].classList.remove('active');
-    dots[currentSlideIndex[moduleId] - 1].classList.remove('active');
+    // Remove active class from current slide
+    slides[currentSlideIndex[moduleId]].classList.remove('active');
     
     // Update index
     currentSlideIndex[moduleId] += direction;
     
     // Loop around
-    if (currentSlideIndex[moduleId] > slides.length) {
-        currentSlideIndex[moduleId] = 1;
+    if (currentSlideIndex[moduleId] >= slides.length) {
+        currentSlideIndex[moduleId] = 0;
     }
-    if (currentSlideIndex[moduleId] < 1) {
-        currentSlideIndex[moduleId] = slides.length;
+    if (currentSlideIndex[moduleId] < 0) {
+        currentSlideIndex[moduleId] = slides.length - 1;
     }
     
-    // Add active class
-    slides[currentSlideIndex[moduleId] - 1].classList.add('active');
-    dots[currentSlideIndex[moduleId] - 1].classList.add('active');
+    // Add active class to new slide
+    slides[currentSlideIndex[moduleId]].classList.add('active');
+    
+    // Update indicators
+    updateCarouselIndicators(moduleId);
 }
 
-function currentSlide(n, moduleId) {
-    const slides = document.querySelectorAll('.tutorial-carousel .carousel-slide');
-    const dots = document.querySelectorAll('.tutorial-carousel .dot');
+function goToSlide(moduleId, index) {
+    const carouselId = `carousel-${moduleId}`;
+    const carousel = document.getElementById(carouselId);
+    if (!carousel) return;
     
+    const slides = carousel.querySelectorAll('.carousel-slide');
     if (!slides.length) return;
     
-    // Remove active class
-    slides[currentSlideIndex[moduleId] - 1].classList.remove('active');
-    dots[currentSlideIndex[moduleId] - 1].classList.remove('active');
+    // Remove active class from current slide
+    slides[currentSlideIndex[moduleId]].classList.remove('active');
     
     // Update index
-    currentSlideIndex[moduleId] = n;
+    currentSlideIndex[moduleId] = index;
     
-    // Add active class
-    slides[currentSlideIndex[moduleId] - 1].classList.add('active');
-    dots[currentSlideIndex[moduleId] - 1].classList.add('active');
+    // Add active class to new slide
+    slides[currentSlideIndex[moduleId]].classList.add('active');
+    
+    // Update indicators
+    updateCarouselIndicators(moduleId);
+}
+
+function updateCarouselIndicators(moduleId) {
+    const carouselId = `carousel-${moduleId}`;
+    const carousel = document.getElementById(carouselId);
+    if (!carousel) return;
+    
+    const slides = carousel.querySelectorAll('.carousel-slide');
+    const indicators = carousel.querySelector('.carousel-indicators');
+    
+    if (!indicators) return;
+    
+    // Clear and rebuild indicators
+    indicators.innerHTML = '';
+    
+    slides.forEach((slide, index) => {
+        const dot = document.createElement('span');
+        dot.className = 'dot' + (index === currentSlideIndex[moduleId] ? ' active' : '');
+        dot.onclick = () => goToSlide(moduleId, index);
+        indicators.appendChild(dot);
+    });
+}
+
+// Initialize carousels when modal opens
+function initializeCarousels() {
+    ['modulo1', 'modulo2'].forEach(moduleId => {
+        updateCarouselIndicators(moduleId);
+    });
 }
 
 // ===================================

@@ -1,0 +1,142 @@
+            <h2>📸 Módulo 2 – Capturar</h2>
+            
+            <p><strong>Aprenda a capturar objetos do espaço físico, transformando-os em modelos digitais 3D.</strong></p>
+
+            <h3>O que irá aprender neste módulo</h3>
+            
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/-xuyqhV7yGs" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                </iframe>
+            </div>
+
+            <p>Neste módulo você verá como instalar e usar um aplicativo para capturar um objeto do espaço físico e transformá-lo em um modelo digital 3D.</p>
+
+            <h3>Capturando um Objeto do mundo físico</h3>
+            
+            <p>Você irá aprender como utilizar o aplicativo de celular <strong>Luma AI</strong> para fazer a captura de um objeto do mundo físico, convertendo-o para um modelo 3D digital.</p>
+            
+            <p>Acompanhe pelo vídeo ou pelo tutorial em texto após o vídeo e faça você mesmo.</p>
+
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/k6Ml0Mwr6xI" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                </iframe>
+            </div>
+
+            <h3>Tutorial Passo a Passo</h3>
+            
+            <div class="carousel-container" id="carousel-modulo2">
+                <button class="carousel-btn prev" onclick="moveCarousel('modulo2', -1)">‹</button>
+                <button class="carousel-btn next" onclick="moveCarousel('modulo2', 1)">›</button>
+                
+                <div class="carousel-slide active">
+                    <img src="images/modulo2/08_img.png" alt="Tela inicial do Luma AI">
+                    <div class="carousel-text">
+                        <h4>1. Obtenha o Luma AI</h4>
+                        <p>Baixe o aplicativo Luma AI na sua loja de apps (disponível para iOS e Android). Este aplicativo usa inteligência artificial para transformar objetos reais em modelos 3D.</p>
+                    </div>
+                </div>
+                
+                <div class="carousel-slide">
+                    <img src="images/modulo2/09_img.jpg" alt="Botão Create">
+                    <div class="carousel-text">
+                        <h4>2. Comece uma captura</h4>
+                        <p>Após abrir o aplicativo, clique no ícone de "+" para criar uma nova captura.</p>
+                    </div>
+                </div>
+                
+                <div class="carousel-slide">
+                    <img src="images/modulo2/10_img.png" alt="Opção Guided">
+                    <div class="carousel-text">
+                        <h4>3. Escolha Captura Guiada</h4>
+                        <p>Clique em "Guided" para fazer uma captura assistida. Esta opção é ideal para iniciantes, pois o aplicativo guia você durante todo o processo.</p>
+                    </div>
+                </div>
+                
+                <div class="carousel-slide">
+                    <img src="images/modulo2/11_img.png" alt="Círculo de captura">
+                    <div class="carousel-text">
+                        <h4>4. Parametrize o Domo</h4>
+                        <p>Clique no objeto que deseja capturar e centralize o círculo sobre ele. Você pode ajustar o tamanho do círculo fazendo um movimento de pinça com os dedos.</p>
+                    </div>
+                </div>
+                
+                <div class="carousel-slide">
+                    <img src="images/modulo2/12_img.png" alt="Botão Scan">
+                    <div class="carousel-text">
+                        <h4>5. Confirme a Parametrização</h4>
+                        <p>Após ajustar o domo de captura, clique em "Scan" para confirmar. Confira se o domo envolve todo o objeto que será capturado.</p>
+                    </div>
+                </div>
+                
+                <div class="carousel-slide">
+                    <img src="images/modulo2/13_img.png" alt="Captura em 360 graus">
+                    <div class="carousel-text">
+                        <h4>6. Capture o Objeto</h4>
+                        <p>Circule o objeto com seu celular, cobrindo todos os ângulos do domo. O domo mudará de cor para indicar as áreas já capturadas. Cubra toda a superfície do domo.</p>
+                    </div>
+                </div>
+                
+                <div class="carousel-slide">
+                    <img src="images/modulo2/14_img.png" alt="Botão Finish">
+                    <div class="carousel-text">
+                        <h4>7. Finalize a Captura</h4>
+                        <p>Clique em "Finish" após cobrir todos os ângulos do objeto. O aplicativo também pode finalizar automaticamente se detectar que o domo foi coberto por inteiro.</p>
+                    </div>
+                </div>
+                
+                <div class="carousel-slide">
+                    <img src="images/modulo2/15_img.png" alt="Nomear captura">
+                    <div class="carousel-text">
+                        <h4>8. Nomeie a Captura</h4>
+                        <p>Dê um nome para sua captura e clique em "Create".</p>
+                    </div>
+                </div>
+                
+                <div class="carousel-slide">
+                    <img src="images/modulo2/17_img.png" alt="Upload e processamento">
+                    <div class="carousel-text">
+                        <h4>9. Aguarde o Processamento</h4>
+                        <p>Espere o carregamento das imagens com o aplicativo aberto. Depois que o upload acabar, o aplicativo iniciará o processamento. Esse processo pode levar algumas horas.</p>
+                    </div>
+                </div>
+                
+                <div class="carousel-slide">
+                    <img src="images/modulo2/18_img.png" alt="Visualização 3D">
+                    <div class="carousel-text">
+                        <h4>10. Visualize seu Modelo 3D</h4>
+                        <p>Após o processamento, acesse sua biblioteca (Library) e clique no objeto. Você pode visualizar em "Magic View", girando o modelo 3D com o dedo.</p>
+                    </div>
+                </div>
+                
+                <div class="carousel-indicators"></div>
+            </div>
+
+            <div class="accordion">
+                <button class="accordion-header" onclick="toggleAccordion(this)">
+                    <span>🥽 Visualizando em Realidade Aumentada</span>
+                    <span class="accordion-icon">+</span>
+                </button>
+                <div class="accordion-content">
+                    <img src="images/modulo2/35_img.png" alt="Realidade Aumentada" style="max-width: 450px; width: 100%; height: auto; margin: 1rem 0; border-radius: 0.5rem;">
+                    
+                    <p>O Luma AI também permite visualizar seu modelo 3D no mundo real usando a câmera do seu celular. Para isso, siga os passos:</p>
+                    
+                    <ol>
+                        <li>Clique em "AR View".</li>
+                        <li>Mire seu celular sobre a superfície onde quer projetar o objeto capturado.</li>
+                        <li>Clique na superfície para projetar o objeto.</li>
+                        <li>Clique com dois dedos no objeto e redimensione fazendo movimento de pinça.</li>
+                        <li>Caminhe pelo ambiente para ter uma visualização em Realidade Aumentada completa.</li>
+                    </ol>
+                    
+                    <p>Pronto! Você finalizou sua primeira captura e já sabe como visualizá-la em 3D e em Realidade Aumentada!</p>
+                </div>
+            </div>
+
+            <p><strong>Nota:</strong> Consulte o PDF original do curso para instruções detalhadas e exemplos visuais completos.</p>
