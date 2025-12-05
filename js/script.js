@@ -28,29 +28,70 @@ const modulesContent = {
             
             <p><strong>IMPORTANTE:</strong> antes de entrar digite seu nome no lugar da palavra "GUEST" (nome sugerido pelo ambiente, que significa "convidado"). Assim se outras pessoas estiverem no ambiente saberão seu nome (ficaria muito ruim para interagir com outros visitantes se todos estiverem identificados como GUEST, não acha?).</p>
 
-            <p>Após digitar seu nome (ou apelido) aperte o botão <strong>CONNECT</strong> para ingressar na exposição.</p>
-
+            <h3>📖 Mini Tutorial: Como Navegar no Metaverso</h3>
+            
+            <div class="tutorial-carousel">
+                <div class="carousel-container">
+                    <div class="carousel-slide active">
+                        <img src="images/tutorial_01_connect.png" alt="Tela de conexão do FrameVR">
+                        <div class="carousel-caption">
+                            <h4>1. Conectar ao Ambiente</h4>
+                            <p>Após digitar seu nome (ou apelido) aperte o botão <strong>CONNECT</strong> para ingressar na exposição.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/tutorial_02_wasd.png" alt="Navegação com teclado WASD">
+                        <div class="carousel-caption">
+                            <h4>2. Movimentação</h4>
+                            <p>A navegação é bem intuitiva. É possível mover-se usando as setas do teclado ou as teclas <strong>WASD</strong> (ou usando dedo ou pen, se estiver usando celular ou tablet).</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/tutorial_03_mouse.png" alt="Controle de câmera com mouse">
+                        <div class="carousel-caption">
+                            <h4>3. Controle de Câmera</h4>
+                            <p>Clicando e segurando o mouse dá para girar a câmera. Configuramos para que a navegação seja em primeira pessoa, ou seja, a câmera será seus olhos e você não verá a si próprio.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/tutorial_04_avatar.png" alt="Avatares e interação multiplayer">
+                        <div class="carousel-caption">
+                            <h4>4. Interação Multiplayer</h4>
+                            <p>Caso outra pessoa entre no ambiente, você verá um bonequinho, que chamamos de "avatar", representando-a e também será visto por ela. Se ambos ativarem seus microfones poderão conversar. São permitidos 8 usuários simultâneos na sala.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-btn prev" onclick="moveCarousel(-1, 'module1')">&lt;</button>
+                <button class="carousel-btn next" onclick="moveCarousel(1, 'module1')">&gt;</button>
+                <div class="carousel-dots">
+                    <span class="dot active" onclick="currentSlide(1, 'module1')"></span>
+                    <span class="dot" onclick="currentSlide(2, 'module1')"></span>
+                    <span class="dot" onclick="currentSlide(3, 'module1')"></span>
+                    <span class="dot" onclick="currentSlide(4, 'module1')"></span>
+                </div>
+            </div>
+            
             <p>Explore os limites e possibilidades do ambiente, assim, quando for criar o seu próprio, já saberá como é passar por essa experiência.</p>
-            
-            <p>A navegação é bem intuitiva. É possível mover-se usando as setas do teclado ou as teclas <strong>AWSD</strong> (ou usando dedo ou pen, se estiver usando celular ou tablet).</p>
-
-            <p>Clicando e segurando o mouse dá para girar a câmera. Configuramos para que a navegação seja em primeira pessoa, ou seja, a câmera será seus olhos e você não verá a si próprio.</p>
-            
-            <p>Caso outra pessoa entre no ambiente, você verá um bonequinho, que chamamos de "avatar", representando-a e também será visto por ela. Se ambos ativarem seus microfones poderão conversar. São permitidos 8 usuários simultâneos na sala.</p>
 
             <p>A título de bônus, criamos uma pequena "gamificação", a qual está fora do escopo deste curso e por isso os tutoriais não abordarão como foi criada. Para poder abrir a porta que dá acesso às salas de tutoriais você precisará descobrir uma senha. Recomendamos que clique nos objetos e vasculhe o espaço para encontrar um presente escondido. Se conseguir acessar a sala de tutoriais poderá seguir por lá, caso desejar. Ou então, retorne aqui para prosseguir para os outros módulos.</p>
             
             <p><strong>Divirta-se!</strong></p>
 
-            <h3>Explorando a exposição com "Óculos de Realidade Virtual"</h3>
-            
-            <p><em>Meta Quest 3 - Imagem de divulgação da empresa Meta, fabricante desse equipamento</em></p>
-
-            <p>Caso você tenha você possua um, ou tenha acesso a algum, <strong>HMD (Head-Mounted Display)</strong>, nome técnico do popular "óculos" de realidade virtual, recomendamos que experimente navegar na exposição com o máximo de imersão propiciado por esse equipamento. Você poderá andar pelo recinto de exposição como se lá estivesse, vendo tudo em tamanho real.</p>
-            
-            <p>Testamos no Meta Quest 3 e funcionou muito bem. Bastou entrarmos no endereço da exposição usando o browser de Internet do próprio Meta Quest e clicarmos no símbolo do "óculos" de RV que aparece embaixo, na própria cena.</p>
-
-            <p><strong>Imerja-se!</strong></p>
+            <div class="accordion-item">
+                <button class="accordion-header" onclick="toggleAccordion(this)">
+                    <span>🥽 Explorando a exposição com "Óculos de Realidade Virtual"</span>
+                    <span class="accordion-icon">+</span>
+                </button>
+                <div class="accordion-content">
+                    <div class="vr-section">
+                        <img src="images/tutorial_05_vr.webp" alt="Meta Quest 3 - Óculos de Realidade Virtual" class="vr-image">
+                        <p><em>Meta Quest 3 - Imagem de divulgação da empresa Meta, fabricante desse equipamento</em></p>
+                    </div>
+                    <p>Caso você possua um, ou tenha acesso a algum, <strong>HMD (Head-Mounted Display)</strong>, nome técnico do popular "óculos" de realidade virtual, recomendamos que experimente navegar na exposição com o máximo de imersão propiciado por esse equipamento. Você poderá andar pelo recinto de exposição como se lá estivesse, vendo tudo em tamanho real.</p>
+                    <p>Testamos no Meta Quest 3 e funcionou muito bem. Bastou entrarmos no endereço da exposição usando o browser de Internet do próprio Meta Quest e clicarmos no símbolo do "óculos" de RV que aparece embaixo, na própria cena.</p>
+                    <p><strong>Imerja-se!</strong></p>
+                </div>
+            </div>
         `
     },
     2: {
@@ -384,3 +425,92 @@ document.addEventListener('DOMContentLoaded', function() {
         observer.observe(card);
     });
 });
+
+// ===================================
+// CARROSSEL DE IMAGENS
+// ===================================
+
+let currentSlideIndex = {
+    module1: 1
+};
+
+function moveCarousel(direction, moduleId) {
+    const slides = document.querySelectorAll('.tutorial-carousel .carousel-slide');
+    const dots = document.querySelectorAll('.tutorial-carousel .dot');
+    
+    if (!slides.length) return;
+    
+    // Remove active class
+    slides[currentSlideIndex[moduleId] - 1].classList.remove('active');
+    dots[currentSlideIndex[moduleId] - 1].classList.remove('active');
+    
+    // Update index
+    currentSlideIndex[moduleId] += direction;
+    
+    // Loop around
+    if (currentSlideIndex[moduleId] > slides.length) {
+        currentSlideIndex[moduleId] = 1;
+    }
+    if (currentSlideIndex[moduleId] < 1) {
+        currentSlideIndex[moduleId] = slides.length;
+    }
+    
+    // Add active class
+    slides[currentSlideIndex[moduleId] - 1].classList.add('active');
+    dots[currentSlideIndex[moduleId] - 1].classList.add('active');
+}
+
+function currentSlide(n, moduleId) {
+    const slides = document.querySelectorAll('.tutorial-carousel .carousel-slide');
+    const dots = document.querySelectorAll('.tutorial-carousel .dot');
+    
+    if (!slides.length) return;
+    
+    // Remove active class
+    slides[currentSlideIndex[moduleId] - 1].classList.remove('active');
+    dots[currentSlideIndex[moduleId] - 1].classList.remove('active');
+    
+    // Update index
+    currentSlideIndex[moduleId] = n;
+    
+    // Add active class
+    slides[currentSlideIndex[moduleId] - 1].classList.add('active');
+    dots[currentSlideIndex[moduleId] - 1].classList.add('active');
+}
+
+// Auto-advance carousel (opcional)
+setInterval(() => {
+    if (document.querySelector('.tutorial-carousel')) {
+        moveCarousel(1, 'module1');
+    }
+}, 5000); // Muda a cada 5 segundos
+
+// ===================================
+// ACCORDION
+// ===================================
+
+function toggleAccordion(button) {
+    const content = button.nextElementSibling;
+    const icon = button.querySelector('.accordion-icon');
+    const isOpen = content.style.maxHeight;
+    
+    // Fechar todos os accordions
+    document.querySelectorAll('.accordion-content').forEach(item => {
+        item.style.maxHeight = null;
+    });
+    
+    document.querySelectorAll('.accordion-icon').forEach(item => {
+        item.textContent = '+';
+    });
+    
+    document.querySelectorAll('.accordion-header').forEach(item => {
+        item.classList.remove('active');
+    });
+    
+    // Abrir o accordion clicado se estava fechado
+    if (!isOpen) {
+        content.style.maxHeight = content.scrollHeight + 'px';
+        icon.textContent = '−';
+        button.classList.add('active');
+    }
+}
