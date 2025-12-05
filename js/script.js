@@ -11,7 +11,7 @@ const modulesContent = {
             <h3>O que irá aprender neste módulo</h3>
             
             <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/-xuyqhV7yGs" 
+                <iframe src="https://www.youtube.com/embed/QAcpr0176xY" 
                         frameborder="0" 
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                         allowfullscreen>
@@ -106,7 +106,7 @@ const modulesContent = {
 <p>Neste módulo você verá como instalar e usar um aplicativo para capturar um objeto do espaço físico e transformá-lo em um modelo digital 3D.</p>
 
 <div class="video-container mb-4">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/k6Ml0Mwr6xI" title="Captura de Objetos 3D" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/-xuyqhV7yGs" title="Introdução ao Módulo 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <h3>Capturando um Objeto do mundo físico</h3>
@@ -114,6 +114,10 @@ const modulesContent = {
 <p>Você irá aprender como utilizar o aplicativo de celular <strong>Luma AI</strong> para fazer a captura de um objeto do mundo físico, convertendo-o para um modelo 3D digital.</p>
 
 <p>Acompanhe pelo vídeo ou pelo tutorial em texto após o vídeo e faça você mesmo.</p>
+
+<div class="video-container mb-4">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/k6Ml0Mwr6xI" title="Tutorial: Capturando um Objeto" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 <div class="carousel" id="carousel-modulo2-parte1">
     <div class="carousel-inner">

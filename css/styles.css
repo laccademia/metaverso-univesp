@@ -668,9 +668,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .carousel-slide img {
-    width: 450px;
+    width: 300px;
     height: auto;
-    max-height: 350px;
+    max-height: 250px;
     object-fit: contain;
     background: var(--bg-secondary);
     border-radius: 8px;
